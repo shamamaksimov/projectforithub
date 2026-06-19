@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Квитанция</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Times New Roman', serif; background: #f0f2f5; }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #1a252f 100%);
+            color: white;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 6px;
+            transition: background 0.3s;
+        }
+        .header a:hover { background: rgba(255,255,255,0.2); }
+        
+        .receipt-container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        
+        .receipt {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .receipt-header {
+            text-align: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .receipt-header h1 {
+            font-size: 28px;
+            color: #2c3e50;
+            letter-spacing: 2px;
+        }
+        .receipt-header .sub {
+            font-size: 14px;
+            color: #666;
+            margin-top: 5px;
+        }
+        .receipt-number {
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 8px;
+            color: #333;
+        }
+        .receipt-period {
+            font-size: 15px;
+            color: #555;
+            margin-top: 5px;
+        }
+        
+        .receipt-body table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .receipt-body th {
+            background: #f8f9fa;
+            padding: 12px;
+            text-align: left;
+            border-bottom: 2px solid #333;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .receipt-body td {
+            padding: 12px;
+            text-align: right;
+            border-bottom: 1px solid #ddd;
+            font-size: 14px;
+        }
+        .receipt-body th:first-child, 
+        .receipt-body td:first-child { text-align: left; }
+        
+        .total-row {
+            font-weight: bold;
+            font-size: 18px;
+            border-top: 2px solid #333;
+        }
+        .total-row td {
+            padding: 15px 12px;
+            border-bottom: none;
+        }
+        
+        .balance-section {
+            margin-top: 20px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .balance-section .label { font-size: 16px; font-weight: 600; }
+        .balance-section .debt { color: #e74c3c; font-weight: bold; font-size: 20px; }
+        .balance-section .credit { color: #27ae60; font-weight: bold; font-size: 20px; }
+        .balance-section .zero { color: #666; font-weight: bold; font-size: 20px; }
+        
+        .actions {
+            margin-top: 25px;
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .btn:hover { transform: translateY(-2px); }
+        .btn-success { background: #27ae60; color: white; }
+        .btn-success:hover { background: #1e8449; }
+        .btn-primary { background: #667eea; color: white; }
+        .btn-primary:hover { background: #5a67d8; }
+        .btn-outline {
+            background: transparent;
+            color: #667eea;
+            border: 2px solid #667eea;
+        }
+        .btn-outline:hover { background: #667eea; color: white; }
+        
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            font-size: 12px;
+            color: #888;
+        }
+        
+        /* === СТИЛИ ДЛЯ ПЕЧАТИ === */
+        @media print {
+            body { background: white; }
+            .header { display: none; }
+            .actions { display: none; }
+            .receipt { 
+                box-shadow: none; 
+                padding: 20px;
+                border-radius: 0;
+            }
+            .receipt-container { margin: 0; padding: 0; }
+            .receipt-body table { page-break-inside: avoid; }
+            .btn { display: none; }
+            .no-print { display: none !important; }
+            .balance-section { background: #f8f9fa !important; }
+            .footer { margin-top: 20px; }
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.5);
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+        .modal.active { display: flex; }
+        .modal-content {
+            background: white;
+            padding: 35px;
+            border-radius: 12px;
+            max-width: 450px;
+            width: 90%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .modal-content h3 { color: #2c3e50; margin-bottom: 15px; }
+        .modal-content input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .modal-content input:focus { outline: none; border-color: #667eea; }
+        .modal-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+            justify-content: flex-end;
+        }
+        
+        .toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 15px 25px;
+            border-radius: 8px;
+            color: white;
+            font-weight: 600;
+            z-index: 999;
+            animation: slideIn 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .toast-success { background: #27ae60; }
+        .toast-error { background: #e74c3c; }
+        @keyframes slideIn {
+            from { transform: translateX(100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        
+        .quick-amount {
+            padding: 5px 12px;
+            margin: 3px;
+            font-size: 12px;
+            cursor: pointer;
+            border: 1px solid #667eea;
+            background: transparent;
+            color: #667eea;
+            border-radius: 4px;
+            transition: all 0.3s;
+        }
+        .quick-amount:hover {
+            background: #667eea;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка (не печатается) -->
+    <div class="header no-print">
+        <h2>🧾 Квитанция</h2>
+        <a href="/dashboard">← Назад</a>
+    </div>
+    
+    <div class="receipt-container">
+        <div class="receipt" id="receiptContent">
+            <!-- Заголовок квитанции -->
+            <div class="receipt-header">
+                <h1>КВИТАНЦИЯ</h1>
+                <div class="sub">Об оплате коммунальных услуг</div>
+                <div class="receipt-number">Лицевой счёт №{{ account_number }}</div>
+                <div class="receipt-period">
+                    Расчётный период: 
+                    <strong>
+                        {% if start_period and end_period %}
+                            {% if start_period == end_period %}
+                                {{ start_period }}
+                            {% else %}
+                                с {{ start_period }} по {{ end_period }}
+                            {% endif %}
+                        {% else %}
+                            {{ period }}
+                        {% endif %}
+                    </strong>
+                </div>
+            </div>
+            
+            <!-- Тело квитанции -->
+            <div class="receipt-body">
+                {% if items %}
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Услуга</th>
+                                <th>Потребление</th>
+                                <th>Тариф</th>
+                                <th>Сумма</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for item in items %}
+                            <tr>
+                                <td>{{ item.service }}</td>
+                                <td>{{ item.consumption }} {{ item.unit }}</td>
+                                <td>{{ item.rate }} ₽</td>
+                                <td><strong>{{ item.amount }} ₽</strong></td>
+                            </tr>
+                            {% endfor %}
+                            <tr class="total-row">
+                                <td colspan="3" style="text-align: right;">ИТОГО:</td>
+                                <td>{{ total }} ₽</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <div class="balance-section">
+                        <span class="label">Сальдо на текущий момент</span>
+                        <span class="{% if balance > 0 %}debt{% elif balance < 0 %}credit{% else %}zero{% endif %}">
+                            {% if balance > 0 %}
+                                🔴 {{ balance }} ₽ (задолженность)
+                            {% elif balance < 0 %}
+                                🟢 {{ balance }} ₽ (переплата)
+                            {% else %}
+                                ⚪ 0 ₽
+                            {% endif %}
+                        </span>
+                    </div>
+                {% else %}
+                    <div style="text-align: center; padding: 40px 0; color: #888;">
+                        <p style="font-size: 48px; margin-bottom: 15px;">📭</p>
+                        <h3>Нет данных за этот период</h3>
+                        <p>Передайте показания, чтобы увидеть квитанцию</p>
+                    </div>
+                {% endif %}
+            </div>
+            
+            <!-- Подвал -->
+            <div class="footer">
+                Спасибо за своевременную оплату!
+            </div>
+        </div>
+        
+        <!-- Кнопки действий (не печатаются) -->
+        {% if items %}
+        <div class="actions no-print">
+            <button class="btn btn-success" onclick="openPaymentModal('{{ start_period if start_period else period }}', {{ total }})">
+                💳 Оплатить
+            </button>
+            <button class="btn btn-primary" onclick="window.print()">
+                🖨️ Печать
+            </button>
+            <a href="/receipt" class="btn btn-outline">← Назад к выбору</a>
+        </div>
+        {% else %}
+        <div class="actions no-print">
+            <a href="/receipt" class="btn btn-outline">← Назад к выбору</a>
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- Модальное окно оплаты -->
+    <div class="modal no-print" id="paymentModal">
+        <div class="modal-content">
+            <h3>💳 Оплата</h3>
+            <p style="color: #666; margin-bottom: 10px;">
+                Период: <strong id="modalPeriod"></strong>
+                <span style="display: block; font-size: 14px; margin-top: 5px;">
+                    Сумма к оплате: <strong id="modalTotal"></strong> ₽
+                </span>
+            </p>
+            
+            <div style="display: flex; gap: 6px; flex-wrap: wrap; margin: 10px 0;">
+                <button class="quick-amount" onclick="document.getElementById('paymentAmount').value=500;document.getElementById('paymentAmount').focus();">500 ₽</button>
+                <button class="quick-amount" onclick="document.getElementById('paymentAmount').value=1000;document.getElementById('paymentAmount').focus();">1000 ₽</button>
+                <button class="quick-amount" onclick="document.getElementById('paymentAmount').value=2000;document.getElementById('paymentAmount').focus();">2000 ₽</button>
+                <button class="quick-amount" onclick="document.getElementById('paymentAmount').value=5000;document.getElementById('paymentAmount').focus();">5000 ₽</button>
+            </div>
+            
+            <input type="number" id="paymentAmount" step="0.01" placeholder="Сумма оплаты">
+            
+            <div class="modal-actions">
+                <button class="btn btn-outline" onclick="closePaymentModal()">Отмена</button>
+                <button class="btn btn-success" onclick="submitPayment()">✅ Подтвердить</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="toastContainer"></div>
+
+    <script>
+        let currentPeriod = '';
+        let currentTotal = 0;
+
+        function openPaymentModal(period, total) {
+            currentPeriod = period;
+            currentTotal = total;
+            document.getElementById('modalPeriod').textContent = period;
+            document.getElementById('modalTotal').textContent = total.toFixed(2);
+            document.getElementById('paymentAmount').value = '';
+            document.getElementById('paymentModal').classList.add('active');
+            document.getElementById('paymentAmount').focus();
+        }
+
+        function closePaymentModal() {
+            document.getElementById('paymentModal').classList.remove('active');
+        }
+
+        function showToast(message, type) {
+            const container = document.getElementById('toastContainer');
+            const toast = document.createElement('div');
+            toast.className = `toast toast-${type}`;
+            toast.textContent = message;
+            container.appendChild(toast);
+            setTimeout(() => { toast.remove(); }, 4000);
+        }
+
+        function submitPayment() {
+            const amount = parseFloat(document.getElementById('paymentAmount').value);
+            if (!amount || amount <= 0) {
+                showToast('❌ Введите сумму', 'error');
+                return;
+            }
+
+            const btn = document.querySelector('.modal-actions .btn-success');
+            btn.disabled = true;
+            btn.textContent = '⏳ Отправка...';
+
+            fetch('/api/payment/register', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    period: currentPeriod,
+                    amount: amount,
+                    comment: 'Оплата по квитанции'
+                })
+            })
+            .then(r => r.json())
+            .then(data => {
+                btn.disabled = false;
+                btn.textContent = '✅ Подтвердить';
+                
+                if (data.status === 'ok') {
+                    showToast('✅ ' + data.message, 'success');
+                    document.getElementById('paymentAmount').value = '';
+                    // Обновляем баланс
+                    const balanceSpan = document.querySelector('.balance-section span:last-child');
+                    if (balanceSpan && data.balance !== undefined) {
+                        const balance = data.balance;
+                        if (balance > 0) {
+                            balanceSpan.className = 'debt';
+                            balanceSpan.textContent = `🔴 ${balance} ₽ (задолженность)`;
+                        } else if (balance < 0) {
+                            balanceSpan.className = 'credit';
+                            balanceSpan.textContent = `🟢 ${balance} ₽ (переплата)`;
+                        } else {
+                            balanceSpan.className = 'zero';
+                            balanceSpan.textContent = `⚪ 0 ₽`;
+                        }
+                    }
+                    if (data.balance !== undefined && data.balance <= 0) {
+                        showToast('🎉 Долг погашен!', 'success');
+                    }
+                } else {
+                    showToast('❌ ' + data.message, 'error');
+                }
+            })
+            .catch(() => {
+                btn.disabled = false;
+                btn.textContent = '✅ Подтвердить';
+                showToast('❌ Ошибка сети', 'error');
+            });
+        }
+
+        document.getElementById('paymentModal').addEventListener('click', function(e) {
+            if (e.target === this) closePaymentModal();
+        });
+
+        document.getElementById('paymentAmount').addEventListener('keydown', function(e) {
+            if (e.key === 'Enter') submitPayment();
+        });
+    </script>
+</body>
+</html>

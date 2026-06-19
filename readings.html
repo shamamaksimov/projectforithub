@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Передача показаний</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f0f2f5; }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #1a252f 100%);
+            color: white;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 6px;
+            transition: background 0.3s;
+        }
+        .header a:hover { background: rgba(255,255,255,0.2); }
+        
+        .container {
+            max-width: 600px;
+            margin: 30px auto;
+            background: white;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .container h2 { color: #2c3e50; margin-bottom: 5px; }
+        .container .subtitle { color: #888; font-size: 14px; margin-bottom: 25px; }
+        
+        form { display: flex; flex-direction: column; gap: 15px; }
+        label { font-weight: 600; color: #333; font-size: 14px; }
+        select, input {
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+            width: 100%;
+            transition: border-color 0.3s;
+        }
+        select:focus, input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        button {
+            padding: 14px;
+            background: linear-gradient(135deg, #27ae60 0%, #1e8449 100%);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-top: 10px;
+        }
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(39, 174, 96, 0.3);
+        }
+        
+        .flash {
+            padding: 12px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+        }
+        .flash-success { background: #d4edda; color: #155724; border-left: 4px solid #28a745; }
+        .flash-error { background: #f8d7da; color: #721c24; border-left: 4px solid #dc3545; }
+        
+        .info-box {
+            background: #e7f3ff;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 4px solid #3498db;
+            margin-bottom: 20px;
+        }
+        .info-box ul { margin: 10px 0 0 20px; color: #555; font-size: 14px; }
+        .info-box li { margin: 5px 0; }
+        
+        .hidden { display: none; }
+        .zone-label { color: #667eea; font-weight: bold; }
+        .zoned-hint { font-size: 12px; color: #888; margin-top: -5px; margin-bottom: 5px; }
+        
+        .back {
+            display: inline-block;
+            margin-top: 20px;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .back:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>📊 Передача показаний</h2>
+        <a href="/dashboard">← Назад</a>
+    </div>
+    
+    <div class="container">
+        <h2>Передать показания</h2>
+        <div class="subtitle">Введите текущие показания ваших счётчиков</div>
+        
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                <div class="flash flash-{{ 'success' if '✅' in messages[0] or 'успешно' in messages[0] else 'error' }}">
+                    {{ messages[0] }}
+                </div>
+            {% endif %}
+        {% endwith %}
+        
+        <div class="info-box">
+            <strong>📌 Правила передачи показаний:</strong>
+            <ul>
+                <li>Показания должны быть <strong>больше</strong> предыдущих</li>
+                <li>За один период можно передать показания <strong>только один раз</strong></li>
+                <li>Для электроэнергии заполните <strong>оба</strong> поля (день и ночь)</li>
+            </ul>
+        </div>
+        
+        <form method="POST">
+            <label for="meter_id">Счётчик:</label>
+            <select name="meter_id" id="meter_id" required>
+                <option value="">Выберите счётчик</option>
+                {% for m in meters %}
+                <option value="{{ m.id }}" data-zoned="{{ 'true' if m.service_type.is_zoned else 'false' }}">
+                    {{ m.service_type.name }} - №{{ m.serial_number }}
+                    {% if m.service_type.is_zoned %} ⚡ (день/ночь){% endif %}
+                </option>
+                {% endfor %}
+            </select>
+            
+            <label for="period">Период (месяц):</label>
+            <input type="month" name="period" id="period" required value="2025-05">
+            
+            <!-- Обычный счётчик -->
+            <div id="normalFields">
+                <label>Показание:</label>
+                <input type="number" step="0.01" name="value" id="normalValue" placeholder="Введите текущее показание">
+            </div>
+            
+            <!-- Зонный счётчик (день/ночь) -->
+            <div id="zonedFields" class="hidden">
+                <label><span class="zone-label">☀️ ДЕНЬ</span> (кВт·ч):</label>
+                <input type="number" step="0.01" name="value_day" id="dayValue" placeholder="Показание за день">
+                <div class="zoned-hint">Введите количество киловатт-часов, потреблённых днём</div>
+                
+                <label style="margin-top: 15px;"><span class="zone-label">🌙 НОЧЬ</span> (кВт·ч):</label>
+                <input type="number" step="0.01" name="value_night" id="nightValue" placeholder="Показание за ночь">
+                <div class="zoned-hint">Введите количество киловатт-часов, потреблённых ночью</div>
+            </div>
+            
+            <button type="submit">📤 Отправить показания</button>
+        </form>
+        
+        <a href="/dashboard" class="back">← Вернуться в личный кабинет</a>
+    </div>
+    
+    <script>
+        function toggleFields() {
+            const select = document.getElementById('meter_id');
+            const selectedOption = select.options[select.selectedIndex];
+            const isZoned = selectedOption.getAttribute('data-zoned') === 'true';
+            
+            const normalFields = document.getElementById('normalFields');
+            const zonedFields = document.getElementById('zonedFields');
+            const normalInput = document.getElementById('normalValue');
+            const dayInput = document.getElementById('dayValue');
+            const nightInput = document.getElementById('nightValue');
+            
+            if (isZoned) {
+                normalFields.classList.add('hidden');
+                zonedFields.classList.remove('hidden');
+                dayInput.required = true;
+                nightInput.required = true;
+                normalInput.required = false;
+                normalInput.value = '';
+            } else {
+                normalFields.classList.remove('hidden');
+                zonedFields.classList.add('hidden');
+                normalInput.required = true;
+                dayInput.required = false;
+                nightInput.required = false;
+                dayInput.value = '';
+                nightInput.value = '';
+            }
+        }
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            const select = document.getElementById('meter_id');
+            select.addEventListener('change', toggleFields);
+            toggleFields();
+        });
+    </script>
+</body>
+</html>

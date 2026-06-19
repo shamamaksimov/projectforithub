@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Логи системы</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Courier New', monospace;
+            background: #0a0a0a;
+            color: #00ff00;
+            min-height: 100vh;
+        }
+        
+        .header {
+            background: #1a1a1a;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #333;
+        }
+        .header h2 { color: #00ff00; font-size: 20px; }
+        .header a {
+            color: #00ff00;
+            text-decoration: none;
+            padding: 8px 16px;
+            border: 1px solid #00ff00;
+            border-radius: 4px;
+            transition: all 0.3s;
+        }
+        .header a:hover { background: #00ff00; color: #000; }
+        
+        .container { max-width: 1200px; margin: 20px auto; padding: 0 20px; }
+        
+        .stats {
+            color: #888;
+            font-size: 12px;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: #111;
+            border-radius: 4px;
+        }
+        
+        .log-entry {
+            padding: 6px 12px;
+            border-bottom: 1px solid #1a1a1a;
+            font-size: 13px;
+            line-height: 1.6;
+            word-break: break-all;
+            transition: background 0.2s;
+        }
+        .log-entry:hover { background: #111; }
+        
+        .log-entry .time { color: #666; }
+        .log-entry .level-info { color: #4a9eff; }
+        .log-entry .level-warning { color: #f59e0b; }
+        .log-entry .level-error { color: #ef4444; }
+        
+        .empty {
+            color: #666;
+            text-align: center;
+            padding: 40px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>📋 Логи системы</h2>
+        <a href="/admin">← Назад</a>
+    </div>
+    
+    <div class="container">
+        <div class="stats">
+            Всего записей: {{ logs|length }} (последние 100)
+        </div>
+        
+        {% if logs %}
+            {% for log in logs %}
+            <div class="log-entry">{{ log }}</div>
+            {% endfor %}
+        {% else %}
+            <div class="empty">📭 Лог-файл пока пуст</div>
+        {% endif %}
+    </div>
+</body>
+</html>
