@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Загрузка контента</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f0f2f5;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #1a252f 100%);
+            color: white;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 6px;
+            transition: background 0.3s;
+        }
+        .header a:hover { background: rgba(255,255,255,0.2); }
+        
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .card h3 { color: #2c3e50; margin-bottom: 15px; }
+        
+        .search-box {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .search-box input {
+            flex: 1;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+            min-width: 200px;
+        }
+        .search-box input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        .search-box button {
+            padding: 12px 25px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .search-box button:hover {
+            background: #5a67d8;
+            transform: translateY(-2px);
+        }
+        .search-box button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .word-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .word-cloud .tag {
+            padding: 6px 16px;
+            background: #e9ecef;
+            border-radius: 20px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s;
+            color: #495057;
+        }
+        .word-cloud .tag:hover {
+            background: #667eea;
+            color: white;
+            transform: scale(1.05);
+        }
+        .word-cloud .tag.active {
+            background: #667eea;
+            color: white;
+        }
+        
+        .url-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        .url-list .url-item {
+            padding: 10px 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 2px solid transparent;
+        }
+        .url-list .url-item:hover {
+            background: #e9ecef;
+            border-color: #667eea;
+        }
+        .url-list .url-item.selected {
+            border-color: #667eea;
+            background: #e7f3ff;
+        }
+        .url-list .url-item .url-text {
+            font-size: 14px;
+            color: #333;
+            word-break: break-all;
+        }
+        .url-list .url-item .url-badge {
+            padding: 2px 10px;
+            background: #667eea;
+            color: white;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 600;
+            white-space: nowrap;
+            margin-left: 10px;
+        }
+        
+        .progress-container {
+            margin-top: 15px;
+        }
+        .progress-bar {
+            width: 100%;
+            height: 25px;
+            background: #e9ecef;
+            border-radius: 12px;
+            overflow: hidden;
+            position: relative;
+        }
+        .progress-bar .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            border-radius: 12px;
+            transition: width 0.3s ease;
+            width: 0%;
+        }
+        .progress-bar .progress-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 13px;
+            font-weight: 600;
+            color: #333;
+        }
+        .progress-info {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 8px;
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .content-result {
+            margin-top: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 15px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .content-result pre {
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            white-space: pre-wrap;
+            word-break: break-all;
+            color: #333;
+        }
+        
+        .saved-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .saved-list .saved-item {
+            padding: 10px 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 2px solid transparent;
+        }
+        .saved-list .saved-item:hover {
+            background: #e9ecef;
+            border-color: #27ae60;
+        }
+        .saved-list .saved-item .saved-name {
+            font-weight: 500;
+            color: #333;
+        }
+        .saved-list .saved-item .saved-size {
+            font-size: 13px;
+            color: #888;
+        }
+        .saved-list .saved-item .saved-date {
+            font-size: 12px;
+            color: #aaa;
+        }
+        .saved-list .saved-item .saved-delete {
+            background: #e74c3c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 4px 12px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+        .saved-list .saved-item .saved-delete:hover {
+            background: #c0392b;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 30px 0;
+            color: #888;
+        }
+        .empty-state .icon { font-size: 48px; margin-bottom: 15px; }
+        
+        .toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 15px 25px;
+            border-radius: 8px;
+            color: white;
+            font-weight: 600;
+            z-index: 999;
+            animation: slideIn 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .toast-success { background: #27ae60; }
+        .toast-error { background: #e74c3c; }
+        .toast-info { background: #667eea; }
+        @keyframes slideIn {
+            from { transform: translateX(100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        
+        .status-badge {
+            display: inline-block;
+            padding: 3px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .status-badge.loading { background: #fef3c7; color: #d97706; }
+        .status-badge.success { background: #d1fae5; color: #059669; }
+        .status-badge.error { background: #fee2e2; color: #dc2626; }
+        
+        .tabs {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+        .tabs button {
+            padding: 8px 20px;
+            border: none;
+            border-radius: 6px;
+            background: #e9ecef;
+            color: #495057;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+        .tabs button.active {
+            background: #667eea;
+            color: white;
+        }
+        .tabs button:hover:not(.active) { background: #dee2e6; }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        
+        .view-content {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 15px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .view-content pre {
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            white-space: pre-wrap;
+            word-break: break-all;
+            color: #333;
+        }
+        
+        .status-bar {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>📥 Загрузка контента</h2>
+        <div>
+            <a href="/dashboard">← Назад</a>
+        </div>
+    </div>
+    
+    <div class="container">
+        <!-- Вкладки -->
+        <div class="card">
+            <div class="tabs">
+                <button class="tab-btn active" onclick="switchTab('download')">📥 Скачать</button>
+                <button class="tab-btn" onclick="switchTab('saved')">💾 Сохранённое</button>
+            </div>
+            
+            <!-- Вкладка: Скачать -->
+            <div id="tab-download" class="tab-content active">
+                <h3>🔍 Поиск контента</h3>
+                <p style="color: #888; margin-bottom: 15px; font-size: 14px;">
+                    Введите ключевое слово или выберите из списка ниже
+                </p>
+                
+                <div class="search-box">
+                    <input type="text" id="keywordInput" placeholder="Введите ключевое слово..." 
+                           onkeydown="if(event.key==='Enter') searchContent()">
+                    <button onclick="searchContent()" id="searchBtn">🔍 Найти</button>
+                </div>
+                
+                <div style="margin-top: 15px;">
+                    <span style="font-weight: 600; color: #333; font-size: 14px;">Популярные запросы:</span>
+                    <div class="word-cloud" id="wordCloud">
+                        <span class="tag" onclick="searchWord('новости')">📰 новости</span>
+                        <span class="tag" onclick="searchWord('пользователи')">👤 пользователи</span>
+                        <span class="tag" onclick="searchWord('фото')">🖼️ фото</span>
+                        <span class="tag" onclick="searchWord('посты')">📝 посты</span>
+                        <span class="tag" onclick="searchWord('комментарии')">💬 комментарии</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Вкладка: Сохранённое -->
+            <div id="tab-saved" class="tab-content">
+                <h3>💾 Сохранённый контент</h3>
+                <p style="color: #888; margin-bottom: 15px; font-size: 14px;">
+                    Контент, сохранённый в LocalStorage (доступен оффлайн)
+                </p>
+                <div id="savedList">
+                    <div class="empty-state">
+                        <div class="icon">📭</div>
+                        <p>Нет сохранённого контента</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Результаты поиска -->
+        <div class="card" id="resultsCard" style="display: none;">
+            <h3 id="resultsTitle">📋 Результаты</h3>
+            
+            <!-- Список URL -->
+            <div id="urlListContainer">
+                <p style="color: #888; font-size: 14px; margin-bottom: 10px;">
+                    Выберите URL для скачивания:
+                </p>
+                <div class="url-list" id="urlList"></div>
+            </div>
+            
+            <!-- Статус загрузки -->
+            <div id="downloadStatus" style="display: none;">
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                        <span class="progress-text" id="progressText">0%</span>
+                    </div>
+                    <div class="progress-info">
+                        <span id="progressSize">Размер: 0 Б</span>
+                        <span id="progressStatus">⏳ Загрузка...</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Результат -->
+            <div id="contentResult" style="display: none;">
+                <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+                    <span style="font-weight: 600; color: #333;">📄 Контент загружен</span>
+                    <div>
+                        <button class="btn btn-success" onclick="saveContent()" style="padding: 6px 16px; background: #27ae60; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: 600;">
+                            💾 Сохранить
+                        </button>
+                    </div>
+                </div>
+                <div class="content-result" id="contentDisplay">
+                    <pre id="contentText"></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="toastContainer"></div>
+
+    <script>
+        let currentUrls = [];
+        let currentData = null;
+        let currentUrl = null;
+        let downloadedContent = [];
+        
+        // ============================================================
+        //  ЗАГРУЗКА ДОСТУПНЫХ СЛОВ
+        // ============================================================
+        
+        async function loadWords() {
+            try {
+                const response = await fetch('/api/words');
+                const data = await response.json();
+                if (data.status === 'ok') {
+                    const cloud = document.getElementById('wordCloud');
+                    // Очищаем, но оставляем популярные
+                }
+            } catch (e) {
+                console.error('Ошибка загрузки слов:', e);
+            }
+        }
+        
+        // ============================================================
+        //  ПОИСК
+        // ============================================================
+        
+        async function searchContent() {
+            const keyword = document.getElementById('keywordInput').value.trim();
+            if (!keyword) {
+                showToast('❌ Введите ключевое слово', 'error');
+                return;
+            }
+            await searchWord(keyword);
+        }
+        
+        async function searchWord(word) {
+            document.getElementById('keywordInput').value = word;
+            document.getElementById('searchBtn').disabled = true;
+            document.getElementById('searchBtn').textContent = '⏳ Загрузка...';
+            
+            // Подсветка тега
+            document.querySelectorAll('.word-cloud .tag').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.word-cloud .tag').forEach(t => {
+                if (t.textContent.trim().includes(word)) {
+                    t.classList.add('active');
+                }
+            });
+            
+            try {
+                const response = await fetch(`/api/content/urls?word=${encodeURIComponent(word)}`);
+                const data = await response.json();
+                
+                if (data.status === 'ok' && data.urls) {
+                    currentUrls = data.urls;
+                    showUrls(data.urls, word);
+                } else {
+                    showToast('❌ ' + (data.message || 'Ничего не найдено'), 'error');
+                    document.getElementById('resultsCard').style.display = 'none';
+                }
+            } catch (e) {
+                showToast('❌ Ошибка: ' + e.message, 'error');
+            }
+            
+            document.getElementById('searchBtn').disabled = false;
+            document.getElementById('searchBtn').textContent = '🔍 Найти';
+        }
+        
+        // ============================================================
+        //  ОТОБРАЖЕНИЕ URL
+        // ============================================================
+        
+        function showUrls(urls, word) {
+            const container = document.getElementById('urlList');
+            const card = document.getElementById('resultsCard');
+            const title = document.getElementById('resultsTitle');
+            
+            title.textContent = `📋 Результаты по запросу "${word}"`;
+            container.innerHTML = '';
+            
+            if (urls.length === 0) {
+                container.innerHTML = '<p style="color: #888;">Нет доступных URL</p>';
+                card.style.display = 'block';
+                document.getElementById('urlListContainer').style.display = 'block';
+                document.getElementById('downloadStatus').style.display = 'none';
+                document.getElementById('contentResult').style.display = 'none';
+                return;
+            }
+            
+            urls.forEach((url, index) => {
+                const div = document.createElement('div');
+                div.className = 'url-item';
+                div.innerHTML = `
+                    <span class="url-text">${url}</span>
+                    <span class="url-badge">${index + 1}</span>
+                `;
+                div.onclick = () => downloadContent(url);
+                container.appendChild(div);
+            });
+            
+            card.style.display = 'block';
+            document.getElementById('urlListContainer').style.display = 'block';
+            document.getElementById('downloadStatus').style.display = 'none';
+            document.getElementById('contentResult').style.display = 'none';
+            
+            // Прокрутка к результатам
+            card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        
+        // ============================================================
+        //  СКАЧИВАНИЕ КОНТЕНТА
+        // ============================================================
+        
+        async function downloadContent(url) {
+            currentUrl = url;
+            
+            // Подсветка выбранного URL
+            document.querySelectorAll('.url-item').forEach(el => el.classList.remove('selected'));
+            document.querySelectorAll('.url-item').forEach(el => {
+                if (el.querySelector('.url-text').textContent === url) {
+                    el.classList.add('selected');
+                }
+            });
+            
+            // Показываем прогресс
+            document.getElementById('downloadStatus').style.display = 'block';
+            document.getElementById('contentResult').style.display = 'none';
+            document.getElementById('progressFill').style.width = '0%';
+            document.getElementById('progressText').textContent = '0%';
+            document.getElementById('progressSize').textContent = 'Размер: вычисляется...';
+            document.getElementById('progressStatus').textContent = '⏳ Подключение...';
+            
+            try {
+                const response = await fetch(`/api/content/download?url=${encodeURIComponent(url)}`);
+                const data = await response.json();
+                
+                if (data.status === 'ok') {
+                    // Имитация прогресса
+                    await simulateProgress();
+                    
+                    currentData = data;
+                    document.getElementById('progressFill').style.width = '100%';
+                    document.getElementById('progressText').textContent = '100%';
+                    document.getElementById('progressSize').textContent = `Размер: ${data.size_human || formatSize(data.size)}`;
+                    document.getElementById('progressStatus').textContent = '✅ Загрузка завершена!';
+                    
+                    // Показываем результат
+                    setTimeout(() => {
+                        showContent(data);
+                    }, 300);
+                } else {
+                    showToast('❌ ' + (data.message || 'Ошибка загрузки'), 'error');
+                    document.getElementById('downloadStatus').style.display = 'none';
+                }
+            } catch (e) {
+                showToast('❌ Ошибка: ' + e.message, 'error');
+                document.getElementById('downloadStatus').style.display = 'none';
+            }
+        }
+        
+        function simulateProgress() {
+            return new Promise((resolve) => {
+                let progress = 0;
+                const interval = setInterval(() => {
+                    progress += Math.random() * 15 + 5;
+                    if (progress >= 100) {
+                        progress = 100;
+                        clearInterval(interval);
+                        resolve();
+                    }
+                    document.getElementById('progressFill').style.width = progress + '%';
+                    document.getElementById('progressText').textContent = Math.round(progress) + '%';
+                }, 150);
+            });
+        }
+        
+        // ============================================================
+        //  ОТОБРАЖЕНИЕ КОНТЕНТА
+        // ============================================================
+        
+        function showContent(data) {
+            document.getElementById('contentResult').style.display = 'block';
+            const pre = document.getElementById('contentText');
+            
+            // Форматируем вывод
+            let displayText = '';
+            if (Array.isArray(data.data)) {
+                displayText = JSON.stringify(data.data.slice(0, 10), null, 2);
+                if (data.data.length > 10) {
+                    displayText += `\n\n... и ещё ${data.data.length - 10} элементов`;
+                }
+            } else if (typeof data.data === 'object') {
+                displayText = JSON.stringify(data.data, null, 2);
+            } else {
+                displayText = String(data.data);
+            }
+            
+            pre.textContent = displayText;
+            
+            // Сохраняем для сохранения
+            downloadedContent.push({
+                url: data.url,
+                data: data.data,
+                size: data.size,
+                size_human: data.size_human || formatSize(data.size),
+                date: new Date().toLocaleString()
+            });
+        }
+        
+        function formatSize(size) {
+            for (const unit of ['Б', 'КБ', 'МБ', 'ГБ']) {
+                if (size < 1024) return `${size.toFixed(1)} ${unit}`;
+                size /= 1024;
+            }
+            return `${size.toFixed(1)} ТБ`;
+        }
+        
+        // ============================================================
+        //  СОХРАНЕНИЕ В LOCALSTORAGE
+        // ============================================================
+        
+        function saveContent() {
+            if (!currentData) {
+                showToast('❌ Нет данных для сохранения', 'error');
+                return;
+            }
+            
+            const saved = JSON.parse(localStorage.getItem('downloaded_content') || '[]');
+            const entry = {
+                id: Date.now(),
+                url: currentData.url,
+                data: currentData.data,
+                size: currentData.size,
+                size_human: currentData.size_human || formatSize(currentData.size),
+                date: new Date().toISOString()
+            };
+            saved.push(entry);
+            localStorage.setItem('downloaded_content', JSON.stringify(saved));
+            
+            showToast('✅ Контент сохранён в LocalStorage!', 'success');
+            loadSavedContent();
+        }
+        
+        // ============================================================
+        //  ЗАГРУЗКА СОХРАНЁННОГО
+        // ============================================================
+        
+        function loadSavedContent() {
+            const container = document.getElementById('savedList');
+            const saved = JSON.parse(localStorage.getItem('downloaded_content') || '[]');
+            
+            if (saved.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="icon">📭</div>
+                        <p>Нет сохранённого контента</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            let html = '<div class="saved-list">';
+            saved.forEach((item, index) => {
+                const displayDate = new Date(item.date).toLocaleString();
+                html += `
+                    <div class="saved-item" onclick="viewSaved(${index})">
+                        <div>
+                            <div class="saved-name">${item.url.length > 50 ? item.url.substring(0, 50) + '...' : item.url}</div>
+                            <div style="display: flex; gap: 15px; flex-wrap: wrap; margin-top: 4px;">
+                                <span class="saved-size">📦 ${item.size_human || formatSize(item.size)}</span>
+                                <span class="saved-date">📅 ${displayDate}</span>
+                            </div>
+                        </div>
+                        <button class="saved-delete" onclick="event.stopPropagation(); deleteSaved(${index})">✕</button>
+                    </div>
+                `;
+            });
+            html += '</div>';
+            container.innerHTML = html;
+        }
+        
+        function viewSaved(index) {
+            const saved = JSON.parse(localStorage.getItem('downloaded_content') || '[]');
+            if (!saved[index]) {
+                showToast('❌ Элемент не найден', 'error');
+                return;
+            }
+            
+            const item = saved[index];
+            const pre = document.getElementById('contentText');
+            let displayText = '';
+            
+            if (Array.isArray(item.data)) {
+                displayText = JSON.stringify(item.data.slice(0, 10), null, 2);
+                if (item.data.length > 10) {
+                    displayText += `\n\n... и ещё ${item.data.length - 10} элементов`;
+                }
+            } else if (typeof item.data === 'object') {
+                displayText = JSON.stringify(item.data, null, 2);
+            } else {
+                displayText = String(item.data);
+            }
+            
+            pre.textContent = displayText;
+            document.getElementById('contentResult').style.display = 'block';
+            document.getElementById('resultsCard').style.display = 'block';
+            document.getElementById('urlListContainer').style.display = 'none';
+            document.getElementById('downloadStatus').style.display = 'none';
+            document.getElementById('resultsTitle').textContent = `📂 ${item.url}`;
+            
+            showToast('📄 Контент загружен из LocalStorage', 'info');
+            
+            // Переключаемся на вкладку скачивания
+            switchTab('download');
+            document.getElementById('resultsCard').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        
+        function deleteSaved(index) {
+            const saved = JSON.parse(localStorage.getItem('downloaded_content') || '[]');
+            saved.splice(index, 1);
+            localStorage.setItem('downloaded_content', JSON.stringify(saved));
+            loadSavedContent();
+            showToast('🗑️ Удалено', 'info');
+        }
+        
+        // ============================================================
+        //  ВКЛАДКИ
+        // ============================================================
+        
+        function switchTab(tab) {
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            
+            document.querySelector(`.tab-btn[onclick*="${tab}"]`).classList.add('active');
+            document.getElementById(`tab-${tab}`).classList.add('active');
+            
+            if (tab === 'saved') {
+                loadSavedContent();
+            }
+        }
+        
+        // ============================================================
+        //  TOAST УВЕДОМЛЕНИЯ
+        // ============================================================
+        
+        function showToast(message, type = 'info') {
+            const container = document.getElementById('toastContainer');
+            const toast = document.createElement('div');
+            toast.className = `toast toast-${type}`;
+            toast.textContent = message;
+            container.appendChild(toast);
+            setTimeout(() => {
+                toast.style.opacity = '0';
+                toast.style.transition = 'opacity 0.3s';
+                setTimeout(() => toast.remove(), 300);
+            }, 4000);
+        }
+        
+        // ============================================================
+        //  ИНИЦИАЛИЗАЦИЯ
+        // ============================================================
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            loadWords();
+            loadSavedContent();
+        });
+    </script>
+</body>
+</html>
