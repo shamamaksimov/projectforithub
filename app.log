@@ -1,0 +1,1704 @@
+2026-06-18 11:20:39,116 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-18 11:20:39,117 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-18 11:20:39,120 - INFO -  * Restarting with stat
+2026-06-18 11:20:39,880 - WARNING -  * Debugger is active!
+2026-06-18 11:20:39,884 - INFO -  * Debugger PIN: 549-115-931
+2026-06-18 11:20:41,484 - INFO - 127.0.0.1 - - [18/Jun/2026 11:20:41] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-18 11:20:41,519 - INFO - 127.0.0.1 - - [18/Jun/2026 11:20:41] "GET /login HTTP/1.1" 200 -
+2026-06-18 11:20:41,653 - INFO - 127.0.0.1 - - [18/Jun/2026 11:20:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-18 11:20:41,667 - INFO - 127.0.0.1 - - [18/Jun/2026 11:20:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-18 11:20:58,147 - INFO - {"user": "abonent", "user_id": 2, "action": "login", "time": "2026-06-18T11:20:58.147268", "details": {"success": true}}
+2026-06-18 11:20:58,149 - INFO - 127.0.0.1 - - [18/Jun/2026 11:20:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-18 11:20:58,222 - INFO - 127.0.0.1 - - [18/Jun/2026 11:20:58] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 11:20:59,804 - INFO - {"user": "abonent", "user_id": 2, "action": "chess_open", "time": "2026-06-18T11:20:59.804351", "details": {}}
+2026-06-18 11:20:59,944 - INFO - 127.0.0.1 - - [18/Jun/2026 11:20:59] "GET /chess HTTP/1.1" 200 -
+2026-06-18 11:21:58,916 - INFO - 127.0.0.1 - - [18/Jun/2026 11:21:58] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-18 11:21:58,934 - INFO - 127.0.0.1 - - [18/Jun/2026 11:21:58] "GET /login?next=/dashboard HTTP/1.1" 200 -
+2026-06-18 11:21:59,180 - INFO - 127.0.0.1 - - [18/Jun/2026 11:21:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-18 11:21:59,187 - INFO - 127.0.0.1 - - [18/Jun/2026 11:21:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-18 11:25:51,795 - INFO -  * Detected change in 'C:\\Users\\maksimovNI24\\Desktop\\utility_app\\app.py', reloading
+2026-06-18 11:25:51,952 - INFO -  * Restarting with stat
+2026-06-18 11:32:18,100 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-18 11:32:18,100 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-18 11:32:18,103 - INFO -  * Restarting with stat
+2026-06-18 11:32:18,739 - WARNING -  * Debugger is active!
+2026-06-18 11:32:18,742 - INFO -  * Debugger PIN: 549-115-931
+2026-06-18 11:32:19,884 - INFO - 127.0.0.1 - - [18/Jun/2026 11:32:19] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-18 11:32:19,898 - INFO - 127.0.0.1 - - [18/Jun/2026 11:32:19] "GET /login HTTP/1.1" 200 -
+2026-06-18 11:32:21,692 - INFO - {"user": "abonent", "user_id": 2, "action": "login", "time": "2026-06-18T11:32:21.692050", "details": {"success": true}}
+2026-06-18 11:32:21,693 - INFO - 127.0.0.1 - - [18/Jun/2026 11:32:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-18 11:32:21,784 - INFO - 127.0.0.1 - - [18/Jun/2026 11:32:21] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 11:32:22,962 - INFO - {"user": "abonent", "user_id": 2, "action": "chess_open", "time": "2026-06-18T11:32:22.962657", "details": {}}
+2026-06-18 11:32:23,099 - INFO - 127.0.0.1 - - [18/Jun/2026 11:32:23] "GET /chess HTTP/1.1" 200 -
+2026-06-18 11:38:00,071 - INFO - {"user": "abonent", "user_id": 2, "action": "chess_open", "time": "2026-06-18T11:38:00.070909", "details": {}}
+2026-06-18 11:38:00,073 - INFO - 127.0.0.1 - - [18/Jun/2026 11:38:00] "GET /chess HTTP/1.1" 200 -
+2026-06-18 11:39:05,888 - INFO - 127.0.0.1 - - [18/Jun/2026 11:39:05] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 11:39:10,075 - INFO - 127.0.0.1 - - [18/Jun/2026 11:39:10] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 11:39:14,468 - INFO - {"user": "abonent", "user_id": 2, "action": "logout", "time": "2026-06-18T11:39:14.468175", "details": {}}
+2026-06-18 11:39:14,470 - INFO - 127.0.0.1 - - [18/Jun/2026 11:39:14] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-18 11:39:14,476 - INFO - 127.0.0.1 - - [18/Jun/2026 11:39:14] "GET /login HTTP/1.1" 200 -
+2026-06-18 11:39:19,359 - INFO - 127.0.0.1 - - [18/Jun/2026 11:39:19] "GET /login HTTP/1.1" 200 -
+2026-06-18 11:39:19,494 - INFO - 127.0.0.1 - - [18/Jun/2026 11:39:19] "GET /login HTTP/1.1" 200 -
+2026-06-18 11:39:34,196 - INFO - {"user": "abonent", "user_id": 2, "action": "login", "time": "2026-06-18T11:39:34.196626", "details": {"success": true}}
+2026-06-18 11:39:34,198 - INFO - 127.0.0.1 - - [18/Jun/2026 11:39:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-18 11:39:34,206 - INFO - 127.0.0.1 - - [18/Jun/2026 11:39:34] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 11:39:35,605 - INFO - 127.0.0.1 - - [18/Jun/2026 11:39:35] "GET /readings HTTP/1.1" 200 -
+2026-06-18 11:40:01,732 - INFO - {"user": "abonent", "user_id": 2, "action": "submit_reading_zoned", "time": "2026-06-18T11:40:01.732150", "details": {"meter_id": "1", "period": "2026-06", "consumption_day": 995000.0, "consumption_night": 1992076.0}}
+2026-06-18 11:40:01,734 - INFO - 127.0.0.1 - - [18/Jun/2026 11:40:01] "[32mPOST /readings HTTP/1.1[0m" 302 -
+2026-06-18 11:40:01,751 - INFO - 127.0.0.1 - - [18/Jun/2026 11:40:01] "GET /readings HTTP/1.1" 200 -
+2026-06-18 11:40:05,637 - INFO - 127.0.0.1 - - [18/Jun/2026 11:40:05] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 11:40:07,242 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-18T11:40:07.242340", "details": {"period": "2025-05", "total": 75473.89}}
+2026-06-18 11:40:07,284 - INFO - 127.0.0.1 - - [18/Jun/2026 11:40:07] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-18 11:40:27,326 - INFO - 127.0.0.1 - - [18/Jun/2026 11:40:27] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 11:40:28,693 - INFO - 127.0.0.1 - - [18/Jun/2026 11:40:28] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-18 11:41:04,924 - INFO - {"user": "abonent", "user_id": 2, "action": "logout", "time": "2026-06-18T11:41:04.924392", "details": {}}
+2026-06-18 11:41:04,926 - INFO - 127.0.0.1 - - [18/Jun/2026 11:41:04] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-18 11:41:04,932 - INFO - 127.0.0.1 - - [18/Jun/2026 11:41:04] "GET /login HTTP/1.1" 200 -
+2026-06-18 11:41:10,881 - INFO - {"user": "admin", "user_id": 1, "action": "login", "time": "2026-06-18T11:41:10.881310", "details": {"success": true}}
+2026-06-18 11:41:10,882 - INFO - 127.0.0.1 - - [18/Jun/2026 11:41:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-18 11:41:10,890 - INFO - 127.0.0.1 - - [18/Jun/2026 11:41:10] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-18 11:41:10,975 - INFO - 127.0.0.1 - - [18/Jun/2026 11:41:10] "GET /admin HTTP/1.1" 200 -
+2026-06-18 11:41:25,801 - INFO - 127.0.0.1 - - [18/Jun/2026 11:41:25] "GET /readings HTTP/1.1" 200 -
+2026-06-18 11:41:29,763 - INFO - 127.0.0.1 - - [18/Jun/2026 11:41:29] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-18 11:41:29,806 - INFO - 127.0.0.1 - - [18/Jun/2026 11:41:29] "GET /admin HTTP/1.1" 200 -
+2026-06-18 11:41:34,717 - INFO - {"user": "admin", "user_id": 1, "action": "logout", "time": "2026-06-18T11:41:34.717272", "details": {}}
+2026-06-18 11:41:34,718 - INFO - 127.0.0.1 - - [18/Jun/2026 11:41:34] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-18 11:41:34,724 - INFO - 127.0.0.1 - - [18/Jun/2026 11:41:34] "GET /login HTTP/1.1" 200 -
+2026-06-18 11:41:47,947 - INFO - {"user": "petrov", "user_id": 3, "action": "login", "time": "2026-06-18T11:41:47.947561", "details": {"success": true}}
+2026-06-18 11:41:47,950 - INFO - 127.0.0.1 - - [18/Jun/2026 11:41:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-18 11:41:47,962 - INFO - 127.0.0.1 - - [18/Jun/2026 11:41:47] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 11:41:49,192 - INFO - 127.0.0.1 - - [18/Jun/2026 11:41:49] "GET /readings HTTP/1.1" 200 -
+2026-06-18 11:42:01,334 - INFO - {"user": "petrov", "user_id": 3, "action": "submit_reading", "time": "2026-06-18T11:42:01.334724", "details": {"meter_id": "5", "period": "2026-05", "consumption": 399875.0}}
+2026-06-18 11:42:01,340 - INFO - 127.0.0.1 - - [18/Jun/2026 11:42:01] "[32mPOST /readings HTTP/1.1[0m" 302 -
+2026-06-18 11:42:01,357 - INFO - 127.0.0.1 - - [18/Jun/2026 11:42:01] "GET /readings HTTP/1.1" 200 -
+2026-06-18 11:42:03,028 - INFO - 127.0.0.1 - - [18/Jun/2026 11:42:03] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 11:42:03,630 - INFO - {"user": "petrov", "user_id": 3, "action": "view_receipt", "time": "2026-06-18T11:42:03.630049", "details": {"period": "2025-05", "total": 5287.5}}
+2026-06-18 11:42:03,631 - INFO - 127.0.0.1 - - [18/Jun/2026 11:42:03] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-18 11:42:07,461 - INFO - 127.0.0.1 - - [18/Jun/2026 11:42:07] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 11:42:08,029 - INFO - 127.0.0.1 - - [18/Jun/2026 11:42:08] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-18 11:42:11,717 - INFO - 127.0.0.1 - - [18/Jun/2026 11:42:11] "GET /readings HTTP/1.1" 200 -
+2026-06-18 11:42:12,947 - INFO - 127.0.0.1 - - [18/Jun/2026 11:42:12] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 11:42:17,039 - INFO - {"user": "petrov", "user_id": 3, "action": "view_receipt", "time": "2026-06-18T11:42:17.039729", "details": {"period": "2025-05", "total": 5287.5}}
+2026-06-18 11:42:17,041 - INFO - 127.0.0.1 - - [18/Jun/2026 11:42:17] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-18 11:42:18,364 - INFO - 127.0.0.1 - - [18/Jun/2026 11:42:18] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 11:42:19,075 - INFO - {"user": "petrov", "user_id": 3, "action": "logout", "time": "2026-06-18T11:42:19.075865", "details": {}}
+2026-06-18 11:42:19,077 - INFO - 127.0.0.1 - - [18/Jun/2026 11:42:19] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-18 11:42:19,083 - INFO - 127.0.0.1 - - [18/Jun/2026 11:42:19] "GET /login HTTP/1.1" 200 -
+2026-06-18 11:54:22,643 - INFO -  * Detected change in 'C:\\Users\\maksimovNI24\\Desktop\\utility_app\\app.py', reloading
+2026-06-18 11:54:22,814 - INFO -  * Restarting with stat
+2026-06-18 11:54:23,815 - WARNING -  * Debugger is active!
+2026-06-18 11:54:23,822 - INFO -  * Debugger PIN: 549-115-931
+2026-06-18 11:55:47,394 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-18 11:55:47,395 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-18 11:55:47,396 - INFO -  * Restarting with stat
+2026-06-18 11:55:48,255 - WARNING -  * Debugger is active!
+2026-06-18 11:55:48,258 - INFO -  * Debugger PIN: 549-115-931
+2026-06-18 11:55:51,769 - INFO - 127.0.0.1 - - [18/Jun/2026 11:55:51] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-18 11:55:51,794 - INFO - 127.0.0.1 - - [18/Jun/2026 11:55:51] "GET /login HTTP/1.1" 200 -
+2026-06-18 11:55:54,820 - INFO - {"user": "petrov", "user_id": 3, "action": "login", "time": "2026-06-18T11:55:54.820188", "details": {"success": true}}
+2026-06-18 11:55:54,822 - INFO - 127.0.0.1 - - [18/Jun/2026 11:55:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-18 11:55:54,848 - INFO - 127.0.0.1 - - [18/Jun/2026 11:55:54] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 11:55:56,326 - INFO - {"user": "petrov", "user_id": 3, "action": "view_receipt", "time": "2026-06-18T11:55:56.326346", "details": {"period": "2025-05", "total": 5287.5}}
+2026-06-18 11:55:56,349 - INFO - 127.0.0.1 - - [18/Jun/2026 11:55:56] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-18 11:56:00,271 - INFO - 127.0.0.1 - - [18/Jun/2026 11:56:00] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 11:56:11,041 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-18 11:56:11,041 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-18 11:56:11,043 - INFO -  * Restarting with stat
+2026-06-18 11:56:11,721 - WARNING -  * Debugger is active!
+2026-06-18 11:56:11,724 - INFO -  * Debugger PIN: 549-115-931
+2026-06-18 11:56:16,019 - INFO - 127.0.0.1 - - [18/Jun/2026 11:56:16] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-18 11:56:16,054 - INFO - 127.0.0.1 - - [18/Jun/2026 11:56:16] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 11:56:16,980 - INFO - {"user": "petrov", "user_id": 3, "action": "view_receipt", "time": "2026-06-18T11:56:16.980727", "details": {"period": "2025-05", "total": 5287.5}}
+2026-06-18 11:56:17,069 - INFO - 127.0.0.1 - - [18/Jun/2026 11:56:17] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-18 11:56:37,510 - INFO - {"user": "petrov", "user_id": 3, "action": "register_payment", "time": "2026-06-18T11:56:37.510352", "details": {"account_id": 2, "period": "2025-05", "amount": 2200000}}
+2026-06-18 11:56:37,519 - INFO - 127.0.0.1 - - [18/Jun/2026 11:56:37] "POST /api/payment/register HTTP/1.1" 200 -
+2026-06-18 11:56:39,054 - INFO - {"user": "petrov", "user_id": 3, "action": "view_receipt", "time": "2026-06-18T11:56:39.054645", "details": {"period": "2025-05", "total": 5287.5}}
+2026-06-18 11:56:39,056 - INFO - 127.0.0.1 - - [18/Jun/2026 11:56:39] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-18 11:56:56,626 - INFO - 127.0.0.1 - - [18/Jun/2026 11:56:56] "[31m[1mPOST /api/payment/register HTTP/1.1[0m" 409 -
+2026-06-18 11:57:01,867 - INFO - {"user": "petrov", "user_id": 3, "action": "view_receipt", "time": "2026-06-18T11:57:01.867401", "details": {"period": "2025-05", "total": 5287.5}}
+2026-06-18 11:57:01,868 - INFO - 127.0.0.1 - - [18/Jun/2026 11:57:01] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-18 11:57:02,450 - INFO - {"user": "petrov", "user_id": 3, "action": "view_receipt", "time": "2026-06-18T11:57:02.450690", "details": {"period": "2025-05", "total": 5287.5}}
+2026-06-18 11:57:02,453 - INFO - 127.0.0.1 - - [18/Jun/2026 11:57:02] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-18 11:57:02,604 - INFO - {"user": "petrov", "user_id": 3, "action": "view_receipt", "time": "2026-06-18T11:57:02.604630", "details": {"period": "2025-05", "total": 5287.5}}
+2026-06-18 11:57:02,605 - INFO - 127.0.0.1 - - [18/Jun/2026 11:57:02] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-18 11:57:02,764 - INFO - {"user": "petrov", "user_id": 3, "action": "view_receipt", "time": "2026-06-18T11:57:02.763918", "details": {"period": "2025-05", "total": 5287.5}}
+2026-06-18 11:57:02,765 - INFO - 127.0.0.1 - - [18/Jun/2026 11:57:02] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-18 11:57:03,545 - INFO - 127.0.0.1 - - [18/Jun/2026 11:57:03] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 11:57:04,613 - INFO - {"user": "petrov", "user_id": 3, "action": "view_receipt", "time": "2026-06-18T11:57:04.613871", "details": {"period": "2025-05", "total": 5287.5}}
+2026-06-18 11:57:04,615 - INFO - 127.0.0.1 - - [18/Jun/2026 11:57:04] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-18 11:57:10,755 - INFO - 127.0.0.1 - - [18/Jun/2026 11:57:10] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 11:57:11,365 - INFO - 127.0.0.1 - - [18/Jun/2026 11:57:11] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-18 11:57:14,235 - INFO - 127.0.0.1 - - [18/Jun/2026 11:57:14] "GET /readings HTTP/1.1" 200 -
+2026-06-18 11:57:20,404 - INFO - 127.0.0.1 - - [18/Jun/2026 11:57:20] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 11:57:21,222 - INFO - {"user": "petrov", "user_id": 3, "action": "view_receipt", "time": "2026-06-18T11:57:21.222555", "details": {"period": "2025-05", "total": 5287.5}}
+2026-06-18 11:57:21,224 - INFO - 127.0.0.1 - - [18/Jun/2026 11:57:21] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-18 11:57:25,105 - INFO - 127.0.0.1 - - [18/Jun/2026 11:57:25] "[31m[1mPOST /api/payment/register HTTP/1.1[0m" 409 -
+2026-06-18 11:59:36,782 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-18 11:59:36,783 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-18 11:59:36,785 - INFO -  * Restarting with stat
+2026-06-18 11:59:37,579 - WARNING -  * Debugger is active!
+2026-06-18 11:59:37,582 - INFO -  * Debugger PIN: 549-115-931
+2026-06-18 11:59:43,318 - INFO - 127.0.0.1 - - [18/Jun/2026 11:59:43] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-18 11:59:43,416 - INFO - 127.0.0.1 - - [18/Jun/2026 11:59:43] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 11:59:43,455 - INFO - 127.0.0.1 - - [18/Jun/2026 11:59:43] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-18 11:59:52,205 - INFO - 127.0.0.1 - - [18/Jun/2026 11:59:52] "[35m[1mGET /readings/history HTTP/1.1[0m" 500 -
+2026-06-18 11:59:52,393 - INFO - 127.0.0.1 - - [18/Jun/2026 11:59:52] "GET /readings/history?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-06-18 11:59:52,425 - INFO - 127.0.0.1 - - [18/Jun/2026 11:59:52] "GET /readings/history?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-06-18 11:59:52,481 - INFO - 127.0.0.1 - - [18/Jun/2026 11:59:52] "GET /readings/history?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-06-18 11:59:52,535 - INFO - 127.0.0.1 - - [18/Jun/2026 11:59:52] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-18 11:59:52,542 - INFO - 127.0.0.1 - - [18/Jun/2026 11:59:52] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-18 11:59:52,550 - INFO - 127.0.0.1 - - [18/Jun/2026 11:59:52] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-18 11:59:59,693 - INFO - {"user": "petrov", "user_id": 3, "action": "view_receipt", "time": "2026-06-18T11:59:59.693741", "details": {"period": "2025-05", "total": 5287.5}}
+2026-06-18 11:59:59,707 - INFO - 127.0.0.1 - - [18/Jun/2026 11:59:59] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-18 12:00:15,066 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:15] "[31m[1mPOST /api/payment/register HTTP/1.1[0m" 409 -
+2026-06-18 12:00:17,405 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:17] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 12:00:17,443 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:17] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-18 12:00:20,702 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:20] "GET /readings HTTP/1.1" 200 -
+2026-06-18 12:00:22,288 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:22] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 12:00:22,326 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:22] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-18 12:00:22,901 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:22] "[35m[1mGET /readings/history HTTP/1.1[0m" 500 -
+2026-06-18 12:00:22,919 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:22] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:00:22,921 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:22] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-06-18 12:00:22,965 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:22] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-18 12:00:24,964 - INFO - {"user": "petrov", "user_id": 3, "action": "view_receipt", "time": "2026-06-18T12:00:24.964850", "details": {"period": "2025-05", "total": 5287.5}}
+2026-06-18 12:00:24,966 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:24] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-18 12:00:26,856 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:26] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 12:00:26,883 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:26] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-18 12:00:27,527 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:27] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-18 12:00:29,640 - INFO - {"user": "petrov", "user_id": 3, "action": "chess_open", "time": "2026-06-18T12:00:29.640152", "details": {}}
+2026-06-18 12:00:29,653 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:29] "GET /chess HTTP/1.1" 200 -
+2026-06-18 12:00:31,256 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:31] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 12:00:31,302 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:31] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-18 12:00:32,080 - INFO - {"user": "petrov", "user_id": 3, "action": "logout", "time": "2026-06-18T12:00:32.080338", "details": {}}
+2026-06-18 12:00:32,082 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:32] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-18 12:00:32,093 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:32] "GET /login HTTP/1.1" 200 -
+2026-06-18 12:00:39,033 - INFO - {"user": "admin", "user_id": 1, "action": "login", "time": "2026-06-18T12:00:39.033369", "details": {"success": true}}
+2026-06-18 12:00:39,035 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-18 12:00:39,043 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:39] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-18 12:00:39,210 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:39] "GET /admin HTTP/1.1" 200 -
+2026-06-18 12:00:39,280 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:39] "GET /api/tariffs HTTP/1.1" 200 -
+2026-06-18 12:00:39,357 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:39] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-18 12:00:47,077 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:47] "GET /api/tariffs HTTP/1.1" 200 -
+2026-06-18 12:00:51,408 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:51] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-18 12:00:58,984 - INFO - 127.0.0.1 - - [18/Jun/2026 12:00:58] "GET /readings HTTP/1.1" 200 -
+2026-06-18 12:01:00,490 - INFO - 127.0.0.1 - - [18/Jun/2026 12:01:00] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-18 12:01:00,535 - INFO - 127.0.0.1 - - [18/Jun/2026 12:01:00] "GET /admin HTTP/1.1" 200 -
+2026-06-18 12:01:00,608 - INFO - 127.0.0.1 - - [18/Jun/2026 12:01:00] "GET /api/tariffs HTTP/1.1" 200 -
+2026-06-18 12:01:00,672 - INFO - 127.0.0.1 - - [18/Jun/2026 12:01:00] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-18 12:01:07,379 - INFO - 127.0.0.1 - - [18/Jun/2026 12:01:07] "GET /api/reports/debtors HTTP/1.1" 200 -
+2026-06-18 12:01:09,009 - INFO - 127.0.0.1 - - [18/Jun/2026 12:01:09] "GET /api/reports/debtors HTTP/1.1" 200 -
+2026-06-18 12:01:10,609 - INFO - {"user": "admin", "user_id": 1, "action": "view_receipt", "time": "2026-06-18T12:01:10.609483", "details": {"period": "2025-05", "total": 0}}
+2026-06-18 12:01:10,610 - INFO - 127.0.0.1 - - [18/Jun/2026 12:01:10] "GET /receipt/2025-05?account_id=40512 HTTP/1.1" 200 -
+2026-06-18 12:01:12,229 - INFO - 127.0.0.1 - - [18/Jun/2026 12:01:12] "GET /readings HTTP/1.1" 200 -
+2026-06-18 12:01:14,142 - INFO - 127.0.0.1 - - [18/Jun/2026 12:01:14] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-18 12:01:14,184 - INFO - 127.0.0.1 - - [18/Jun/2026 12:01:14] "GET /admin HTTP/1.1" 200 -
+2026-06-18 12:01:14,232 - INFO - 127.0.0.1 - - [18/Jun/2026 12:01:14] "GET /api/tariffs HTTP/1.1" 200 -
+2026-06-18 12:01:14,297 - INFO - 127.0.0.1 - - [18/Jun/2026 12:01:14] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-18 12:01:16,137 - INFO - {"user": "admin", "user_id": 1, "action": "logout", "time": "2026-06-18T12:01:16.137807", "details": {}}
+2026-06-18 12:01:16,140 - INFO - 127.0.0.1 - - [18/Jun/2026 12:01:16] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-18 12:01:16,146 - INFO - 127.0.0.1 - - [18/Jun/2026 12:01:16] "GET /login HTTP/1.1" 200 -
+2026-06-18 12:01:26,016 - INFO - {"user": "anonymous", "user_id": null, "action": "login_failed", "time": "2026-06-18T12:01:26.016575", "details": {"login": "petrov"}}
+2026-06-18 12:01:26,018 - INFO - 127.0.0.1 - - [18/Jun/2026 12:01:26] "POST /login HTTP/1.1" 200 -
+2026-06-18 12:01:32,690 - INFO - {"user": "petrov", "user_id": 3, "action": "login", "time": "2026-06-18T12:01:32.690680", "details": {"success": true}}
+2026-06-18 12:01:32,692 - INFO - 127.0.0.1 - - [18/Jun/2026 12:01:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-18 12:01:32,702 - INFO - 127.0.0.1 - - [18/Jun/2026 12:01:32] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 12:01:32,729 - INFO - 127.0.0.1 - - [18/Jun/2026 12:01:32] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-18 12:02:49,426 - INFO -  * Detected change in 'C:\\Users\\maksimovNI24\\Desktop\\utility_app\\app.py', reloading
+2026-06-18 12:02:49,625 - INFO -  * Restarting with stat
+2026-06-18 12:02:50,712 - WARNING -  * Debugger is active!
+2026-06-18 12:02:50,716 - INFO -  * Debugger PIN: 549-115-931
+2026-06-18 14:56:08,437 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-18 14:56:08,437 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-18 14:56:08,439 - INFO -  * Restarting with stat
+2026-06-18 14:56:08,951 - WARNING -  * Debugger is active!
+2026-06-18 14:56:08,952 - INFO -  * Debugger PIN: 549-115-931
+2026-06-18 14:56:09,835 - INFO - 127.0.0.1 - - [18/Jun/2026 14:56:09] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-18 14:56:09,849 - INFO - 127.0.0.1 - - [18/Jun/2026 14:56:09] "GET /login HTTP/1.1" 200 -
+2026-06-18 14:56:10,008 - INFO - 127.0.0.1 - - [18/Jun/2026 14:56:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-18 14:56:10,012 - INFO - 127.0.0.1 - - [18/Jun/2026 14:56:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-18 14:56:11,491 - INFO - {"user": "petrov", "user_id": 3, "action": "login", "time": "2026-06-18T14:56:11.491448", "details": {"success": true}}
+2026-06-18 14:56:11,493 - INFO - 127.0.0.1 - - [18/Jun/2026 14:56:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-18 14:56:11,517 - INFO - 127.0.0.1 - - [18/Jun/2026 14:56:11] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 14:56:11,553 - INFO - 127.0.0.1 - - [18/Jun/2026 14:56:11] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-18 14:56:12,485 - INFO - {"user": "petrov", "user_id": 3, "action": "chess_open", "time": "2026-06-18T14:56:12.485069", "details": {}}
+2026-06-18 14:56:12,495 - INFO - 127.0.0.1 - - [18/Jun/2026 14:56:12] "GET /chess HTTP/1.1" 200 -
+2026-06-18 14:57:01,318 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:01] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 14:57:01,332 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:01] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-18 14:57:05,184 - INFO - {"user": "petrov", "user_id": 3, "action": "view_receipt", "time": "2026-06-18T14:57:05.184551", "details": {"period": "2025-05", "total": 5287.5}}
+2026-06-18 14:57:05,235 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:05] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-18 14:57:06,296 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:06] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 14:57:06,313 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:06] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-18 14:57:07,734 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:07] "GET /readings HTTP/1.1" 200 -
+2026-06-18 14:57:18,818 - INFO - {"user": "petrov", "user_id": 3, "action": "submit_reading_zoned", "time": "2026-06-18T14:57:18.818154", "details": {"meter_id": "4", "period": "2025-05", "consumption_day": 300000.0, "consumption_night": 400000.0}}
+2026-06-18 14:57:18,824 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:18] "[32mPOST /readings HTTP/1.1[0m" 302 -
+2026-06-18 14:57:18,841 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:18] "GET /readings HTTP/1.1" 200 -
+2026-06-18 14:57:21,909 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:21] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 14:57:21,940 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:21] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-18 14:57:23,158 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:23] "[35m[1mGET /readings/history HTTP/1.1[0m" 500 -
+2026-06-18 14:57:23,349 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:23] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-06-18 14:57:23,350 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:23] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-06-18 14:57:23,409 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:23] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-18 14:57:23,457 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:23] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-18 14:57:23,464 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:23] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-18 14:57:26,005 - INFO - {"user": "petrov", "user_id": 3, "action": "view_receipt", "time": "2026-06-18T14:57:26.005216", "details": {"period": "2025-05", "total": 2825287.5}}
+2026-06-18 14:57:26,006 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:26] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-18 14:57:44,021 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:44] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 14:57:44,053 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:44] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-18 14:57:44,698 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:44] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-18 14:57:54,279 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:54] "[35m[1mGET /readings/history HTTP/1.1[0m" 500 -
+2026-06-18 14:57:54,298 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:54] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-06-18 14:57:54,305 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:54] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-06-18 14:57:54,360 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:54] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-18 14:57:56,725 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:56] "[35m[1mGET /readings/history HTTP/1.1[0m" 500 -
+2026-06-18 14:57:56,744 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:56] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-06-18 14:57:56,754 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:56] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-06-18 14:57:56,773 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:56] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-18 14:57:56,864 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:56] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-18 14:57:57,574 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:57] "[35m[1mGET /readings/history HTTP/1.1[0m" 500 -
+2026-06-18 14:57:57,596 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:57] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-06-18 14:57:57,604 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:57] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-06-18 14:57:57,628 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:57] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-18 14:57:57,698 - INFO - 127.0.0.1 - - [18/Jun/2026 14:57:57] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-18 14:58:03,003 - INFO - {"user": "petrov", "user_id": 3, "action": "logout", "time": "2026-06-18T14:58:03.003160", "details": {}}
+2026-06-18 14:58:03,005 - INFO - 127.0.0.1 - - [18/Jun/2026 14:58:03] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-18 14:58:03,010 - INFO - 127.0.0.1 - - [18/Jun/2026 14:58:03] "GET /login HTTP/1.1" 200 -
+2026-06-18 14:58:08,319 - INFO - {"user": "admin", "user_id": 1, "action": "login", "time": "2026-06-18T14:58:08.318945", "details": {"success": true}}
+2026-06-18 14:58:08,321 - INFO - 127.0.0.1 - - [18/Jun/2026 14:58:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-18 14:58:08,328 - INFO - 127.0.0.1 - - [18/Jun/2026 14:58:08] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-18 14:58:08,494 - INFO - 127.0.0.1 - - [18/Jun/2026 14:58:08] "GET /admin HTTP/1.1" 200 -
+2026-06-18 14:58:08,596 - INFO - 127.0.0.1 - - [18/Jun/2026 14:58:08] "GET /api/tariffs HTTP/1.1" 200 -
+2026-06-18 14:58:08,674 - INFO - 127.0.0.1 - - [18/Jun/2026 14:58:08] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-18 14:58:28,089 - INFO - 127.0.0.1 - - [18/Jun/2026 14:58:28] "GET /api/tariffs HTTP/1.1" 200 -
+2026-06-18 14:58:30,190 - INFO - 127.0.0.1 - - [18/Jun/2026 14:58:30] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-18 14:58:32,473 - INFO - 127.0.0.1 - - [18/Jun/2026 14:58:32] "GET /api/tariffs HTTP/1.1" 200 -
+2026-06-18 14:58:34,951 - INFO - {"user": "admin", "user_id": 1, "action": "chess_open", "time": "2026-06-18T14:58:34.951326", "details": {}}
+2026-06-18 14:58:34,953 - INFO - 127.0.0.1 - - [18/Jun/2026 14:58:34] "GET /chess HTTP/1.1" 200 -
+2026-06-18 14:59:22,972 - INFO - 127.0.0.1 - - [18/Jun/2026 14:59:22] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-18 14:59:49,440 - INFO - 127.0.0.1 - - [18/Jun/2026 14:59:49] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-18 15:00:48,914 - INFO - 127.0.0.1 - - [18/Jun/2026 15:00:48] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-18 15:00:48,964 - INFO - 127.0.0.1 - - [18/Jun/2026 15:00:48] "GET /admin HTTP/1.1" 200 -
+2026-06-18 15:00:49,022 - INFO - 127.0.0.1 - - [18/Jun/2026 15:00:49] "GET /api/tariffs HTTP/1.1" 200 -
+2026-06-18 15:00:49,090 - INFO - 127.0.0.1 - - [18/Jun/2026 15:00:49] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-18 15:01:06,034 - INFO - 127.0.0.1 - - [18/Jun/2026 15:01:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-06-18 15:01:09,810 - INFO - 127.0.0.1 - - [18/Jun/2026 15:01:09] "GET /admin HTTP/1.1" 200 -
+2026-06-18 15:01:09,869 - INFO - 127.0.0.1 - - [18/Jun/2026 15:01:09] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-06-18 15:01:09,871 - INFO - 127.0.0.1 - - [18/Jun/2026 15:01:09] "GET /api/tariffs HTTP/1.1" 200 -
+2026-06-18 15:01:09,944 - INFO - 127.0.0.1 - - [18/Jun/2026 15:01:09] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-18 15:01:39,149 - INFO - {"user": "admin", "user_id": 1, "action": "logout", "time": "2026-06-18T15:01:39.149758", "details": {}}
+2026-06-18 15:01:39,151 - INFO - 127.0.0.1 - - [18/Jun/2026 15:01:39] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-18 15:01:39,157 - INFO - 127.0.0.1 - - [18/Jun/2026 15:01:39] "GET /login HTTP/1.1" 200 -
+2026-06-18 15:01:45,940 - INFO - {"user": "petrov", "user_id": 3, "action": "login", "time": "2026-06-18T15:01:45.939946", "details": {"success": true}}
+2026-06-18 15:01:45,941 - INFO - 127.0.0.1 - - [18/Jun/2026 15:01:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-18 15:01:45,951 - INFO - 127.0.0.1 - - [18/Jun/2026 15:01:45] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 15:01:46,003 - INFO - 127.0.0.1 - - [18/Jun/2026 15:01:46] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-18 15:01:49,789 - INFO - 127.0.0.1 - - [18/Jun/2026 15:01:49] "[35m[1mGET /readings/history HTTP/1.1[0m" 500 -
+2026-06-18 15:01:49,804 - INFO - 127.0.0.1 - - [18/Jun/2026 15:01:49] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-06-18 15:01:49,810 - INFO - 127.0.0.1 - - [18/Jun/2026 15:01:49] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-06-18 15:01:49,841 - INFO - 127.0.0.1 - - [18/Jun/2026 15:01:49] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-18 15:01:56,319 - INFO - {"user": "petrov", "user_id": 3, "action": "view_receipt", "time": "2026-06-18T15:01:56.319011", "details": {"period": "2025-05", "total": 2825287.5}}
+2026-06-18 15:01:56,321 - INFO - 127.0.0.1 - - [18/Jun/2026 15:01:56] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-18 15:02:03,425 - INFO - 127.0.0.1 - - [18/Jun/2026 15:02:03] "GET /api/payment/history?period=2025-05 HTTP/1.1" 200 -
+2026-06-18 15:02:10,247 - INFO - 127.0.0.1 - - [18/Jun/2026 15:02:10] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 15:02:10,296 - INFO - 127.0.0.1 - - [18/Jun/2026 15:02:10] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-18 15:02:12,853 - INFO - 127.0.0.1 - - [18/Jun/2026 15:02:12] "GET /readings HTTP/1.1" 200 -
+2026-06-18 15:02:13,988 - INFO - 127.0.0.1 - - [18/Jun/2026 15:02:13] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 15:02:14,037 - INFO - 127.0.0.1 - - [18/Jun/2026 15:02:14] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-18 15:02:14,540 - INFO - {"user": "petrov", "user_id": 3, "action": "view_receipt", "time": "2026-06-18T15:02:14.540604", "details": {"period": "2025-05", "total": 2825287.5}}
+2026-06-18 15:02:14,542 - INFO - 127.0.0.1 - - [18/Jun/2026 15:02:14] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-18 15:02:15,492 - INFO - 127.0.0.1 - - [18/Jun/2026 15:02:15] "GET /api/payment/history?period=2025-05 HTTP/1.1" 200 -
+2026-06-18 15:02:25,765 - INFO - 127.0.0.1 - - [18/Jun/2026 15:02:25] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 15:02:25,817 - INFO - 127.0.0.1 - - [18/Jun/2026 15:02:25] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-18 15:03:20,254 - INFO - 127.0.0.1 - - [18/Jun/2026 15:03:20] "GET /login HTTP/1.1" 200 -
+2026-06-18 15:03:21,756 - INFO - 127.0.0.1 - - [18/Jun/2026 15:03:21] "GET /login?next=/dashboard HTTP/1.1" 200 -
+2026-06-18 15:03:24,624 - INFO - 127.0.0.1 - - [18/Jun/2026 15:03:24] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-18 15:03:30,769 - INFO - 127.0.0.1 - - [18/Jun/2026 15:03:30] "GET /readings HTTP/1.1" 200 -
+2026-06-18 15:04:03,604 - INFO - 127.0.0.1 - - [18/Jun/2026 15:04:03] "[32mPOST /readings HTTP/1.1[0m" 302 -
+2026-06-18 15:04:03,622 - INFO - 127.0.0.1 - - [18/Jun/2026 15:04:03] "GET /readings HTTP/1.1" 200 -
+2026-06-18 15:04:22,226 - INFO - {"user": "petrov", "user_id": 3, "action": "submit_reading_zoned", "time": "2026-06-18T15:04:22.226058", "details": {"meter_id": "4", "period": "2026-04", "consumption_day": 19700000.0, "consumption_night": 19600000.0}}
+2026-06-18 15:04:22,228 - INFO - 127.0.0.1 - - [18/Jun/2026 15:04:22] "[32mPOST /readings HTTP/1.1[0m" 302 -
+2026-06-18 15:04:22,241 - INFO - 127.0.0.1 - - [18/Jun/2026 15:04:22] "GET /readings HTTP/1.1" 200 -
+2026-06-18 15:04:24,219 - INFO - 127.0.0.1 - - [18/Jun/2026 15:04:24] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 15:04:24,243 - INFO - 127.0.0.1 - - [18/Jun/2026 15:04:24] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-18 15:04:25,768 - INFO - 127.0.0.1 - - [18/Jun/2026 15:04:25] "GET /readings HTTP/1.1" 200 -
+2026-06-18 15:04:27,754 - INFO - 127.0.0.1 - - [18/Jun/2026 15:04:27] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 15:04:27,798 - INFO - 127.0.0.1 - - [18/Jun/2026 15:04:27] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-18 15:04:34,003 - INFO - 127.0.0.1 - - [18/Jun/2026 15:04:34] "GET /readings HTTP/1.1" 200 -
+2026-06-18 15:04:44,983 - INFO - 127.0.0.1 - - [18/Jun/2026 15:04:44] "[32mPOST /readings HTTP/1.1[0m" 302 -
+2026-06-18 15:04:45,008 - INFO - 127.0.0.1 - - [18/Jun/2026 15:04:45] "GET /readings HTTP/1.1" 200 -
+2026-06-18 15:05:09,218 - INFO - {"user": "petrov", "user_id": 3, "action": "submit_reading_zoned", "time": "2026-06-18T15:05:09.218727", "details": {"meter_id": "4", "period": "2026-03", "consumption_day": 180000000.0, "consumption_night": 180000000.0}}
+2026-06-18 15:05:09,221 - INFO - 127.0.0.1 - - [18/Jun/2026 15:05:09] "[32mPOST /readings HTTP/1.1[0m" 302 -
+2026-06-18 15:05:09,238 - INFO - 127.0.0.1 - - [18/Jun/2026 15:05:09] "GET /readings HTTP/1.1" 200 -
+2026-06-18 15:05:30,815 - INFO - 127.0.0.1 - - [18/Jun/2026 15:05:30] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 15:05:30,842 - INFO - 127.0.0.1 - - [18/Jun/2026 15:05:30] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-18 15:05:31,638 - INFO - 127.0.0.1 - - [18/Jun/2026 15:05:31] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-18 15:05:39,520 - INFO - 127.0.0.1 - - [18/Jun/2026 15:05:39] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-18 15:06:15,131 - INFO - {"user": "petrov", "user_id": 3, "action": "view_receipt", "time": "2026-06-18T15:06:15.131511", "details": {"period": "2025-05", "total": 2825287.5}}
+2026-06-18 15:06:15,133 - INFO - 127.0.0.1 - - [18/Jun/2026 15:06:15] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-18 15:06:18,432 - INFO - 127.0.0.1 - - [18/Jun/2026 15:06:18] "GET /api/payment/history?period=2025-05 HTTP/1.1" 200 -
+2026-06-18 15:06:27,253 - INFO - {"user": "petrov", "user_id": 3, "action": "payment_error", "time": "2026-06-18T15:06:27.253491", "details": {"error": "'comment' is an invalid keyword argument for Payment"}}
+2026-06-18 15:06:27,254 - INFO - 127.0.0.1 - - [18/Jun/2026 15:06:27] "[35m[1mPOST /api/payment/register HTTP/1.1[0m" 500 -
+2026-06-18 15:06:34,540 - INFO - {"user": "petrov", "user_id": 3, "action": "payment_error", "time": "2026-06-18T15:06:34.539950", "details": {"error": "'comment' is an invalid keyword argument for Payment"}}
+2026-06-18 15:06:34,541 - INFO - 127.0.0.1 - - [18/Jun/2026 15:06:34] "[35m[1mPOST /api/payment/register HTTP/1.1[0m" 500 -
+2026-06-18 15:06:37,484 - INFO - {"user": "petrov", "user_id": 3, "action": "payment_error", "time": "2026-06-18T15:06:37.484593", "details": {"error": "'comment' is an invalid keyword argument for Payment"}}
+2026-06-18 15:06:37,485 - INFO - 127.0.0.1 - - [18/Jun/2026 15:06:37] "[35m[1mPOST /api/payment/register HTTP/1.1[0m" 500 -
+2026-06-18 15:06:43,406 - INFO - 127.0.0.1 - - [18/Jun/2026 15:06:43] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 15:06:43,436 - INFO - 127.0.0.1 - - [18/Jun/2026 15:06:43] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-18 15:06:49,442 - INFO - {"user": "petrov", "user_id": 3, "action": "logout", "time": "2026-06-18T15:06:49.441977", "details": {}}
+2026-06-18 15:06:49,443 - INFO - 127.0.0.1 - - [18/Jun/2026 15:06:49] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-18 15:06:49,450 - INFO - 127.0.0.1 - - [18/Jun/2026 15:06:49] "GET /login HTTP/1.1" 200 -
+2026-06-18 15:06:53,919 - INFO - {"user": "admin", "user_id": 1, "action": "login", "time": "2026-06-18T15:06:53.919777", "details": {"success": true}}
+2026-06-18 15:06:53,921 - INFO - 127.0.0.1 - - [18/Jun/2026 15:06:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-18 15:06:53,927 - INFO - 127.0.0.1 - - [18/Jun/2026 15:06:53] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-18 15:06:53,972 - INFO - 127.0.0.1 - - [18/Jun/2026 15:06:53] "GET /admin HTTP/1.1" 200 -
+2026-06-18 15:06:54,039 - INFO - 127.0.0.1 - - [18/Jun/2026 15:06:54] "GET /api/tariffs HTTP/1.1" 200 -
+2026-06-18 15:06:54,120 - INFO - 127.0.0.1 - - [18/Jun/2026 15:06:54] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-18 15:07:16,713 - INFO - 127.0.0.1 - - [18/Jun/2026 15:07:16] "GET /api/reports/debtors HTTP/1.1" 200 -
+2026-06-18 15:07:18,676 - INFO - 127.0.0.1 - - [18/Jun/2026 15:07:18] "GET /api/reports/debtors HTTP/1.1" 200 -
+2026-06-18 15:07:30,749 - INFO - {"user": "admin", "user_id": 1, "action": "chess_open", "time": "2026-06-18T15:07:30.749000", "details": {}}
+2026-06-18 15:07:30,750 - INFO - 127.0.0.1 - - [18/Jun/2026 15:07:30] "GET /chess HTTP/1.1" 200 -
+2026-06-18 15:17:38,950 - INFO - {"user": "admin", "user_id": 1, "action": "chess_save", "time": "2026-06-18T15:17:38.950469", "details": {"game_id": 1, "move_count": 22}}
+2026-06-18 15:17:38,952 - INFO - 127.0.0.1 - - [18/Jun/2026 15:17:38] "POST /api/chess/save HTTP/1.1" 200 -
+2026-06-18 15:17:42,327 - INFO - {"user": "admin", "user_id": 1, "action": "chess_load", "time": "2026-06-18T15:17:42.327506", "details": {"game_id": 1}}
+2026-06-18 15:17:42,328 - INFO - 127.0.0.1 - - [18/Jun/2026 15:17:42] "GET /api/chess/load HTTP/1.1" 200 -
+2026-06-18 15:18:13,325 - INFO - {"user": "admin", "user_id": 1, "action": "chess_update", "time": "2026-06-18T15:18:13.325458", "details": {"game_id": 1, "move_count": 2}}
+2026-06-18 15:18:13,326 - INFO - 127.0.0.1 - - [18/Jun/2026 15:18:13] "POST /api/chess/save HTTP/1.1" 200 -
+2026-06-18 15:18:17,391 - INFO - {"user": "admin", "user_id": 1, "action": "chess_load", "time": "2026-06-18T15:18:17.391188", "details": {"game_id": 1}}
+2026-06-18 15:18:17,392 - INFO - 127.0.0.1 - - [18/Jun/2026 15:18:17] "GET /api/chess/load HTTP/1.1" 200 -
+2026-06-18 15:18:32,182 - INFO - {"user": "admin", "user_id": 1, "action": "chess_open", "time": "2026-06-18T15:18:32.182784", "details": {}}
+2026-06-18 15:18:32,184 - INFO - 127.0.0.1 - - [18/Jun/2026 15:18:32] "GET /chess HTTP/1.1" 200 -
+2026-06-18 15:18:33,275 - INFO - {"user": "admin", "user_id": 1, "action": "chess_open", "time": "2026-06-18T15:18:33.275121", "details": {}}
+2026-06-18 15:18:33,277 - INFO - 127.0.0.1 - - [18/Jun/2026 15:18:33] "GET /chess HTTP/1.1" 200 -
+2026-06-18 15:18:33,339 - INFO - {"user": "admin", "user_id": 1, "action": "chess_open", "time": "2026-06-18T15:18:33.339655", "details": {}}
+2026-06-18 15:18:33,341 - INFO - 127.0.0.1 - - [18/Jun/2026 15:18:33] "GET /chess HTTP/1.1" 200 -
+2026-06-18 15:18:33,594 - INFO - {"user": "admin", "user_id": 1, "action": "chess_open", "time": "2026-06-18T15:18:33.594072", "details": {}}
+2026-06-18 15:18:33,596 - INFO - 127.0.0.1 - - [18/Jun/2026 15:18:33] "GET /chess HTTP/1.1" 200 -
+2026-06-18 15:18:33,809 - INFO - {"user": "admin", "user_id": 1, "action": "chess_open", "time": "2026-06-18T15:18:33.809489", "details": {}}
+2026-06-18 15:18:33,811 - INFO - 127.0.0.1 - - [18/Jun/2026 15:18:33] "GET /chess HTTP/1.1" 200 -
+2026-06-18 15:18:35,814 - INFO - {"user": "admin", "user_id": 1, "action": "chess_load", "time": "2026-06-18T15:18:35.814827", "details": {"game_id": 1}}
+2026-06-18 15:18:35,816 - INFO - 127.0.0.1 - - [18/Jun/2026 15:18:35] "GET /api/chess/load HTTP/1.1" 200 -
+2026-06-18 15:19:02,296 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:02] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-18 15:19:02,339 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:02] "GET /admin HTTP/1.1" 200 -
+2026-06-18 15:19:02,428 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:02] "GET /api/tariffs HTTP/1.1" 200 -
+2026-06-18 15:19:02,502 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:02] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-18 15:19:19,480 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:19] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-18 15:19:19,526 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:19] "GET /admin HTTP/1.1" 200 -
+2026-06-18 15:19:19,578 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:19] "GET /api/tariffs HTTP/1.1" 200 -
+2026-06-18 15:19:19,645 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:19] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-18 15:19:21,061 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:21] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-18 15:19:21,106 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:21] "GET /admin HTTP/1.1" 200 -
+2026-06-18 15:19:21,155 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:21] "GET /api/tariffs HTTP/1.1" 200 -
+2026-06-18 15:19:21,225 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:21] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-18 15:19:22,165 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:22] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-18 15:19:22,211 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:22] "GET /admin HTTP/1.1" 200 -
+2026-06-18 15:19:22,258 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:22] "GET /api/tariffs HTTP/1.1" 200 -
+2026-06-18 15:19:22,323 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:22] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-18 15:19:22,333 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:22] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-18 15:19:22,370 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:22] "GET /admin HTTP/1.1" 200 -
+2026-06-18 15:19:22,410 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:22] "GET /api/tariffs HTTP/1.1" 200 -
+2026-06-18 15:19:22,467 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:22] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-18 15:19:22,636 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:22] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-18 15:19:22,685 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:22] "GET /admin HTTP/1.1" 200 -
+2026-06-18 15:19:22,736 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:22] "GET /api/tariffs HTTP/1.1" 200 -
+2026-06-18 15:19:22,807 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:22] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-18 15:19:23,938 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:23] "GET /api/tariffs HTTP/1.1" 200 -
+2026-06-18 15:19:24,456 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:24] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-18 15:19:24,779 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:24] "GET /api/tariffs HTTP/1.1" 200 -
+2026-06-18 15:19:26,886 - INFO - {"user": "admin", "user_id": 1, "action": "generate_invoice", "time": "2026-06-18T15:19:26.886523", "details": {"account_id": 1, "period": "2025-05", "total": 75473.89}}
+2026-06-18 15:19:26,915 - INFO - {"user": "admin", "user_id": 1, "action": "generate_invoice", "time": "2026-06-18T15:19:26.915421", "details": {"account_id": 2, "period": "2025-05", "total": 2825287.5}}
+2026-06-18 15:19:26,927 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:26] "POST /api/invoices/generate HTTP/1.1" 200 -
+2026-06-18 15:19:33,057 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:33] "GET /admin HTTP/1.1" 200 -
+2026-06-18 15:19:33,105 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:33] "GET /api/tariffs HTTP/1.1" 200 -
+2026-06-18 15:19:33,169 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:33] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-18 15:19:34,574 - INFO - {"user": "admin", "user_id": 1, "action": "logout", "time": "2026-06-18T15:19:34.574067", "details": {}}
+2026-06-18 15:19:34,575 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:34] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-18 15:19:34,583 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:34] "GET /login HTTP/1.1" 200 -
+2026-06-18 15:19:52,777 - INFO - {"user": "abonent", "user_id": 2, "action": "login", "time": "2026-06-18T15:19:52.777206", "details": {"success": true}}
+2026-06-18 15:19:52,778 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-18 15:19:52,785 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:52] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 15:19:52,836 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:52] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-18 15:19:55,034 - INFO - {"user": "abonent", "user_id": 2, "action": "chess_open", "time": "2026-06-18T15:19:55.034348", "details": {}}
+2026-06-18 15:19:55,036 - INFO - 127.0.0.1 - - [18/Jun/2026 15:19:55] "GET /chess HTTP/1.1" 200 -
+2026-06-18 15:20:01,414 - INFO - 127.0.0.1 - - [18/Jun/2026 15:20:01] "[32mGET /admin HTTP/1.1[0m" 302 -
+2026-06-18 15:20:01,450 - INFO - 127.0.0.1 - - [18/Jun/2026 15:20:01] "GET /dashboard HTTP/1.1" 200 -
+2026-06-18 15:20:01,489 - INFO - 127.0.0.1 - - [18/Jun/2026 15:20:01] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-18 15:20:03,604 - INFO - {"user": "abonent", "user_id": 2, "action": "logout", "time": "2026-06-18T15:20:03.604309", "details": {}}
+2026-06-18 15:20:03,606 - INFO - 127.0.0.1 - - [18/Jun/2026 15:20:03] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-18 15:20:03,613 - INFO - 127.0.0.1 - - [18/Jun/2026 15:20:03] "GET /login HTTP/1.1" 200 -
+2026-06-18 15:20:04,498 - INFO - 127.0.0.1 - - [18/Jun/2026 15:20:04] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-18 15:20:04,504 - INFO - 127.0.0.1 - - [18/Jun/2026 15:20:04] "GET /login HTTP/1.1" 200 -
+2026-06-18 15:20:15,678 - INFO - 127.0.0.1 - - [18/Jun/2026 15:20:15] "[33mGET /docs HTTP/1.1[0m" 404 -
+2026-06-18 15:20:45,409 - INFO - 127.0.0.1 - - [18/Jun/2026 15:20:45] "[32mGET /admin HTTP/1.1[0m" 302 -
+2026-06-18 15:20:45,418 - INFO - 127.0.0.1 - - [18/Jun/2026 15:20:45] "GET /login?next=/admin HTTP/1.1" 200 -
+2026-06-18 15:20:46,385 - INFO - 127.0.0.1 - - [18/Jun/2026 15:20:46] "[32mGET /readings HTTP/1.1[0m" 302 -
+2026-06-18 15:20:46,409 - INFO - 127.0.0.1 - - [18/Jun/2026 15:20:46] "GET /login?next=/readings HTTP/1.1" 200 -
+2026-06-18 15:20:46,899 - INFO - 127.0.0.1 - - [18/Jun/2026 15:20:46] "[32mGET /readings HTTP/1.1[0m" 302 -
+2026-06-19 10:55:30,347 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 10:55:30,348 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 10:55:30,353 - INFO -  * Restarting with stat
+2026-06-19 10:55:31,205 - WARNING -  * Debugger is active!
+2026-06-19 10:55:31,209 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 10:55:32,536 - INFO - 127.0.0.1 - - [19/Jun/2026 10:55:32] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 10:55:32,580 - INFO - 127.0.0.1 - - [19/Jun/2026 10:55:32] "GET /login HTTP/1.1" 200 -
+2026-06-19 10:55:32,840 - INFO - 127.0.0.1 - - [19/Jun/2026 10:55:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-19 10:55:32,844 - INFO - 127.0.0.1 - - [19/Jun/2026 10:55:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-19 10:55:41,659 - INFO - {"user": "abonent", "user_id": 2, "action": "login", "time": "2026-06-19T10:55:41.659654", "details": {"success": true}}
+2026-06-19 10:55:41,661 - INFO - 127.0.0.1 - - [19/Jun/2026 10:55:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 10:55:41,739 - INFO - 127.0.0.1 - - [19/Jun/2026 10:55:41] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 10:55:41,790 - INFO - 127.0.0.1 - - [19/Jun/2026 10:55:41] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-19 10:55:46,733 - INFO - 127.0.0.1 - - [19/Jun/2026 10:55:46] "[35m[1mGET /readings/history HTTP/1.1[0m" 500 -
+2026-06-19 10:55:46,912 - INFO - 127.0.0.1 - - [19/Jun/2026 10:55:46] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-06-19 10:55:46,940 - INFO - 127.0.0.1 - - [19/Jun/2026 10:55:46] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-06-19 10:55:47,013 - INFO - 127.0.0.1 - - [19/Jun/2026 10:55:47] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-19 10:55:47,085 - INFO - 127.0.0.1 - - [19/Jun/2026 10:55:47] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-19 10:55:47,093 - INFO - 127.0.0.1 - - [19/Jun/2026 10:55:47] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-19 10:55:49,617 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T10:55:49.617647", "details": {"period": "2025-05", "total": 75473.89}}
+2026-06-19 10:55:49,695 - INFO - 127.0.0.1 - - [19/Jun/2026 10:55:49] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 10:55:51,680 - INFO - 127.0.0.1 - - [19/Jun/2026 10:55:51] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 10:55:51,713 - INFO - 127.0.0.1 - - [19/Jun/2026 10:55:51] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-19 10:55:52,297 - INFO - 127.0.0.1 - - [19/Jun/2026 10:55:52] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-19 10:55:53,937 - INFO - {"user": "abonent", "user_id": 2, "action": "chess_open", "time": "2026-06-19T10:55:53.937490", "details": {}}
+2026-06-19 10:55:54,105 - INFO - 127.0.0.1 - - [19/Jun/2026 10:55:54] "GET /chess HTTP/1.1" 200 -
+2026-06-19 10:55:56,739 - INFO - 127.0.0.1 - - [19/Jun/2026 10:55:56] "GET /readings HTTP/1.1" 200 -
+2026-06-19 10:56:58,341 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 10:56:58,342 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 10:56:58,345 - INFO -  * Restarting with stat
+2026-06-19 10:56:59,167 - WARNING -  * Debugger is active!
+2026-06-19 10:56:59,169 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 10:57:00,793 - INFO - 127.0.0.1 - - [19/Jun/2026 10:57:00] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 10:57:00,817 - INFO - 127.0.0.1 - - [19/Jun/2026 10:57:00] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 10:57:01,034 - INFO - 127.0.0.1 - - [19/Jun/2026 10:57:01] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-19 10:57:01,672 - INFO - 127.0.0.1 - - [19/Jun/2026 10:57:01] "[35m[1mGET /readings/history HTTP/1.1[0m" 500 -
+2026-06-19 10:57:01,866 - INFO - 127.0.0.1 - - [19/Jun/2026 10:57:01] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-06-19 10:57:01,867 - INFO - 127.0.0.1 - - [19/Jun/2026 10:57:01] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-06-19 10:57:01,935 - INFO - 127.0.0.1 - - [19/Jun/2026 10:57:01] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-19 10:57:01,988 - INFO - 127.0.0.1 - - [19/Jun/2026 10:57:01] "[36mGET /readings/history?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-19 10:58:23,538 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 10:58:23,538 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 10:58:23,541 - INFO -  * Restarting with stat
+2026-06-19 10:58:24,516 - WARNING -  * Debugger is active!
+2026-06-19 10:58:24,518 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 10:58:25,184 - INFO - 127.0.0.1 - - [19/Jun/2026 10:58:25] "GET /readings/history HTTP/1.1" 200 -
+2026-06-19 10:58:28,604 - INFO - 127.0.0.1 - - [19/Jun/2026 10:58:28] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 10:58:28,648 - INFO - 127.0.0.1 - - [19/Jun/2026 10:58:28] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 10:58:28,864 - INFO - 127.0.0.1 - - [19/Jun/2026 10:58:28] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-19 10:58:29,536 - INFO - 127.0.0.1 - - [19/Jun/2026 10:58:29] "GET /readings/history HTTP/1.1" 200 -
+2026-06-19 10:58:40,581 - INFO - 127.0.0.1 - - [19/Jun/2026 10:58:40] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 10:58:40,603 - INFO - 127.0.0.1 - - [19/Jun/2026 10:58:40] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-19 10:58:41,612 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T10:58:41.611997", "details": {"period": "2025-05", "total": 75473.89}}
+2026-06-19 10:58:41,631 - INFO - 127.0.0.1 - - [19/Jun/2026 10:58:41] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 10:58:42,795 - INFO - 127.0.0.1 - - [19/Jun/2026 10:58:42] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 10:58:42,820 - INFO - 127.0.0.1 - - [19/Jun/2026 10:58:42] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-19 10:58:43,426 - INFO - 127.0.0.1 - - [19/Jun/2026 10:58:43] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-19 10:58:45,320 - INFO - 127.0.0.1 - - [19/Jun/2026 10:58:45] "GET /readings/history HTTP/1.1" 200 -
+2026-06-19 10:58:56,271 - INFO - 127.0.0.1 - - [19/Jun/2026 10:58:56] "GET /readings HTTP/1.1" 200 -
+2026-06-19 10:59:01,629 - INFO - 127.0.0.1 - - [19/Jun/2026 10:59:01] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-19 10:59:03,341 - INFO - 127.0.0.1 - - [19/Jun/2026 10:59:03] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-19 10:59:07,153 - INFO - 127.0.0.1 - - [19/Jun/2026 10:59:07] "GET /readings HTTP/1.1" 200 -
+2026-06-19 10:59:09,578 - INFO - 127.0.0.1 - - [19/Jun/2026 10:59:09] "GET /readings/history HTTP/1.1" 200 -
+2026-06-19 10:59:20,136 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T10:59:20.136072", "details": {"period": "2025-05", "total": 75473.89}}
+2026-06-19 10:59:20,137 - INFO - 127.0.0.1 - - [19/Jun/2026 10:59:20] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 10:59:21,704 - INFO - 127.0.0.1 - - [19/Jun/2026 10:59:21] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 10:59:21,734 - INFO - 127.0.0.1 - - [19/Jun/2026 10:59:21] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-19 11:02:36,984 - INFO -  * Detected change in 'C:\\Users\\maksimovNI24\\Desktop\\utility_app\\app.py', reloading
+2026-06-19 11:02:37,135 - INFO -  * Restarting with stat
+2026-06-19 11:02:38,123 - WARNING -  * Debugger is active!
+2026-06-19 11:02:38,125 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 11:10:36,774 - INFO - 127.0.0.1 - - [19/Jun/2026 11:10:36] "GET /readings/history HTTP/1.1" 200 -
+2026-06-19 11:10:39,402 - INFO - 127.0.0.1 - - [19/Jun/2026 11:10:39] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:10:39,458 - INFO - 127.0.0.1 - - [19/Jun/2026 11:10:39] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-19 11:10:43,519 - INFO - 127.0.0.1 - - [19/Jun/2026 11:10:43] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:10:43,554 - INFO - 127.0.0.1 - - [19/Jun/2026 11:10:43] "GET /api/payment/history HTTP/1.1" 200 -
+2026-06-19 11:10:44,698 - INFO - {"user": "abonent", "user_id": 2, "action": "logout", "time": "2026-06-19T11:10:44.697998", "details": {}}
+2026-06-19 11:10:44,699 - INFO - 127.0.0.1 - - [19/Jun/2026 11:10:44] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-19 11:10:44,710 - INFO - 127.0.0.1 - - [19/Jun/2026 11:10:44] "GET /login HTTP/1.1" 200 -
+2026-06-19 11:10:52,442 - INFO - {"user": "admin", "user_id": 1, "action": "login", "time": "2026-06-19T11:10:52.442309", "details": {"success": true}}
+2026-06-19 11:10:52,443 - INFO - 127.0.0.1 - - [19/Jun/2026 11:10:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 11:10:52,452 - INFO - 127.0.0.1 - - [19/Jun/2026 11:10:52] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:10:52,638 - INFO - 127.0.0.1 - - [19/Jun/2026 11:10:52] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:10:52,733 - INFO - 127.0.0.1 - - [19/Jun/2026 11:10:52] "GET /api/tariffs HTTP/1.1" 200 -
+2026-06-19 11:10:52,808 - INFO - 127.0.0.1 - - [19/Jun/2026 11:10:52] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-19 11:10:56,519 - INFO - 127.0.0.1 - - [19/Jun/2026 11:10:56] "[33mGET /admin/clear_data HTTP/1.1[0m" 404 -
+2026-06-19 11:11:02,378 - INFO - 127.0.0.1 - - [19/Jun/2026 11:11:02] "GET /api/tariffs HTTP/1.1" 200 -
+2026-06-19 11:11:12,884 - INFO - 127.0.0.1 - - [19/Jun/2026 11:11:12] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-19 11:11:15,873 - INFO - 127.0.0.1 - - [19/Jun/2026 11:11:15] "GET /api/reports/debtors HTTP/1.1" 200 -
+2026-06-19 11:11:25,544 - INFO - 127.0.0.1 - - [19/Jun/2026 11:11:25] "[33mGET /admin/clear_data HTTP/1.1[0m" 404 -
+2026-06-19 11:12:46,831 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 11:12:46,832 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 11:12:46,834 - INFO -  * Restarting with stat
+2026-06-19 11:12:47,780 - WARNING -  * Debugger is active!
+2026-06-19 11:12:47,784 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 11:12:48,555 - INFO - 127.0.0.1 - - [19/Jun/2026 11:12:48] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 11:12:48,565 - INFO - 127.0.0.1 - - [19/Jun/2026 11:12:48] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:12:48,622 - INFO - 127.0.0.1 - - [19/Jun/2026 11:12:48] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:12:48,874 - INFO - 127.0.0.1 - - [19/Jun/2026 11:12:48] "GET /api/tariffs HTTP/1.1" 200 -
+2026-06-19 11:12:48,929 - INFO - 127.0.0.1 - - [19/Jun/2026 11:12:48] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-19 11:12:51,289 - INFO - 127.0.0.1 - - [19/Jun/2026 11:12:51] "[33mGET /admin/clear_data HTTP/1.1[0m" 404 -
+2026-06-19 11:12:54,907 - INFO - 127.0.0.1 - - [19/Jun/2026 11:12:54] "[32mGET /admin/reset_all HTTP/1.1[0m" 302 -
+2026-06-19 11:12:54,917 - INFO - 127.0.0.1 - - [19/Jun/2026 11:12:54] "[32mGET /admin HTTP/1.1[0m" 302 -
+2026-06-19 11:12:54,937 - INFO - 127.0.0.1 - - [19/Jun/2026 11:12:54] "GET /login?next=/admin HTTP/1.1" 200 -
+2026-06-19 11:12:59,757 - INFO - 127.0.0.1 - - [19/Jun/2026 11:12:59] "[33mGET /admin/clear_data HTTP/1.1[0m" 404 -
+2026-06-19 11:23:15,353 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 11:23:15,354 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 11:23:15,357 - INFO -  * Restarting with stat
+2026-06-19 11:23:16,165 - WARNING -  * Debugger is active!
+2026-06-19 11:23:16,168 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 11:23:18,275 - INFO - 127.0.0.1 - - [19/Jun/2026 11:23:18] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 11:23:18,319 - INFO - 127.0.0.1 - - [19/Jun/2026 11:23:18] "GET /login HTTP/1.1" 200 -
+2026-06-19 11:23:26,534 - INFO - {"user": "anonymous", "user_id": null, "action": "login_failed", "time": "2026-06-19T11:23:26.534293", "details": {"login": "abonent"}}
+2026-06-19 11:23:26,536 - INFO - 127.0.0.1 - - [19/Jun/2026 11:23:26] "POST /login HTTP/1.1" 200 -
+2026-06-19 11:23:32,662 - INFO - {"user": "abonent", "user_id": 2, "action": "login", "time": "2026-06-19T11:23:32.662706", "details": {"success": true}}
+2026-06-19 11:23:32,664 - INFO - 127.0.0.1 - - [19/Jun/2026 11:23:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 11:23:32,751 - INFO - 127.0.0.1 - - [19/Jun/2026 11:23:32] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:23:35,118 - INFO - {"user": "abonent", "user_id": 2, "action": "view_history", "time": "2026-06-19T11:23:35.118056", "details": {"page": 1}}
+2026-06-19 11:23:35,170 - INFO - 127.0.0.1 - - [19/Jun/2026 11:23:35] "GET /readings/history HTTP/1.1" 200 -
+2026-06-19 11:23:37,545 - INFO - 127.0.0.1 - - [19/Jun/2026 11:23:37] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:23:38,201 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:23:38.201253", "details": {"period": "2025-05", "total": 0}}
+2026-06-19 11:23:38,273 - INFO - 127.0.0.1 - - [19/Jun/2026 11:23:38] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:23:42,125 - INFO - 127.0.0.1 - - [19/Jun/2026 11:23:42] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-19 11:23:44,287 - INFO - 127.0.0.1 - - [19/Jun/2026 11:23:44] "GET /readings HTTP/1.1" 200 -
+2026-06-19 11:23:53,745 - INFO - 127.0.0.1 - - [19/Jun/2026 11:23:53] "[32mPOST /readings HTTP/1.1[0m" 302 -
+2026-06-19 11:23:53,758 - INFO - 127.0.0.1 - - [19/Jun/2026 11:23:53] "GET /readings HTTP/1.1" 200 -
+2026-06-19 11:24:05,878 - INFO - {"user": "abonent", "user_id": 2, "action": "submit_reading_zoned", "time": "2026-06-19T11:24:05.878418", "details": {"meter_id": "1", "period": "2025-05", "consumption_day": 5783.0, "consumption_night": 7900.0}}
+2026-06-19 11:24:05,880 - INFO - 127.0.0.1 - - [19/Jun/2026 11:24:05] "[32mPOST /readings HTTP/1.1[0m" 302 -
+2026-06-19 11:24:05,891 - INFO - 127.0.0.1 - - [19/Jun/2026 11:24:05] "GET /readings HTTP/1.1" 200 -
+2026-06-19 11:24:07,243 - INFO - 127.0.0.1 - - [19/Jun/2026 11:24:07] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:24:08,703 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:24:08.702916", "details": {"period": "2025-05", "total": 54814.6}}
+2026-06-19 11:24:08,707 - INFO - 127.0.0.1 - - [19/Jun/2026 11:24:08] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:24:33,605 - INFO - {"user": "abonent", "user_id": 2, "action": "register_payment", "time": "2026-06-19T11:24:33.604923", "details": {"account_id": 1, "period": "2025-05", "amount": 54814.6, "comment": ""}}
+2026-06-19 11:24:33,608 - INFO - 127.0.0.1 - - [19/Jun/2026 11:24:33] "POST /api/payment/register HTTP/1.1" 200 -
+2026-06-19 11:24:35,147 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:24:35.147891", "details": {"period": "2025-05", "total": 54814.6}}
+2026-06-19 11:24:35,149 - INFO - 127.0.0.1 - - [19/Jun/2026 11:24:35] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:24:40,820 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:24:40.820291", "details": {"period": "2025-05", "total": 54814.6}}
+2026-06-19 11:24:40,822 - INFO - 127.0.0.1 - - [19/Jun/2026 11:24:40] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:24:41,453 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:24:41.453180", "details": {"period": "2025-05", "total": 54814.6}}
+2026-06-19 11:24:41,455 - INFO - 127.0.0.1 - - [19/Jun/2026 11:24:41] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:24:41,593 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:24:41.593564", "details": {"period": "2025-05", "total": 54814.6}}
+2026-06-19 11:24:41,595 - INFO - 127.0.0.1 - - [19/Jun/2026 11:24:41] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:24:42,328 - INFO - 127.0.0.1 - - [19/Jun/2026 11:24:42] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:24:43,291 - INFO - 127.0.0.1 - - [19/Jun/2026 11:24:43] "GET /readings HTTP/1.1" 200 -
+2026-06-19 11:24:45,850 - INFO - 127.0.0.1 - - [19/Jun/2026 11:24:45] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:24:46,548 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:24:46.548732", "details": {"period": "2025-05", "total": 54814.6}}
+2026-06-19 11:24:46,551 - INFO - 127.0.0.1 - - [19/Jun/2026 11:24:46] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:24:54,161 - INFO - {"user": "abonent", "user_id": 2, "action": "register_payment", "time": "2026-06-19T11:24:54.161799", "details": {"account_id": 1, "period": "2025-05", "amount": 29520.0, "comment": ""}}
+2026-06-19 11:24:54,163 - INFO - 127.0.0.1 - - [19/Jun/2026 11:24:54] "POST /api/payment/register HTTP/1.1" 200 -
+2026-06-19 11:24:55,692 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:24:55.692084", "details": {"period": "2025-05", "total": 54814.6}}
+2026-06-19 11:24:55,693 - INFO - 127.0.0.1 - - [19/Jun/2026 11:24:55] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:24:58,588 - INFO - 127.0.0.1 - - [19/Jun/2026 11:24:58] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:25:01,098 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:01] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-19 11:25:06,394 - INFO - {"user": "abonent", "user_id": 2, "action": "logout", "time": "2026-06-19T11:25:06.394518", "details": {}}
+2026-06-19 11:25:06,395 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:06] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-19 11:25:06,403 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:06] "GET /login HTTP/1.1" 200 -
+2026-06-19 11:25:11,940 - INFO - {"user": "admin", "user_id": 1, "action": "login", "time": "2026-06-19T11:25:11.940281", "details": {"success": true}}
+2026-06-19 11:25:11,941 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 11:25:11,948 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:11] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:25:11,992 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:25:11.992592", "details": {}}
+2026-06-19 11:25:12,055 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:12] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:25:13,875 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:25:13.875403", "details": {}}
+2026-06-19 11:25:13,876 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:13] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:25:17,149 - INFO - {"user": "admin", "user_id": 1, "action": "clear_data", "time": "2026-06-19T11:25:17.149041", "details": {}}
+2026-06-19 11:25:17,153 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:17] "[32mGET /admin/clear_data HTTP/1.1[0m" 302 -
+2026-06-19 11:25:17,182 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:25:17.181907", "details": {}}
+2026-06-19 11:25:17,185 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:17] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:25:23,127 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:23] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-19 11:25:23,312 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:23] "GET /admin/logs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-06-19 11:25:23,313 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:23] "GET /admin/logs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-06-19 11:25:23,384 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:23] "GET /admin/logs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-06-19 11:25:23,438 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:23] "[36mGET /admin/logs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-19 11:25:23,445 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:23] "[36mGET /admin/logs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-19 11:25:23,454 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:23] "[36mGET /admin/logs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-19 11:25:28,629 - INFO - {"user": "admin", "user_id": 1, "action": "clean_state", "time": "2026-06-19T11:25:28.629641", "details": {}}
+2026-06-19 11:25:28,632 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:28] "[32mGET /admin/clean_state HTTP/1.1[0m" 302 -
+2026-06-19 11:25:28,668 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:25:28.668222", "details": {}}
+2026-06-19 11:25:28,669 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:28] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:25:31,296 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:25:31.296001", "details": {}}
+2026-06-19 11:25:31,297 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:31] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:25:31,853 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:25:31.853526", "details": {}}
+2026-06-19 11:25:31,854 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:31] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:25:32,003 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:25:32.003608", "details": {}}
+2026-06-19 11:25:32,005 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:32] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:25:35,366 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:35] "[32mGET /admin/reset_all HTTP/1.1[0m" 302 -
+2026-06-19 11:25:35,376 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:35] "[32mGET /admin HTTP/1.1[0m" 302 -
+2026-06-19 11:25:35,393 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:35] "GET /login?next=/admin HTTP/1.1" 200 -
+2026-06-19 11:25:37,425 - INFO - {"user": "anonymous", "user_id": null, "action": "login_failed", "time": "2026-06-19T11:25:37.425193", "details": {"login": "admin"}}
+2026-06-19 11:25:37,429 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:37] "POST /login?next=/admin HTTP/1.1" 200 -
+2026-06-19 11:25:41,051 - INFO - {"user": "anonymous", "user_id": null, "action": "login_failed", "time": "2026-06-19T11:25:41.051383", "details": {"login": "admin"}}
+2026-06-19 11:25:41,054 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:41] "POST /login?next=/admin HTTP/1.1" 200 -
+2026-06-19 11:25:46,977 - INFO - {"user": "anonymous", "user_id": null, "action": "login_failed", "time": "2026-06-19T11:25:46.977271", "details": {"login": "admin"}}
+2026-06-19 11:25:46,981 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:46] "POST /login?next=/admin HTTP/1.1" 200 -
+2026-06-19 11:25:50,721 - INFO - {"user": "anonymous", "user_id": null, "action": "login_failed", "time": "2026-06-19T11:25:50.721676", "details": {"login": "admin"}}
+2026-06-19 11:25:50,724 - INFO - 127.0.0.1 - - [19/Jun/2026 11:25:50] "POST /login?next=/admin HTTP/1.1" 200 -
+2026-06-19 11:26:04,036 - INFO - 127.0.0.1 - - [19/Jun/2026 11:26:04] "[32mGET /admin/clear_data HTTP/1.1[0m" 302 -
+2026-06-19 11:26:04,044 - INFO - 127.0.0.1 - - [19/Jun/2026 11:26:04] "GET /login?next=/admin/clear_data HTTP/1.1" 200 -
+2026-06-19 11:26:08,190 - INFO - {"user": "anonymous", "user_id": null, "action": "login_failed", "time": "2026-06-19T11:26:08.190039", "details": {"login": "admin"}}
+2026-06-19 11:26:08,193 - INFO - 127.0.0.1 - - [19/Jun/2026 11:26:08] "POST /login?next=/admin/clear_data HTTP/1.1" 200 -
+2026-06-19 11:26:09,602 - INFO - {"user": "anonymous", "user_id": null, "action": "login_failed", "time": "2026-06-19T11:26:09.602768", "details": {"login": "admin"}}
+2026-06-19 11:26:09,606 - INFO - 127.0.0.1 - - [19/Jun/2026 11:26:09] "POST /login?next=/admin/clear_data HTTP/1.1" 200 -
+2026-06-19 11:26:16,645 - INFO - {"user": "anonymous", "user_id": null, "action": "login_failed", "time": "2026-06-19T11:26:16.645302", "details": {"login": "abonent"}}
+2026-06-19 11:26:16,649 - INFO - 127.0.0.1 - - [19/Jun/2026 11:26:16] "POST /login?next=/admin/clear_data HTTP/1.1" 200 -
+2026-06-19 11:27:58,014 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 11:27:58,014 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 11:27:58,018 - INFO -  * Restarting with stat
+2026-06-19 11:27:59,036 - WARNING -  * Debugger is active!
+2026-06-19 11:27:59,041 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 11:28:03,496 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:03] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 11:28:03,512 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:03] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:28:03,577 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:28:03.577371", "details": {}}
+2026-06-19 11:28:03,601 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:03] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:28:05,614 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:05] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:28:05,635 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:28:05.635339", "details": {}}
+2026-06-19 11:28:05,637 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:05] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:28:07,672 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:07] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:28:07,690 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:28:07.690401", "details": {}}
+2026-06-19 11:28:07,692 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:07] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:28:08,145 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:08] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:28:08,171 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:28:08.171566", "details": {}}
+2026-06-19 11:28:08,172 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:08] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:28:08,331 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:08] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:28:08,362 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:28:08.362176", "details": {}}
+2026-06-19 11:28:08,364 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:08] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:28:12,144 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:12] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:28:12,170 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:28:12.170472", "details": {}}
+2026-06-19 11:28:12,172 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:12] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:28:12,287 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:12] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:28:12,315 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:28:12.315042", "details": {}}
+2026-06-19 11:28:12,318 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:12] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:28:12,703 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:12] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:28:12,724 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:28:12.724247", "details": {}}
+2026-06-19 11:28:12,725 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:12] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:28:13,152 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:13] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:28:13,173 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:28:13.173695", "details": {}}
+2026-06-19 11:28:13,174 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:13] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:28:13,298 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:13] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:28:13,320 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:28:13.320687", "details": {}}
+2026-06-19 11:28:13,322 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:13] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:28:20,789 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:28:20.789120", "details": {}}
+2026-06-19 11:28:20,790 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:20] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:28:23,953 - INFO - {"user": "abonent", "user_id": 2, "action": "login", "time": "2026-06-19T11:28:23.953547", "details": {"success": true}}
+2026-06-19 11:28:23,955 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:23] "[32mPOST /login?next=/admin/clear_data HTTP/1.1[0m" 302 -
+2026-06-19 11:28:23,973 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:23] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:28:26,002 - INFO - {"user": "abonent", "user_id": 2, "action": "logout", "time": "2026-06-19T11:28:26.002664", "details": {}}
+2026-06-19 11:28:26,004 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:26] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-19 11:28:26,021 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:26] "GET /login HTTP/1.1" 200 -
+2026-06-19 11:28:36,208 - INFO - {"user": "admin", "user_id": 1, "action": "login", "time": "2026-06-19T11:28:36.208104", "details": {"success": true}}
+2026-06-19 11:28:36,209 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 11:28:36,217 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:36] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:28:36,243 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:28:36.243543", "details": {}}
+2026-06-19 11:28:36,244 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:36] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:28:41,817 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:41] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:28:41,838 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:28:41.837930", "details": {}}
+2026-06-19 11:28:41,841 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:41] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:28:43,352 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:43] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:28:43,374 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:28:43.374416", "details": {}}
+2026-06-19 11:28:43,375 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:43] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:28:43,504 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:43] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:28:43,531 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:28:43.531516", "details": {}}
+2026-06-19 11:28:43,533 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:43] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:28:43,684 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:43] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:28:43,700 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:28:43.700696", "details": {}}
+2026-06-19 11:28:43,702 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:43] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:28:48,502 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:48] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-19 11:28:48,721 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:48] "[36mGET /admin/logs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-06-19 11:28:48,722 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:48] "[36mGET /admin/logs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-06-19 11:28:48,784 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:48] "[36mGET /admin/logs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-19 11:28:52,001 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:52] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:28:52,026 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:28:52.026442", "details": {}}
+2026-06-19 11:28:52,028 - INFO - 127.0.0.1 - - [19/Jun/2026 11:28:52] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:29:39,244 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 11:29:39,244 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 11:29:39,246 - INFO -  * Restarting with stat
+2026-06-19 11:29:39,907 - WARNING -  * Debugger is active!
+2026-06-19 11:29:39,910 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 11:29:41,526 - INFO - 127.0.0.1 - - [19/Jun/2026 11:29:41] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 11:29:41,545 - INFO - 127.0.0.1 - - [19/Jun/2026 11:29:41] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:29:41,578 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:29:41.577942", "details": {}}
+2026-06-19 11:29:41,587 - INFO - 127.0.0.1 - - [19/Jun/2026 11:29:41] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:29:43,318 - INFO - 127.0.0.1 - - [19/Jun/2026 11:29:43] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:29:43,342 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:29:43.342578", "details": {}}
+2026-06-19 11:29:43,344 - INFO - 127.0.0.1 - - [19/Jun/2026 11:29:43] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:29:43,886 - INFO - 127.0.0.1 - - [19/Jun/2026 11:29:43] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:29:43,915 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:29:43.915675", "details": {}}
+2026-06-19 11:29:43,917 - INFO - 127.0.0.1 - - [19/Jun/2026 11:29:43] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:29:44,045 - INFO - 127.0.0.1 - - [19/Jun/2026 11:29:44] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:29:44,067 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:29:44.067540", "details": {}}
+2026-06-19 11:29:44,068 - INFO - 127.0.0.1 - - [19/Jun/2026 11:29:44] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:29:44,187 - INFO - 127.0.0.1 - - [19/Jun/2026 11:29:44] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:29:44,212 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:29:44.212783", "details": {}}
+2026-06-19 11:29:44,214 - INFO - 127.0.0.1 - - [19/Jun/2026 11:29:44] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:29:44,519 - INFO - 127.0.0.1 - - [19/Jun/2026 11:29:44] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:29:44,537 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:29:44.537826", "details": {}}
+2026-06-19 11:29:44,540 - INFO - 127.0.0.1 - - [19/Jun/2026 11:29:44] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:29:44,937 - INFO - 127.0.0.1 - - [19/Jun/2026 11:29:44] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:29:44,962 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:29:44.962428", "details": {}}
+2026-06-19 11:29:44,963 - INFO - 127.0.0.1 - - [19/Jun/2026 11:29:44] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:29:45,252 - INFO - 127.0.0.1 - - [19/Jun/2026 11:29:45] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:29:45,271 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:29:45.271535", "details": {}}
+2026-06-19 11:29:45,276 - INFO - 127.0.0.1 - - [19/Jun/2026 11:29:45] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:30:04,469 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 11:30:04,469 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 11:30:04,471 - INFO -  * Restarting with stat
+2026-06-19 11:30:05,111 - WARNING -  * Debugger is active!
+2026-06-19 11:30:05,113 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 11:30:06,403 - INFO - 127.0.0.1 - - [19/Jun/2026 11:30:06] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 11:30:06,422 - INFO - 127.0.0.1 - - [19/Jun/2026 11:30:06] "GET /login HTTP/1.1" 200 -
+2026-06-19 11:30:06,605 - INFO - 127.0.0.1 - - [19/Jun/2026 11:30:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-19 11:30:06,609 - INFO - 127.0.0.1 - - [19/Jun/2026 11:30:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-19 11:30:13,121 - INFO - 127.0.0.1 - - [19/Jun/2026 11:30:13] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 11:30:13,136 - INFO - 127.0.0.1 - - [19/Jun/2026 11:30:13] "GET /login HTTP/1.1" 200 -
+2026-06-19 11:30:13,350 - INFO - 127.0.0.1 - - [19/Jun/2026 11:30:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-19 11:30:13,356 - INFO - 127.0.0.1 - - [19/Jun/2026 11:30:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-19 11:30:19,937 - INFO - {"user": "abonent", "user_id": 2, "action": "login", "time": "2026-06-19T11:30:19.937097", "details": {"success": true}}
+2026-06-19 11:30:19,938 - INFO - 127.0.0.1 - - [19/Jun/2026 11:30:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 11:30:19,967 - INFO - 127.0.0.1 - - [19/Jun/2026 11:30:19] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:30:25,609 - INFO - {"user": "abonent", "user_id": 2, "action": "view_history", "time": "2026-06-19T11:30:25.609285", "details": {"page": 1}}
+2026-06-19 11:30:25,634 - INFO - 127.0.0.1 - - [19/Jun/2026 11:30:25] "GET /readings/history HTTP/1.1" 200 -
+2026-06-19 11:30:29,776 - INFO - 127.0.0.1 - - [19/Jun/2026 11:30:29] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:30:30,651 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:30:30.651428", "details": {"period": "2025-05", "total": 0}}
+2026-06-19 11:30:30,661 - INFO - 127.0.0.1 - - [19/Jun/2026 11:30:30] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:30:34,592 - INFO - 127.0.0.1 - - [19/Jun/2026 11:30:34] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-19 11:30:38,932 - INFO - 127.0.0.1 - - [19/Jun/2026 11:30:38] "GET /readings HTTP/1.1" 200 -
+2026-06-19 11:30:49,976 - INFO - 127.0.0.1 - - [19/Jun/2026 11:30:49] "[32mPOST /readings HTTP/1.1[0m" 302 -
+2026-06-19 11:30:49,989 - INFO - 127.0.0.1 - - [19/Jun/2026 11:30:49] "GET /readings HTTP/1.1" 200 -
+2026-06-19 11:31:06,140 - INFO - {"user": "abonent", "user_id": 2, "action": "submit_reading", "time": "2026-06-19T11:31:06.140418", "details": {"meter_id": "3", "period": "2026-05", "consumption": 200.01}}
+2026-06-19 11:31:06,149 - INFO - 127.0.0.1 - - [19/Jun/2026 11:31:06] "[32mPOST /readings HTTP/1.1[0m" 302 -
+2026-06-19 11:31:06,165 - INFO - 127.0.0.1 - - [19/Jun/2026 11:31:06] "GET /readings HTTP/1.1" 200 -
+2026-06-19 11:31:07,635 - INFO - 127.0.0.1 - - [19/Jun/2026 11:31:07] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:31:09,041 - INFO - {"user": "abonent", "user_id": 2, "action": "view_history", "time": "2026-06-19T11:31:09.041482", "details": {"page": 1}}
+2026-06-19 11:31:09,042 - INFO - 127.0.0.1 - - [19/Jun/2026 11:31:09] "GET /readings/history HTTP/1.1" 200 -
+2026-06-19 11:31:16,949 - INFO - 127.0.0.1 - - [19/Jun/2026 11:31:16] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:31:17,790 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:31:17.790282", "details": {"period": "2025-05", "total": 0}}
+2026-06-19 11:31:17,791 - INFO - 127.0.0.1 - - [19/Jun/2026 11:31:17] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:31:19,093 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:31:19.093268", "details": {"period": "2025-05", "total": 0}}
+2026-06-19 11:31:19,096 - INFO - 127.0.0.1 - - [19/Jun/2026 11:31:19] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:31:20,668 - INFO - 127.0.0.1 - - [19/Jun/2026 11:31:20] "GET /readings HTTP/1.1" 200 -
+2026-06-19 11:31:22,642 - INFO - {"user": "abonent", "user_id": 2, "action": "view_history", "time": "2026-06-19T11:31:22.642838", "details": {"page": 1}}
+2026-06-19 11:31:22,644 - INFO - 127.0.0.1 - - [19/Jun/2026 11:31:22] "GET /readings/history HTTP/1.1" 200 -
+2026-06-19 11:31:24,519 - INFO - 127.0.0.1 - - [19/Jun/2026 11:31:24] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:31:26,270 - INFO - 127.0.0.1 - - [19/Jun/2026 11:31:26] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-19 11:31:30,916 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:31:30.916196", "details": {"period": "2025-05", "total": 0}}
+2026-06-19 11:31:30,917 - INFO - 127.0.0.1 - - [19/Jun/2026 11:31:30] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:31:32,466 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:31:32.466645", "details": {"period": "2025-05", "total": 0}}
+2026-06-19 11:31:32,467 - INFO - 127.0.0.1 - - [19/Jun/2026 11:31:32] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:31:35,622 - INFO - 127.0.0.1 - - [19/Jun/2026 11:31:35] "GET /readings HTTP/1.1" 200 -
+2026-06-19 11:31:42,629 - INFO - {"user": "abonent", "user_id": 2, "action": "logout", "time": "2026-06-19T11:31:42.629694", "details": {}}
+2026-06-19 11:31:42,631 - INFO - 127.0.0.1 - - [19/Jun/2026 11:31:42] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-19 11:31:42,638 - INFO - 127.0.0.1 - - [19/Jun/2026 11:31:42] "GET /login HTTP/1.1" 200 -
+2026-06-19 11:31:48,324 - INFO - {"user": "admin", "user_id": 1, "action": "login", "time": "2026-06-19T11:31:48.324125", "details": {"success": true}}
+2026-06-19 11:31:48,325 - INFO - 127.0.0.1 - - [19/Jun/2026 11:31:48] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 11:31:48,333 - INFO - 127.0.0.1 - - [19/Jun/2026 11:31:48] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:31:48,374 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:31:48.374533", "details": {}}
+2026-06-19 11:31:48,386 - INFO - 127.0.0.1 - - [19/Jun/2026 11:31:48] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:31:59,876 - INFO - 127.0.0.1 - - [19/Jun/2026 11:31:59] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-19 11:32:00,074 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:00] "[36mGET /admin/logs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-06-19 11:32:00,076 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:00] "[36mGET /admin/logs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-06-19 11:32:00,139 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:00] "[36mGET /admin/logs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-19 11:32:00,205 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:00] "[36mGET /admin/logs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-19 11:32:00,214 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:00] "[36mGET /admin/logs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-19 11:32:03,493 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:03] "[35m[1mGET /admin/logs HTTP/1.1[0m" 500 -
+2026-06-19 11:32:03,574 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:03] "[36mGET /admin/logs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-06-19 11:32:03,577 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:03] "[36mGET /admin/logs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-06-19 11:32:03,642 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:03] "[36mGET /admin/logs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-06-19 11:32:16,927 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 11:32:16,928 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 11:32:16,929 - INFO -  * Restarting with stat
+2026-06-19 11:32:17,737 - WARNING -  * Debugger is active!
+2026-06-19 11:32:17,741 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 11:32:19,581 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:19] "GET /admin/logs HTTP/1.1" 200 -
+2026-06-19 11:32:26,924 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:32:26.924725", "details": {}}
+2026-06-19 11:32:26,940 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:26] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:32:29,848 - INFO - {"user": "admin", "user_id": 1, "action": "clear_data", "time": "2026-06-19T11:32:29.848422", "details": {}}
+2026-06-19 11:32:29,853 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:29] "[32mGET /admin/clear_data HTTP/1.1[0m" 302 -
+2026-06-19 11:32:29,879 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:32:29.879042", "details": {}}
+2026-06-19 11:32:29,883 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:29] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:32:34,517 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:34] "GET /admin/logs HTTP/1.1" 200 -
+2026-06-19 11:32:35,931 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:32:35.931192", "details": {}}
+2026-06-19 11:32:35,932 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:35] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:32:39,474 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:39] "[32mGET /admin/reset_all HTTP/1.1[0m" 302 -
+2026-06-19 11:32:39,484 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:39] "[32mGET /admin HTTP/1.1[0m" 302 -
+2026-06-19 11:32:39,502 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:39] "GET /login?next=/admin HTTP/1.1" 200 -
+2026-06-19 11:32:45,805 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 11:32:45,807 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 11:32:45,811 - INFO -  * Restarting with stat
+2026-06-19 11:32:46,581 - WARNING -  * Debugger is active!
+2026-06-19 11:32:46,584 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 11:32:49,171 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:49] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 11:32:49,195 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:49] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:32:49,264 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:32:49.263909", "details": {}}
+2026-06-19 11:32:49,281 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:49] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:32:50,970 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:50] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:32:50,992 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:32:50.992172", "details": {}}
+2026-06-19 11:32:50,994 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:50] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:32:53,871 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:53] "GET /admin/logs HTTP/1.1" 200 -
+2026-06-19 11:32:56,494 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:32:56.494474", "details": {}}
+2026-06-19 11:32:56,496 - INFO - 127.0.0.1 - - [19/Jun/2026 11:32:56] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:33:01,993 - INFO - 127.0.0.1 - - [19/Jun/2026 11:33:01] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 11:33:02,049 - INFO - 127.0.0.1 - - [19/Jun/2026 11:33:02] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:33:02,097 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:33:02.097102", "details": {}}
+2026-06-19 11:33:02,100 - INFO - 127.0.0.1 - - [19/Jun/2026 11:33:02] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:33:07,350 - INFO - 127.0.0.1 - - [19/Jun/2026 11:33:07] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 11:33:07,389 - INFO - 127.0.0.1 - - [19/Jun/2026 11:33:07] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:33:07,432 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:33:07.432455", "details": {}}
+2026-06-19 11:33:07,434 - INFO - 127.0.0.1 - - [19/Jun/2026 11:33:07] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:33:08,796 - INFO - 127.0.0.1 - - [19/Jun/2026 11:33:08] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:33:08,816 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:33:08.816581", "details": {}}
+2026-06-19 11:33:08,818 - INFO - 127.0.0.1 - - [19/Jun/2026 11:33:08] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:33:09,133 - INFO - 127.0.0.1 - - [19/Jun/2026 11:33:09] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:33:09,152 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:33:09.152476", "details": {}}
+2026-06-19 11:33:09,153 - INFO - 127.0.0.1 - - [19/Jun/2026 11:33:09] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:33:09,498 - INFO - 127.0.0.1 - - [19/Jun/2026 11:33:09] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:33:09,518 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:33:09.518617", "details": {}}
+2026-06-19 11:33:09,520 - INFO - 127.0.0.1 - - [19/Jun/2026 11:33:09] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:33:24,455 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 11:33:24,455 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 11:33:24,456 - INFO -  * Restarting with stat
+2026-06-19 11:33:25,243 - WARNING -  * Debugger is active!
+2026-06-19 11:33:25,246 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 11:33:28,389 - INFO - 127.0.0.1 - - [19/Jun/2026 11:33:28] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 11:33:28,399 - INFO - 127.0.0.1 - - [19/Jun/2026 11:33:28] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:33:28,464 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:33:28.464388", "details": {}}
+2026-06-19 11:33:28,481 - INFO - 127.0.0.1 - - [19/Jun/2026 11:33:28] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:33:33,835 - INFO - 127.0.0.1 - - [19/Jun/2026 11:33:33] "GET /login?next=/admin HTTP/1.1" 200 -
+2026-06-19 11:33:34,675 - INFO - 127.0.0.1 - - [19/Jun/2026 11:33:34] "GET /login?next=/admin HTTP/1.1" 200 -
+2026-06-19 11:33:37,813 - INFO - 127.0.0.1 - - [19/Jun/2026 11:33:37] "GET /login HTTP/1.1" 200 -
+2026-06-19 11:40:04,144 - INFO -  * Detected change in 'C:\\Users\\maksimovNI24\\Desktop\\utility_app\\app.py', reloading
+2026-06-19 11:40:04,323 - INFO -  * Restarting with stat
+2026-06-19 11:40:07,091 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 11:40:07,092 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 11:40:07,094 - INFO -  * Restarting with stat
+2026-06-19 11:40:07,737 - WARNING -  * Debugger is active!
+2026-06-19 11:40:07,740 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 11:40:09,101 - INFO - 127.0.0.1 - - [19/Jun/2026 11:40:09] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 11:40:09,116 - INFO - 127.0.0.1 - - [19/Jun/2026 11:40:09] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:40:09,155 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:40:09.155774", "details": {}}
+2026-06-19 11:40:09,165 - INFO - 127.0.0.1 - - [19/Jun/2026 11:40:09] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:40:16,210 - INFO - 127.0.0.1 - - [19/Jun/2026 11:40:16] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 11:40:16,253 - INFO - 127.0.0.1 - - [19/Jun/2026 11:40:16] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:40:16,279 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:40:16.278861", "details": {}}
+2026-06-19 11:40:16,281 - INFO - 127.0.0.1 - - [19/Jun/2026 11:40:16] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:40:18,374 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:40:18.374225", "details": {}}
+2026-06-19 11:40:18,376 - INFO - 127.0.0.1 - - [19/Jun/2026 11:40:18] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:40:18,523 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:40:18.523185", "details": {}}
+2026-06-19 11:40:18,524 - INFO - 127.0.0.1 - - [19/Jun/2026 11:40:18] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:40:21,879 - INFO - {"user": "admin", "user_id": 1, "action": "clear_data", "time": "2026-06-19T11:40:21.879642", "details": {}}
+2026-06-19 11:40:21,884 - INFO - 127.0.0.1 - - [19/Jun/2026 11:40:21] "[32mGET /admin/clear_data HTTP/1.1[0m" 302 -
+2026-06-19 11:40:21,901 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:40:21.901671", "details": {}}
+2026-06-19 11:40:21,903 - INFO - 127.0.0.1 - - [19/Jun/2026 11:40:21] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:40:24,600 - INFO - {"user": "admin", "user_id": 1, "action": "clean_state", "time": "2026-06-19T11:40:24.600577", "details": {}}
+2026-06-19 11:40:24,601 - INFO - 127.0.0.1 - - [19/Jun/2026 11:40:24] "[32mGET /admin/clean_state HTTP/1.1[0m" 302 -
+2026-06-19 11:40:24,630 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:40:24.630578", "details": {}}
+2026-06-19 11:40:24,633 - INFO - 127.0.0.1 - - [19/Jun/2026 11:40:24] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:40:28,353 - INFO - 127.0.0.1 - - [19/Jun/2026 11:40:28] "GET /admin/logs HTTP/1.1" 200 -
+2026-06-19 11:40:30,748 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:40:30.748386", "details": {}}
+2026-06-19 11:40:30,750 - INFO - 127.0.0.1 - - [19/Jun/2026 11:40:30] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:40:31,274 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:40:31.274265", "details": {}}
+2026-06-19 11:40:31,275 - INFO - 127.0.0.1 - - [19/Jun/2026 11:40:31] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:40:32,086 - INFO - 127.0.0.1 - - [19/Jun/2026 11:40:32] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:40:32,129 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:40:32.129237", "details": {}}
+2026-06-19 11:40:32,134 - INFO - 127.0.0.1 - - [19/Jun/2026 11:40:32] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:40:32,395 - INFO - 127.0.0.1 - - [19/Jun/2026 11:40:32] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:40:32,431 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:40:32.431017", "details": {}}
+2026-06-19 11:40:32,433 - INFO - 127.0.0.1 - - [19/Jun/2026 11:40:32] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:40:32,685 - INFO - 127.0.0.1 - - [19/Jun/2026 11:40:32] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:40:32,722 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:40:32.722073", "details": {}}
+2026-06-19 11:40:32,723 - INFO - 127.0.0.1 - - [19/Jun/2026 11:40:32] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:43:24,152 - INFO -  * Detected change in 'C:\\Users\\maksimovNI24\\Desktop\\utility_app\\app.py', reloading
+2026-06-19 11:43:24,295 - INFO -  * Restarting with stat
+2026-06-19 11:43:25,034 - WARNING -  * Debugger is active!
+2026-06-19 11:43:25,036 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 11:43:27,764 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 11:43:27,764 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 11:43:27,767 - INFO -  * Restarting with stat
+2026-06-19 11:43:28,480 - WARNING -  * Debugger is active!
+2026-06-19 11:43:28,482 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 11:43:29,548 - INFO - 127.0.0.1 - - [19/Jun/2026 11:43:29] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 11:43:29,560 - INFO - 127.0.0.1 - - [19/Jun/2026 11:43:29] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:43:29,600 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:43:29.599875", "details": {}}
+2026-06-19 11:43:29,608 - INFO - 127.0.0.1 - - [19/Jun/2026 11:43:29] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:43:51,531 - INFO - 127.0.0.1 - - [19/Jun/2026 11:43:51] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 11:43:51,582 - INFO - 127.0.0.1 - - [19/Jun/2026 11:43:51] "GET /login HTTP/1.1" 200 -
+2026-06-19 11:43:51,768 - INFO - 127.0.0.1 - - [19/Jun/2026 11:43:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-19 11:43:52,006 - INFO - 127.0.0.1 - - [19/Jun/2026 11:43:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-19 11:43:54,999 - INFO - 127.0.0.1 - - [19/Jun/2026 11:43:54] "GET /login HTTP/1.1" 200 -
+2026-06-19 11:44:01,323 - INFO - {"user": "admin", "user_id": 1, "action": "login", "time": "2026-06-19T11:44:01.323136", "details": {"success": true}}
+2026-06-19 11:44:01,325 - INFO - 127.0.0.1 - - [19/Jun/2026 11:44:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 11:44:01,332 - INFO - 127.0.0.1 - - [19/Jun/2026 11:44:01] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:44:01,680 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:44:01.680759", "details": {}}
+2026-06-19 11:44:01,682 - INFO - 127.0.0.1 - - [19/Jun/2026 11:44:01] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:46:01,126 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 11:46:01,127 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 11:46:01,129 - INFO -  * Restarting with stat
+2026-06-19 11:46:01,887 - WARNING -  * Debugger is active!
+2026-06-19 11:46:01,901 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 11:46:04,641 - INFO - 127.0.0.1 - - [19/Jun/2026 11:46:04] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 11:46:04,671 - INFO - 127.0.0.1 - - [19/Jun/2026 11:46:04] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:46:04,741 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:46:04.741698", "details": {}}
+2026-06-19 11:46:04,762 - INFO - 127.0.0.1 - - [19/Jun/2026 11:46:04] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:46:17,466 - INFO - 127.0.0.1 - - [19/Jun/2026 11:46:17] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 11:46:17,500 - INFO - 127.0.0.1 - - [19/Jun/2026 11:46:17] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:46:17,567 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:46:17.567085", "details": {}}
+2026-06-19 11:46:17,570 - INFO - 127.0.0.1 - - [19/Jun/2026 11:46:17] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:46:26,454 - INFO - {"user": "admin", "user_id": 1, "action": "clean_state_full", "time": "2026-06-19T11:46:26.454729", "details": {}}
+2026-06-19 11:46:26,456 - INFO - 127.0.0.1 - - [19/Jun/2026 11:46:26] "[32mGET /admin/clean_state HTTP/1.1[0m" 302 -
+2026-06-19 11:46:26,473 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:46:26.473703", "details": {}}
+2026-06-19 11:46:26,476 - INFO - 127.0.0.1 - - [19/Jun/2026 11:46:26] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:46:35,703 - INFO - 127.0.0.1 - - [19/Jun/2026 11:46:35] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:46:35,717 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:46:35.717081", "details": {}}
+2026-06-19 11:46:35,718 - INFO - 127.0.0.1 - - [19/Jun/2026 11:46:35] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:46:36,396 - INFO - 127.0.0.1 - - [19/Jun/2026 11:46:36] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:46:36,411 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:46:36.411420", "details": {}}
+2026-06-19 11:46:36,413 - INFO - 127.0.0.1 - - [19/Jun/2026 11:46:36] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:46:36,770 - INFO - 127.0.0.1 - - [19/Jun/2026 11:46:36] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:46:36,788 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:46:36.788070", "details": {}}
+2026-06-19 11:46:36,789 - INFO - 127.0.0.1 - - [19/Jun/2026 11:46:36] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:46:36,940 - INFO - 127.0.0.1 - - [19/Jun/2026 11:46:36] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:46:36,959 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:46:36.959814", "details": {}}
+2026-06-19 11:46:36,961 - INFO - 127.0.0.1 - - [19/Jun/2026 11:46:36] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:46:49,305 - INFO - 127.0.0.1 - - [19/Jun/2026 11:46:49] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 11:46:49,652 - INFO - 127.0.0.1 - - [19/Jun/2026 11:46:49] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:46:49,667 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:46:49.666981", "details": {}}
+2026-06-19 11:46:49,668 - INFO - 127.0.0.1 - - [19/Jun/2026 11:46:49] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:46:52,210 - INFO - 127.0.0.1 - - [19/Jun/2026 11:46:52] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:46:52,528 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:46:52.528075", "details": {}}
+2026-06-19 11:46:52,529 - INFO - 127.0.0.1 - - [19/Jun/2026 11:46:52] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:46:52,966 - INFO - 127.0.0.1 - - [19/Jun/2026 11:46:52] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:46:53,041 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:46:53.041853", "details": {}}
+2026-06-19 11:46:53,043 - INFO - 127.0.0.1 - - [19/Jun/2026 11:46:53] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:49:01,910 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 11:49:01,910 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 11:49:01,912 - INFO -  * Restarting with stat
+2026-06-19 11:49:02,672 - WARNING -  * Debugger is active!
+2026-06-19 11:49:02,676 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 11:49:04,602 - INFO - 127.0.0.1 - - [19/Jun/2026 11:49:04] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 11:49:04,620 - INFO - 127.0.0.1 - - [19/Jun/2026 11:49:04] "GET /login HTTP/1.1" 200 -
+2026-06-19 11:49:04,819 - INFO - 127.0.0.1 - - [19/Jun/2026 11:49:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-19 11:49:04,826 - INFO - 127.0.0.1 - - [19/Jun/2026 11:49:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-19 11:49:09,026 - INFO - {"user": "admin", "user_id": 1, "action": "login", "time": "2026-06-19T11:49:09.025912", "details": {"success": true}}
+2026-06-19 11:49:09,027 - INFO - 127.0.0.1 - - [19/Jun/2026 11:49:09] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 11:49:09,050 - INFO - 127.0.0.1 - - [19/Jun/2026 11:49:09] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:49:09,088 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:49:09.088751", "details": {}}
+2026-06-19 11:49:09,103 - INFO - 127.0.0.1 - - [19/Jun/2026 11:49:09] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:49:13,896 - INFO - 127.0.0.1 - - [19/Jun/2026 11:49:13] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:49:13,912 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:49:13.912070", "details": {}}
+2026-06-19 11:49:13,913 - INFO - 127.0.0.1 - - [19/Jun/2026 11:49:13] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:49:14,539 - INFO - 127.0.0.1 - - [19/Jun/2026 11:49:14] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:49:14,556 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:49:14.556400", "details": {}}
+2026-06-19 11:49:14,557 - INFO - 127.0.0.1 - - [19/Jun/2026 11:49:14] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:49:15,192 - INFO - 127.0.0.1 - - [19/Jun/2026 11:49:15] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:49:15,210 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:49:15.210201", "details": {}}
+2026-06-19 11:49:15,212 - INFO - 127.0.0.1 - - [19/Jun/2026 11:49:15] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:49:15,715 - INFO - 127.0.0.1 - - [19/Jun/2026 11:49:15] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:49:15,728 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:49:15.728217", "details": {}}
+2026-06-19 11:49:15,729 - INFO - 127.0.0.1 - - [19/Jun/2026 11:49:15] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:50:31,360 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 11:50:31,362 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 11:50:31,364 - INFO -  * Restarting with stat
+2026-06-19 11:50:32,065 - WARNING -  * Debugger is active!
+2026-06-19 11:50:32,068 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 11:50:34,716 - INFO - 127.0.0.1 - - [19/Jun/2026 11:50:34] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 11:50:34,727 - INFO - 127.0.0.1 - - [19/Jun/2026 11:50:34] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:50:34,770 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:50:34.770275", "details": {}}
+2026-06-19 11:50:34,799 - INFO - 127.0.0.1 - - [19/Jun/2026 11:50:34] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:50:57,472 - INFO - 127.0.0.1 - - [19/Jun/2026 11:50:57] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 11:50:57,490 - INFO - 127.0.0.1 - - [19/Jun/2026 11:50:57] "GET /login HTTP/1.1" 200 -
+2026-06-19 11:50:57,668 - INFO - 127.0.0.1 - - [19/Jun/2026 11:50:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-19 11:50:57,676 - INFO - 127.0.0.1 - - [19/Jun/2026 11:50:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-19 11:51:02,108 - INFO - {"user": "admin", "user_id": 1, "action": "login", "time": "2026-06-19T11:51:02.108832", "details": {"success": true}}
+2026-06-19 11:51:02,110 - INFO - 127.0.0.1 - - [19/Jun/2026 11:51:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 11:51:02,118 - INFO - 127.0.0.1 - - [19/Jun/2026 11:51:02] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:51:02,138 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:51:02.138065", "details": {}}
+2026-06-19 11:51:02,139 - INFO - 127.0.0.1 - - [19/Jun/2026 11:51:02] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:51:05,194 - INFO - 127.0.0.1 - - [19/Jun/2026 11:51:05] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:51:05,207 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:51:05.207776", "details": {}}
+2026-06-19 11:51:05,209 - INFO - 127.0.0.1 - - [19/Jun/2026 11:51:05] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:51:06,148 - INFO - 127.0.0.1 - - [19/Jun/2026 11:51:06] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:51:06,161 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:51:06.161516", "details": {}}
+2026-06-19 11:51:06,163 - INFO - 127.0.0.1 - - [19/Jun/2026 11:51:06] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:51:52,023 - INFO -  * Detected change in 'C:\\Users\\maksimovNI24\\Desktop\\utility_app\\app.py', reloading
+2026-06-19 11:51:52,175 - INFO -  * Restarting with stat
+2026-06-19 11:52:01,839 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 11:52:01,839 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 11:52:01,841 - INFO -  * Restarting with stat
+2026-06-19 11:52:02,599 - WARNING -  * Debugger is active!
+2026-06-19 11:52:02,602 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 11:52:04,425 - INFO - 127.0.0.1 - - [19/Jun/2026 11:52:04] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 11:52:04,433 - INFO - 127.0.0.1 - - [19/Jun/2026 11:52:04] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:52:04,461 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:52:04.460984", "details": {}}
+2026-06-19 11:52:04,535 - INFO - 127.0.0.1 - - [19/Jun/2026 11:52:04] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:52:06,539 - INFO - {"user": "admin", "user_id": 1, "action": "logout", "time": "2026-06-19T11:52:06.539663", "details": {}}
+2026-06-19 11:52:06,541 - INFO - 127.0.0.1 - - [19/Jun/2026 11:52:06] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-19 11:52:06,552 - INFO - 127.0.0.1 - - [19/Jun/2026 11:52:06] "GET /login HTTP/1.1" 200 -
+2026-06-19 11:52:08,753 - INFO - {"user": "admin", "user_id": 1, "action": "login", "time": "2026-06-19T11:52:08.753116", "details": {"success": true}}
+2026-06-19 11:52:08,754 - INFO - 127.0.0.1 - - [19/Jun/2026 11:52:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 11:52:08,762 - INFO - 127.0.0.1 - - [19/Jun/2026 11:52:08] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:52:08,780 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:52:08.780612", "details": {}}
+2026-06-19 11:52:08,782 - INFO - 127.0.0.1 - - [19/Jun/2026 11:52:08] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:52:11,397 - INFO - 127.0.0.1 - - [19/Jun/2026 11:52:11] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 11:52:11,412 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T11:52:11.412013", "details": {}}
+2026-06-19 11:52:11,414 - INFO - 127.0.0.1 - - [19/Jun/2026 11:52:11] "GET /admin HTTP/1.1" 200 -
+2026-06-19 11:52:12,307 - INFO - {"user": "admin", "user_id": 1, "action": "logout", "time": "2026-06-19T11:52:12.307050", "details": {}}
+2026-06-19 11:52:12,308 - INFO - 127.0.0.1 - - [19/Jun/2026 11:52:12] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-19 11:52:12,315 - INFO - 127.0.0.1 - - [19/Jun/2026 11:52:12] "GET /login HTTP/1.1" 200 -
+2026-06-19 11:52:20,727 - INFO - {"user": "abonent", "user_id": 2, "action": "login", "time": "2026-06-19T11:52:20.727621", "details": {"success": true}}
+2026-06-19 11:52:20,729 - INFO - 127.0.0.1 - - [19/Jun/2026 11:52:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 11:52:20,789 - INFO - 127.0.0.1 - - [19/Jun/2026 11:52:20] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:52:26,291 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:52:26.291507", "details": {"period": "2025-05", "total": 0}}
+2026-06-19 11:52:26,305 - INFO - 127.0.0.1 - - [19/Jun/2026 11:52:26] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:52:28,020 - INFO - {"user": "abonent", "user_id": 2, "action": "view_history", "time": "2026-06-19T11:52:28.020846", "details": {"page": 1}}
+2026-06-19 11:52:28,042 - INFO - 127.0.0.1 - - [19/Jun/2026 11:52:28] "GET /readings/history HTTP/1.1" 200 -
+2026-06-19 11:52:32,910 - INFO - 127.0.0.1 - - [19/Jun/2026 11:52:32] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-19 11:52:34,011 - INFO - 127.0.0.1 - - [19/Jun/2026 11:52:34] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-19 11:52:35,309 - INFO - 127.0.0.1 - - [19/Jun/2026 11:52:35] "GET /readings HTTP/1.1" 200 -
+2026-06-19 11:52:44,741 - INFO - 127.0.0.1 - - [19/Jun/2026 11:52:44] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:56:56,643 - INFO -  * Detected change in 'C:\\Users\\maksimovNI24\\Desktop\\utility_app\\app.py', reloading
+2026-06-19 11:56:56,829 - INFO -  * Restarting with stat
+2026-06-19 11:56:57,907 - WARNING -  * Debugger is active!
+2026-06-19 11:56:57,910 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 11:57:03,497 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 11:57:03,497 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 11:57:03,499 - INFO -  * Restarting with stat
+2026-06-19 11:57:04,256 - WARNING -  * Debugger is active!
+2026-06-19 11:57:04,260 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 11:57:05,795 - INFO - 127.0.0.1 - - [19/Jun/2026 11:57:05] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 11:57:05,809 - INFO - 127.0.0.1 - - [19/Jun/2026 11:57:05] "GET /login HTTP/1.1" 200 -
+2026-06-19 11:57:05,967 - INFO - 127.0.0.1 - - [19/Jun/2026 11:57:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-19 11:57:05,974 - INFO - 127.0.0.1 - - [19/Jun/2026 11:57:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-19 11:57:08,325 - INFO - {"user": "abonent", "user_id": 2, "action": "login", "time": "2026-06-19T11:57:08.325644", "details": {"success": true}}
+2026-06-19 11:57:08,327 - INFO - 127.0.0.1 - - [19/Jun/2026 11:57:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 11:57:08,363 - INFO - 127.0.0.1 - - [19/Jun/2026 11:57:08] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:57:09,753 - INFO - {"user": "abonent", "user_id": 2, "action": "view_history", "time": "2026-06-19T11:57:09.753430", "details": {"page": 1}}
+2026-06-19 11:57:09,783 - INFO - 127.0.0.1 - - [19/Jun/2026 11:57:09] "GET /readings/history HTTP/1.1" 200 -
+2026-06-19 11:57:11,328 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:57:11.328546", "details": {"period": "2025-05", "total": 0}}
+2026-06-19 11:57:11,342 - INFO - 127.0.0.1 - - [19/Jun/2026 11:57:11] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:57:14,110 - INFO - 127.0.0.1 - - [19/Jun/2026 11:57:14] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-19 11:57:15,214 - INFO - 127.0.0.1 - - [19/Jun/2026 11:57:15] "GET /readings HTTP/1.1" 200 -
+2026-06-19 11:57:19,093 - INFO - 127.0.0.1 - - [19/Jun/2026 11:57:19] "GET /readings HTTP/1.1" 200 -
+2026-06-19 11:58:30,027 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 11:58:30,028 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 11:58:30,030 - INFO -  * Restarting with stat
+2026-06-19 11:58:30,743 - WARNING -  * Debugger is active!
+2026-06-19 11:58:30,748 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 11:58:33,776 - INFO - 127.0.0.1 - - [19/Jun/2026 11:58:33] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 11:58:33,808 - INFO - 127.0.0.1 - - [19/Jun/2026 11:58:33] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:58:35,583 - INFO - 127.0.0.1 - - [19/Jun/2026 11:58:35] "GET /readings HTTP/1.1" 200 -
+2026-06-19 11:58:37,999 - INFO - 127.0.0.1 - - [19/Jun/2026 11:58:37] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:58:38,829 - INFO - {"user": "abonent", "user_id": 2, "action": "logout", "time": "2026-06-19T11:58:38.828993", "details": {}}
+2026-06-19 11:58:38,832 - INFO - 127.0.0.1 - - [19/Jun/2026 11:58:38] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-19 11:58:38,843 - INFO - 127.0.0.1 - - [19/Jun/2026 11:58:38] "GET /login HTTP/1.1" 200 -
+2026-06-19 11:58:40,439 - INFO - {"user": "abonent", "user_id": 2, "action": "login", "time": "2026-06-19T11:58:40.439507", "details": {"success": true}}
+2026-06-19 11:58:40,446 - INFO - 127.0.0.1 - - [19/Jun/2026 11:58:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 11:58:40,460 - INFO - 127.0.0.1 - - [19/Jun/2026 11:58:40] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:58:41,038 - INFO - {"user": "abonent", "user_id": 2, "action": "view_history", "time": "2026-06-19T11:58:41.038022", "details": {"page": 1}}
+2026-06-19 11:58:41,071 - INFO - 127.0.0.1 - - [19/Jun/2026 11:58:41] "GET /readings/history HTTP/1.1" 200 -
+2026-06-19 11:58:44,885 - INFO - 127.0.0.1 - - [19/Jun/2026 11:58:44] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:58:46,431 - INFO - 127.0.0.1 - - [19/Jun/2026 11:58:46] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-19 11:58:48,538 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:58:48.538868", "details": {"period": "2025-05", "total": 0}}
+2026-06-19 11:58:48,556 - INFO - 127.0.0.1 - - [19/Jun/2026 11:58:48] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:58:51,586 - INFO - 127.0.0.1 - - [19/Jun/2026 11:58:51] "GET /readings HTTP/1.1" 200 -
+2026-06-19 11:58:59,473 - INFO - {"user": "abonent", "user_id": 2, "action": "submit_reading_zoned", "time": "2026-06-19T11:58:59.472887", "details": {"meter_id": "1", "period": "2025-05", "consumption_day": 5783.0, "consumption_night": 17900.0}}
+2026-06-19 11:58:59,476 - INFO - 127.0.0.1 - - [19/Jun/2026 11:58:59] "[32mPOST /readings HTTP/1.1[0m" 302 -
+2026-06-19 11:58:59,498 - INFO - 127.0.0.1 - - [19/Jun/2026 11:58:59] "GET /readings HTTP/1.1" 200 -
+2026-06-19 11:59:00,783 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:00] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:59:01,684 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:59:01.684263", "details": {"period": "2025-05", "total": 78814.6}}
+2026-06-19 11:59:01,686 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:01] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:59:13,037 - INFO - {"user": "abonent", "user_id": 2, "action": "register_payment", "time": "2026-06-19T11:59:13.037172", "details": {"account_id": 1, "period": "2025-05", "amount": 78814.6, "comment": ""}}
+2026-06-19 11:59:13,040 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:13] "POST /api/payment/register HTTP/1.1" 200 -
+2026-06-19 11:59:14,594 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:59:14.594310", "details": {"period": "2025-05", "total": 78814.6}}
+2026-06-19 11:59:14,595 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:14] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:59:18,474 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:59:18.474077", "details": {"period": "2025-05", "total": 78814.6}}
+2026-06-19 11:59:18,475 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:18] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:59:19,403 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:59:19.403743", "details": {"period": "2025-05", "total": 78814.6}}
+2026-06-19 11:59:19,405 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:19] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:59:21,541 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:21] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:59:23,542 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:59:23.542049", "details": {"period": "2025-05", "total": 78814.6}}
+2026-06-19 11:59:23,543 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:23] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:59:30,015 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:30] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:59:30,789 - INFO - {"user": "abonent", "user_id": 2, "action": "view_history", "time": "2026-06-19T11:59:30.788920", "details": {"page": 1}}
+2026-06-19 11:59:30,790 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:30] "GET /readings/history HTTP/1.1" 200 -
+2026-06-19 11:59:32,214 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:32] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:59:32,746 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:32] "GET /readings HTTP/1.1" 200 -
+2026-06-19 11:59:33,941 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:33] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:59:34,506 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:59:34.506291", "details": {"period": "2025-05", "total": 78814.6}}
+2026-06-19 11:59:34,508 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:34] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:59:44,340 - INFO - {"user": "abonent", "user_id": 2, "action": "register_payment", "time": "2026-06-19T11:59:44.340889", "details": {"account_id": 1, "period": "2025-05", "amount": 78814.6, "comment": ""}}
+2026-06-19 11:59:44,343 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:44] "POST /api/payment/register HTTP/1.1" 200 -
+2026-06-19 11:59:45,879 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:59:45.878999", "details": {"period": "2025-05", "total": 78814.6}}
+2026-06-19 11:59:45,880 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:45] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:59:46,685 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:59:46.685057", "details": {"period": "2025-05", "total": 78814.6}}
+2026-06-19 11:59:46,688 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:46] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:59:47,009 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:59:47.009264", "details": {"period": "2025-05", "total": 78814.6}}
+2026-06-19 11:59:47,010 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:47] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:59:47,161 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:59:47.161429", "details": {"period": "2025-05", "total": 78814.6}}
+2026-06-19 11:59:47,163 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:47] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:59:49,102 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:49] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:59:50,610 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:59:50.610321", "details": {"period": "2025-05", "total": 78814.6}}
+2026-06-19 11:59:50,611 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:50] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:59:51,637 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:51] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:59:53,467 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:53] "GET /readings HTTP/1.1" 200 -
+2026-06-19 11:59:54,486 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:54] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:59:54,873 - INFO - {"user": "abonent", "user_id": 2, "action": "view_history", "time": "2026-06-19T11:59:54.873099", "details": {"page": 1}}
+2026-06-19 11:59:54,874 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:54] "GET /readings/history HTTP/1.1" 200 -
+2026-06-19 11:59:56,469 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:56] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 11:59:57,119 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T11:59:57.118943", "details": {"period": "2025-05", "total": 78814.6}}
+2026-06-19 11:59:57,120 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:57] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 11:59:59,302 - INFO - 127.0.0.1 - - [19/Jun/2026 11:59:59] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:00:00,747 - INFO - {"user": "abonent", "user_id": 2, "action": "view_history", "time": "2026-06-19T12:00:00.747307", "details": {"page": 1}}
+2026-06-19 12:00:00,749 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:00] "GET /readings/history HTTP/1.1" 200 -
+2026-06-19 12:00:01,861 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:01] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:00:02,575 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T12:00:02.575658", "details": {"period": "2025-05", "total": 78814.6}}
+2026-06-19 12:00:02,577 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:02] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:00:04,213 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:04] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:00:05,341 - INFO - {"user": "abonent", "user_id": 2, "action": "logout", "time": "2026-06-19T12:00:05.341479", "details": {}}
+2026-06-19 12:00:05,342 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:05] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-19 12:00:05,350 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:05] "GET /login HTTP/1.1" 200 -
+2026-06-19 12:00:12,998 - INFO - {"user": "admin", "user_id": 1, "action": "login", "time": "2026-06-19T12:00:12.998312", "details": {"success": true}}
+2026-06-19 12:00:12,999 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 12:00:13,010 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:13] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 12:00:13,050 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:00:13.049929", "details": {}}
+2026-06-19 12:00:13,061 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:13] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:00:16,184 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:00:16.184095", "details": {}}
+2026-06-19 12:00:16,185 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:16] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:00:22,135 - INFO - {"user": "admin", "user_id": 1, "action": "clear_data", "time": "2026-06-19T12:00:22.135658", "details": {}}
+2026-06-19 12:00:22,137 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:22] "[32mGET /admin/clear_data HTTP/1.1[0m" 302 -
+2026-06-19 12:00:22,158 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:00:22.157994", "details": {}}
+2026-06-19 12:00:22,159 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:22] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:00:25,115 - INFO - {"user": "admin", "user_id": 1, "action": "clean_state_full", "time": "2026-06-19T12:00:25.115711", "details": {}}
+2026-06-19 12:00:25,118 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:25] "[32mGET /admin/clean_state HTTP/1.1[0m" 302 -
+2026-06-19 12:00:25,145 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:00:25.145220", "details": {}}
+2026-06-19 12:00:25,148 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:25] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:00:28,467 - INFO - {"user": "admin", "user_id": 1, "action": "clean_state_full", "time": "2026-06-19T12:00:28.467572", "details": {}}
+2026-06-19 12:00:28,469 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:28] "[32mGET /admin/clean_state HTTP/1.1[0m" 302 -
+2026-06-19 12:00:28,492 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:00:28.492393", "details": {}}
+2026-06-19 12:00:28,494 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:28] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:00:30,098 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:00:30.097915", "details": {}}
+2026-06-19 12:00:30,099 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:30] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:00:32,269 - INFO - {"user": "admin", "user_id": 1, "action": "clear_data", "time": "2026-06-19T12:00:32.269245", "details": {}}
+2026-06-19 12:00:32,271 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:32] "[32mGET /admin/clear_data HTTP/1.1[0m" 302 -
+2026-06-19 12:00:32,297 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:00:32.297782", "details": {}}
+2026-06-19 12:00:32,301 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:32] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:00:33,556 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:00:33.556039", "details": {}}
+2026-06-19 12:00:33,557 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:33] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:00:33,864 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:00:33.863960", "details": {}}
+2026-06-19 12:00:33,865 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:33] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:00:36,233 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:36] "[32mGET /admin/reset_all HTTP/1.1[0m" 302 -
+2026-06-19 12:00:36,240 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:36] "GET /login HTTP/1.1" 200 -
+2026-06-19 12:00:46,319 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 12:00:46,320 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 12:00:46,323 - INFO -  * Restarting with stat
+2026-06-19 12:00:47,233 - WARNING -  * Debugger is active!
+2026-06-19 12:00:47,237 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 12:00:50,352 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:50] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 12:00:50,376 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:50] "GET /login HTTP/1.1" 200 -
+2026-06-19 12:00:52,270 - INFO - {"user": "admin", "user_id": 1, "action": "login", "time": "2026-06-19T12:00:52.270561", "details": {"success": true}}
+2026-06-19 12:00:52,272 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 12:00:52,284 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:52] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 12:00:52,333 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:00:52.333639", "details": {}}
+2026-06-19 12:00:52,350 - INFO - 127.0.0.1 - - [19/Jun/2026 12:00:52] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:01:07,355 - INFO - {"user": "admin", "user_id": 1, "action": "logout", "time": "2026-06-19T12:01:07.355721", "details": {}}
+2026-06-19 12:01:07,357 - INFO - 127.0.0.1 - - [19/Jun/2026 12:01:07] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-19 12:01:07,364 - INFO - 127.0.0.1 - - [19/Jun/2026 12:01:07] "GET /login HTTP/1.1" 200 -
+2026-06-19 12:01:14,561 - INFO - {"user": "abonent", "user_id": 2, "action": "login", "time": "2026-06-19T12:01:14.561657", "details": {"success": true}}
+2026-06-19 12:01:14,563 - INFO - 127.0.0.1 - - [19/Jun/2026 12:01:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 12:01:14,586 - INFO - 127.0.0.1 - - [19/Jun/2026 12:01:14] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:01:16,911 - INFO - 127.0.0.1 - - [19/Jun/2026 12:01:16] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-19 12:01:18,128 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T12:01:18.128257", "details": {"period": "2025-05", "total": 0}}
+2026-06-19 12:01:18,141 - INFO - 127.0.0.1 - - [19/Jun/2026 12:01:18] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:01:19,877 - INFO - {"user": "abonent", "user_id": 2, "action": "view_history", "time": "2026-06-19T12:01:19.876985", "details": {"page": 1}}
+2026-06-19 12:01:19,908 - INFO - 127.0.0.1 - - [19/Jun/2026 12:01:19] "GET /readings/history HTTP/1.1" 200 -
+2026-06-19 12:01:23,437 - INFO - 127.0.0.1 - - [19/Jun/2026 12:01:23] "GET /readings HTTP/1.1" 200 -
+2026-06-19 12:01:36,025 - INFO - {"user": "abonent", "user_id": 2, "action": "submit_reading", "time": "2026-06-19T12:01:36.025709", "details": {"meter_id": "2", "period": "2026-05", "consumption": 850.01}}
+2026-06-19 12:01:36,034 - INFO - 127.0.0.1 - - [19/Jun/2026 12:01:36] "[32mPOST /readings HTTP/1.1[0m" 302 -
+2026-06-19 12:01:36,054 - INFO - 127.0.0.1 - - [19/Jun/2026 12:01:36] "GET /readings HTTP/1.1" 200 -
+2026-06-19 12:01:37,119 - INFO - 127.0.0.1 - - [19/Jun/2026 12:01:37] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:01:37,854 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T12:01:37.854506", "details": {"period": "2025-05", "total": 0}}
+2026-06-19 12:01:37,855 - INFO - 127.0.0.1 - - [19/Jun/2026 12:01:37] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:01:40,940 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T12:01:40.940242", "details": {"period": "2025-05", "total": 0}}
+2026-06-19 12:01:40,941 - INFO - 127.0.0.1 - - [19/Jun/2026 12:01:40] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:01:43,109 - INFO - {"user": "abonent", "user_id": 2, "action": "view_history", "time": "2026-06-19T12:01:43.109762", "details": {"page": 1}}
+2026-06-19 12:01:43,111 - INFO - 127.0.0.1 - - [19/Jun/2026 12:01:43] "GET /readings/history HTTP/1.1" 200 -
+2026-06-19 12:01:45,710 - INFO - 127.0.0.1 - - [19/Jun/2026 12:01:45] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:01:46,321 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T12:01:46.321069", "details": {"period": "2025-05", "total": 0}}
+2026-06-19 12:01:46,322 - INFO - 127.0.0.1 - - [19/Jun/2026 12:01:46] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:01:50,499 - INFO - 127.0.0.1 - - [19/Jun/2026 12:01:50] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-19 12:01:54,607 - INFO - 127.0.0.1 - - [19/Jun/2026 12:01:54] "GET /readings HTTP/1.1" 200 -
+2026-06-19 12:02:05,960 - INFO - {"user": "abonent", "user_id": 2, "action": "submit_reading", "time": "2026-06-19T12:02:05.960854", "details": {"meter_id": "3", "period": "2026-05", "consumption": 2000.0}}
+2026-06-19 12:02:05,964 - INFO - 127.0.0.1 - - [19/Jun/2026 12:02:05] "[32mPOST /readings HTTP/1.1[0m" 302 -
+2026-06-19 12:02:05,975 - INFO - 127.0.0.1 - - [19/Jun/2026 12:02:05] "GET /readings HTTP/1.1" 200 -
+2026-06-19 12:02:06,975 - INFO - 127.0.0.1 - - [19/Jun/2026 12:02:06] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:02:07,840 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T12:02:07.840879", "details": {"period": "2025-05", "total": 0}}
+2026-06-19 12:02:07,842 - INFO - 127.0.0.1 - - [19/Jun/2026 12:02:07] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:02:09,278 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T12:02:09.278152", "details": {"period": "2025-05", "total": 0}}
+2026-06-19 12:02:09,279 - INFO - 127.0.0.1 - - [19/Jun/2026 12:02:09] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:02:13,883 - INFO - 127.0.0.1 - - [19/Jun/2026 12:02:13] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-19 12:02:18,676 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T12:02:18.676871", "details": {"period": "2025-05", "total": 0}}
+2026-06-19 12:02:18,679 - INFO - 127.0.0.1 - - [19/Jun/2026 12:02:18] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:02:23,185 - INFO - 127.0.0.1 - - [19/Jun/2026 12:02:23] "GET /readings HTTP/1.1" 200 -
+2026-06-19 12:02:32,294 - INFO - {"user": "abonent", "user_id": 2, "action": "submit_reading", "time": "2026-06-19T12:02:32.294718", "details": {"meter_id": "2", "period": "2025-05", "consumption": 18999.99}}
+2026-06-19 12:02:32,298 - INFO - 127.0.0.1 - - [19/Jun/2026 12:02:32] "[32mPOST /readings HTTP/1.1[0m" 302 -
+2026-06-19 12:02:32,309 - INFO - 127.0.0.1 - - [19/Jun/2026 12:02:32] "GET /readings HTTP/1.1" 200 -
+2026-06-19 12:02:33,460 - INFO - 127.0.0.1 - - [19/Jun/2026 12:02:33] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:02:34,107 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T12:02:34.107292", "details": {"period": "2025-05", "total": 803699.58}}
+2026-06-19 12:02:34,109 - INFO - 127.0.0.1 - - [19/Jun/2026 12:02:34] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:06:24,975 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 12:06:24,975 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 12:06:24,977 - INFO -  * Restarting with stat
+2026-06-19 12:06:25,718 - WARNING -  * Debugger is active!
+2026-06-19 12:06:25,723 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 12:06:27,194 - INFO - 127.0.0.1 - - [19/Jun/2026 12:06:27] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 12:06:27,222 - INFO - 127.0.0.1 - - [19/Jun/2026 12:06:27] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:06:29,134 - INFO - {"user": "abonent", "user_id": 2, "action": "logout", "time": "2026-06-19T12:06:29.134887", "details": {}}
+2026-06-19 12:06:29,136 - INFO - 127.0.0.1 - - [19/Jun/2026 12:06:29] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-19 12:06:29,146 - INFO - 127.0.0.1 - - [19/Jun/2026 12:06:29] "GET /login HTTP/1.1" 200 -
+2026-06-19 12:06:30,960 - INFO - {"user": "abonent", "user_id": 2, "action": "login", "time": "2026-06-19T12:06:30.960225", "details": {"success": true}}
+2026-06-19 12:06:30,962 - INFO - 127.0.0.1 - - [19/Jun/2026 12:06:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 12:06:30,970 - INFO - 127.0.0.1 - - [19/Jun/2026 12:06:30] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:06:32,757 - INFO - 127.0.0.1 - - [19/Jun/2026 12:06:32] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-19 12:06:34,758 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T12:06:34.758678", "details": {"period": "2025-05", "total": 803699.58}}
+2026-06-19 12:06:34,773 - INFO - 127.0.0.1 - - [19/Jun/2026 12:06:34] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:06:37,357 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T12:06:37.357776", "details": {"period": "2025-05", "total": 803699.58}}
+2026-06-19 12:06:37,359 - INFO - 127.0.0.1 - - [19/Jun/2026 12:06:37] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:06:40,031 - INFO - 127.0.0.1 - - [19/Jun/2026 12:06:40] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:06:40,706 - INFO - {"user": "abonent", "user_id": 2, "action": "view_history", "time": "2026-06-19T12:06:40.706638", "details": {"page": 1}}
+2026-06-19 12:06:40,736 - INFO - 127.0.0.1 - - [19/Jun/2026 12:06:40] "GET /readings/history HTTP/1.1" 200 -
+2026-06-19 12:06:44,796 - INFO - 127.0.0.1 - - [19/Jun/2026 12:06:44] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:06:45,417 - INFO - 127.0.0.1 - - [19/Jun/2026 12:06:45] "GET /readings HTTP/1.1" 200 -
+2026-06-19 12:06:49,340 - INFO - 127.0.0.1 - - [19/Jun/2026 12:06:49] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:06:50,305 - INFO - {"user": "abonent", "user_id": 2, "action": "logout", "time": "2026-06-19T12:06:50.305641", "details": {}}
+2026-06-19 12:06:50,307 - INFO - 127.0.0.1 - - [19/Jun/2026 12:06:50] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-19 12:06:50,314 - INFO - 127.0.0.1 - - [19/Jun/2026 12:06:50] "GET /login HTTP/1.1" 200 -
+2026-06-19 12:06:56,545 - INFO - {"user": "admin", "user_id": 1, "action": "login", "time": "2026-06-19T12:06:56.545378", "details": {"success": true}}
+2026-06-19 12:06:56,547 - INFO - 127.0.0.1 - - [19/Jun/2026 12:06:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 12:06:56,554 - INFO - 127.0.0.1 - - [19/Jun/2026 12:06:56] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 12:06:56,609 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:06:56.608951", "details": {}}
+2026-06-19 12:06:56,626 - INFO - 127.0.0.1 - - [19/Jun/2026 12:06:56] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:09:58,660 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 12:09:58,660 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 12:09:58,663 - INFO -  * Restarting with stat
+2026-06-19 12:09:59,564 - WARNING -  * Debugger is active!
+2026-06-19 12:09:59,566 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 12:10:01,283 - INFO - 127.0.0.1 - - [19/Jun/2026 12:10:01] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 12:10:01,296 - INFO - 127.0.0.1 - - [19/Jun/2026 12:10:01] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 12:10:01,335 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:10:01.335184", "details": {}}
+2026-06-19 12:10:01,342 - INFO - 127.0.0.1 - - [19/Jun/2026 12:10:01] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:10:03,255 - INFO - {"user": "admin", "user_id": 1, "action": "logout", "time": "2026-06-19T12:10:03.255002", "details": {}}
+2026-06-19 12:10:03,256 - INFO - 127.0.0.1 - - [19/Jun/2026 12:10:03] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-19 12:10:03,269 - INFO - 127.0.0.1 - - [19/Jun/2026 12:10:03] "GET /login HTTP/1.1" 200 -
+2026-06-19 12:10:06,328 - INFO - {"user": "admin", "user_id": 1, "action": "login", "time": "2026-06-19T12:10:06.328867", "details": {"success": true}}
+2026-06-19 12:10:06,330 - INFO - 127.0.0.1 - - [19/Jun/2026 12:10:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 12:10:06,338 - INFO - 127.0.0.1 - - [19/Jun/2026 12:10:06] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 12:10:06,380 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:10:06.380032", "details": {}}
+2026-06-19 12:10:06,381 - INFO - 127.0.0.1 - - [19/Jun/2026 12:10:06] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:10:14,333 - INFO - 127.0.0.1 - - [19/Jun/2026 12:10:14] "GET /admin/logs HTTP/1.1" 200 -
+2026-06-19 12:10:16,671 - INFO - {"user": "admin", "user_id": 1, "action": "logout", "time": "2026-06-19T12:10:16.671519", "details": {}}
+2026-06-19 12:10:16,673 - INFO - 127.0.0.1 - - [19/Jun/2026 12:10:16] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-19 12:10:16,680 - INFO - 127.0.0.1 - - [19/Jun/2026 12:10:16] "GET /login HTTP/1.1" 200 -
+2026-06-19 12:10:22,837 - INFO - {"user": "abonent", "user_id": 2, "action": "login", "time": "2026-06-19T12:10:22.837242", "details": {"success": true}}
+2026-06-19 12:10:22,839 - INFO - 127.0.0.1 - - [19/Jun/2026 12:10:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 12:10:22,868 - INFO - 127.0.0.1 - - [19/Jun/2026 12:10:22] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:10:25,358 - INFO - 127.0.0.1 - - [19/Jun/2026 12:10:25] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-19 12:10:32,290 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T12:10:32.290571", "details": {"period": "2025-05", "total": 803699.58}}
+2026-06-19 12:10:32,306 - INFO - 127.0.0.1 - - [19/Jun/2026 12:10:32] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:10:39,613 - INFO - {"user": "abonent", "user_id": 2, "action": "register_payment", "time": "2026-06-19T12:10:39.613503", "details": {"account_id": 1, "period": "2025-05", "amount": 803699.58, "comment": ""}}
+2026-06-19 12:10:39,617 - INFO - 127.0.0.1 - - [19/Jun/2026 12:10:39] "POST /api/payment/register HTTP/1.1" 200 -
+2026-06-19 12:10:41,170 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T12:10:41.170155", "details": {"period": "2025-05", "total": 803699.58}}
+2026-06-19 12:10:41,172 - INFO - 127.0.0.1 - - [19/Jun/2026 12:10:41] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:10:43,211 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T12:10:43.211120", "details": {"period": "2025-05", "total": 803699.58}}
+2026-06-19 12:10:43,212 - INFO - 127.0.0.1 - - [19/Jun/2026 12:10:43] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:10:44,393 - INFO - 127.0.0.1 - - [19/Jun/2026 12:10:44] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:10:45,014 - INFO - {"user": "abonent", "user_id": 2, "action": "view_history", "time": "2026-06-19T12:10:45.014878", "details": {"page": 1}}
+2026-06-19 12:10:45,045 - INFO - 127.0.0.1 - - [19/Jun/2026 12:10:45] "GET /readings/history HTTP/1.1" 200 -
+2026-06-19 12:10:46,537 - INFO - 127.0.0.1 - - [19/Jun/2026 12:10:46] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:10:47,188 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T12:10:47.188578", "details": {"period": "2025-05", "total": 803699.58}}
+2026-06-19 12:10:47,190 - INFO - 127.0.0.1 - - [19/Jun/2026 12:10:47] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:10:54,738 - INFO - 127.0.0.1 - - [19/Jun/2026 12:10:54] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:24:47,205 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 12:24:47,206 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 12:24:47,208 - INFO -  * Restarting with stat
+2026-06-19 12:24:47,947 - WARNING -  * Debugger is active!
+2026-06-19 12:24:47,950 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 12:24:50,092 - INFO - 127.0.0.1 - - [19/Jun/2026 12:24:50] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 12:24:50,120 - INFO - 127.0.0.1 - - [19/Jun/2026 12:24:50] "GET /login HTTP/1.1" 200 -
+2026-06-19 12:24:56,760 - INFO - {"user": "abonent", "user_id": 2, "action": "login", "time": "2026-06-19T12:24:56.760088", "details": {"success": true}}
+2026-06-19 12:24:56,761 - INFO - 127.0.0.1 - - [19/Jun/2026 12:24:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 12:24:56,875 - INFO - 127.0.0.1 - - [19/Jun/2026 12:24:56] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:24:59,083 - INFO - {"user": "abonent", "user_id": 2, "action": "view_history", "time": "2026-06-19T12:24:59.083598", "details": {"page": 1}}
+2026-06-19 12:24:59,139 - INFO - 127.0.0.1 - - [19/Jun/2026 12:24:59] "GET /readings/history HTTP/1.1" 200 -
+2026-06-19 12:25:00,758 - INFO - 127.0.0.1 - - [19/Jun/2026 12:25:00] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:25:01,356 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T12:25:01.356302", "details": {"period": "2025-05", "total": 803699.58}}
+2026-06-19 12:25:01,453 - INFO - 127.0.0.1 - - [19/Jun/2026 12:25:01] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:25:02,927 - INFO - 127.0.0.1 - - [19/Jun/2026 12:25:02] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:25:04,479 - INFO - 127.0.0.1 - - [19/Jun/2026 12:25:04] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-19 12:25:38,989 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 12:25:38,989 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 12:25:38,991 - INFO -  * Restarting with stat
+2026-06-19 12:25:39,665 - WARNING -  * Debugger is active!
+2026-06-19 12:25:39,668 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 12:25:41,735 - INFO - 127.0.0.1 - - [19/Jun/2026 12:25:41] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 12:25:41,762 - INFO - 127.0.0.1 - - [19/Jun/2026 12:25:41] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:25:43,101 - INFO - {"user": "abonent", "user_id": 2, "action": "logout", "time": "2026-06-19T12:25:43.101164", "details": {}}
+2026-06-19 12:25:43,103 - INFO - 127.0.0.1 - - [19/Jun/2026 12:25:43] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-19 12:25:43,114 - INFO - 127.0.0.1 - - [19/Jun/2026 12:25:43] "GET /login HTTP/1.1" 200 -
+2026-06-19 12:25:48,423 - INFO - {"user": "admin", "user_id": 1, "action": "login", "time": "2026-06-19T12:25:48.423181", "details": {"success": true}}
+2026-06-19 12:25:48,428 - INFO - 127.0.0.1 - - [19/Jun/2026 12:25:48] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 12:25:48,439 - INFO - 127.0.0.1 - - [19/Jun/2026 12:25:48] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 12:25:48,503 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:25:48.503826", "details": {}}
+2026-06-19 12:25:48,560 - INFO - 127.0.0.1 - - [19/Jun/2026 12:25:48] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:26:02,723 - INFO - 127.0.0.1 - - [19/Jun/2026 12:26:02] "GET /admin/logs HTTP/1.1" 200 -
+2026-06-19 12:26:05,007 - INFO - {"user": "admin", "user_id": 1, "action": "logout", "time": "2026-06-19T12:26:05.007736", "details": {}}
+2026-06-19 12:26:05,009 - INFO - 127.0.0.1 - - [19/Jun/2026 12:26:05] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-19 12:26:05,015 - INFO - 127.0.0.1 - - [19/Jun/2026 12:26:05] "GET /login HTTP/1.1" 200 -
+2026-06-19 12:26:12,896 - INFO - {"user": "abonent", "user_id": 2, "action": "login", "time": "2026-06-19T12:26:12.896228", "details": {"success": true}}
+2026-06-19 12:26:12,897 - INFO - 127.0.0.1 - - [19/Jun/2026 12:26:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 12:26:12,905 - INFO - 127.0.0.1 - - [19/Jun/2026 12:26:12] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:26:20,747 - INFO - {"user": "abonent", "user_id": 2, "action": "view_history", "time": "2026-06-19T12:26:20.746996", "details": {"page": 1}}
+2026-06-19 12:26:20,790 - INFO - 127.0.0.1 - - [19/Jun/2026 12:26:20] "GET /readings/history HTTP/1.1" 200 -
+2026-06-19 12:26:22,964 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T12:26:22.964297", "details": {"period": "2025-05", "total": 803699.58}}
+2026-06-19 12:26:22,983 - INFO - 127.0.0.1 - - [19/Jun/2026 12:26:22] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:26:36,472 - INFO - {"user": "abonent", "user_id": 2, "action": "register_payment", "time": "2026-06-19T12:26:36.472375", "details": {"account_id": 1, "period": "2025-05", "amount": 51055.42, "comment": "Оплата по квитанции"}}
+2026-06-19 12:26:36,475 - INFO - 127.0.0.1 - - [19/Jun/2026 12:26:36] "POST /api/payment/register HTTP/1.1" 200 -
+2026-06-19 12:26:43,302 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T12:26:43.302313", "details": {"period": "2025-05", "total": 803699.58}}
+2026-06-19 12:26:43,304 - INFO - 127.0.0.1 - - [19/Jun/2026 12:26:43] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:26:47,682 - INFO - 127.0.0.1 - - [19/Jun/2026 12:26:47] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:26:58,630 - INFO - 127.0.0.1 - - [19/Jun/2026 12:26:58] "GET /readings HTTP/1.1" 200 -
+2026-06-19 12:27:08,553 - INFO - {"user": "abonent", "user_id": 2, "action": "submit_reading_zoned", "time": "2026-06-19T12:27:08.553781", "details": {"meter_id": "1", "period": "2025-05", "consumption_day": 195783.0, "consumption_night": 197900.0}}
+2026-06-19 12:27:08,561 - INFO - 127.0.0.1 - - [19/Jun/2026 12:27:08] "[32mPOST /readings HTTP/1.1[0m" 302 -
+2026-06-19 12:27:08,590 - INFO - 127.0.0.1 - - [19/Jun/2026 12:27:08] "GET /readings HTTP/1.1" 200 -
+2026-06-19 12:27:09,910 - INFO - 127.0.0.1 - - [19/Jun/2026 12:27:09] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:27:10,614 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T12:27:10.614745", "details": {"period": "2025-05", "total": 2492514.18}}
+2026-06-19 12:27:10,616 - INFO - 127.0.0.1 - - [19/Jun/2026 12:27:10] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:27:14,265 - INFO - 127.0.0.1 - - [19/Jun/2026 12:27:14] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:27:15,355 - INFO - {"user": "abonent", "user_id": 2, "action": "logout", "time": "2026-06-19T12:27:15.355074", "details": {}}
+2026-06-19 12:27:15,356 - INFO - 127.0.0.1 - - [19/Jun/2026 12:27:15] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-19 12:27:15,364 - INFO - 127.0.0.1 - - [19/Jun/2026 12:27:15] "GET /login HTTP/1.1" 200 -
+2026-06-19 12:27:16,517 - INFO - 127.0.0.1 - - [19/Jun/2026 12:27:16] "GET /login HTTP/1.1" 200 -
+2026-06-19 12:27:26,983 - INFO - 127.0.0.1 - - [19/Jun/2026 12:27:26] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 12:27:26,998 - INFO - 127.0.0.1 - - [19/Jun/2026 12:27:26] "GET /login HTTP/1.1" 200 -
+2026-06-19 12:27:28,600 - INFO - {"user": "abonent", "user_id": 2, "action": "login", "time": "2026-06-19T12:27:28.600286", "details": {"success": true}}
+2026-06-19 12:27:28,605 - INFO - 127.0.0.1 - - [19/Jun/2026 12:27:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 12:27:28,615 - INFO - 127.0.0.1 - - [19/Jun/2026 12:27:28] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:27:29,540 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T12:27:29.540917", "details": {"period": "2025-05", "total": 2492514.18}}
+2026-06-19 12:27:29,543 - INFO - 127.0.0.1 - - [19/Jun/2026 12:27:29] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:27:35,534 - INFO - {"user": "abonent", "user_id": 2, "action": "register_payment", "time": "2026-06-19T12:27:35.534229", "details": {"account_id": 1, "period": "2025-05", "amount": 2440834.6, "comment": "123"}}
+2026-06-19 12:27:35,536 - INFO - 127.0.0.1 - - [19/Jun/2026 12:27:35] "POST /api/payment/register HTTP/1.1" 200 -
+2026-06-19 12:27:37,881 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T12:27:37.881307", "details": {"period": "2025-05", "total": 2492514.18}}
+2026-06-19 12:27:37,882 - INFO - 127.0.0.1 - - [19/Jun/2026 12:27:37] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:27:39,958 - INFO - 127.0.0.1 - - [19/Jun/2026 12:27:39] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:31:19,390 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 12:31:19,390 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 12:31:19,393 - INFO -  * Restarting with stat
+2026-06-19 12:31:20,078 - WARNING -  * Debugger is active!
+2026-06-19 12:31:20,080 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 12:31:24,115 - INFO - 127.0.0.1 - - [19/Jun/2026 12:31:24] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 12:31:24,180 - INFO - 127.0.0.1 - - [19/Jun/2026 12:31:24] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:31:25,827 - INFO - {"user": "abonent", "user_id": 2, "action": "logout", "time": "2026-06-19T12:31:25.827047", "details": {}}
+2026-06-19 12:31:25,828 - INFO - 127.0.0.1 - - [19/Jun/2026 12:31:25] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-19 12:31:25,839 - INFO - 127.0.0.1 - - [19/Jun/2026 12:31:25] "GET /login HTTP/1.1" 200 -
+2026-06-19 12:32:30,904 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 12:32:30,905 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 12:32:30,907 - INFO -  * Restarting with stat
+2026-06-19 12:32:31,545 - WARNING -  * Debugger is active!
+2026-06-19 12:32:31,548 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 12:32:32,834 - INFO - 127.0.0.1 - - [19/Jun/2026 12:32:32] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 12:32:32,851 - INFO - 127.0.0.1 - - [19/Jun/2026 12:32:32] "GET /login HTTP/1.1" 200 -
+2026-06-19 12:32:41,774 - INFO - {"user": "anonymous", "user_id": null, "action": "login_failed", "time": "2026-06-19T12:32:41.774838", "details": {"login": "abonent"}}
+2026-06-19 12:32:41,776 - INFO - 127.0.0.1 - - [19/Jun/2026 12:32:41] "POST /login HTTP/1.1" 200 -
+2026-06-19 12:32:49,405 - INFO - {"user": "abonent", "user_id": 2, "action": "login", "time": "2026-06-19T12:32:49.404941", "details": {"success": true}}
+2026-06-19 12:32:49,406 - INFO - 127.0.0.1 - - [19/Jun/2026 12:32:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 12:32:49,452 - INFO - 127.0.0.1 - - [19/Jun/2026 12:32:49] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:32:51,327 - INFO - {"user": "abonent", "user_id": 2, "action": "view_history", "time": "2026-06-19T12:32:51.326900", "details": {"page": 1}}
+2026-06-19 12:32:51,369 - INFO - 127.0.0.1 - - [19/Jun/2026 12:32:51] "GET /readings/history HTTP/1.1" 200 -
+2026-06-19 12:32:54,903 - INFO - 127.0.0.1 - - [19/Jun/2026 12:32:54] "GET /readings HTTP/1.1" 200 -
+2026-06-19 12:32:58,582 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T12:32:58.582701", "details": {"period": "2025-05", "total": 2492514.18}}
+2026-06-19 12:32:58,604 - INFO - 127.0.0.1 - - [19/Jun/2026 12:32:58] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:33:01,073 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T12:33:01.073588", "details": {"period": "2025-05", "total": 2492514.18}}
+2026-06-19 12:33:01,075 - INFO - 127.0.0.1 - - [19/Jun/2026 12:33:01] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:33:01,218 - INFO - {"user": "abonent", "user_id": 2, "action": "view_receipt", "time": "2026-06-19T12:33:01.218489", "details": {"period": "2025-05", "total": 2492514.18}}
+2026-06-19 12:33:01,220 - INFO - 127.0.0.1 - - [19/Jun/2026 12:33:01] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:33:03,733 - INFO - 127.0.0.1 - - [19/Jun/2026 12:33:03] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-19 12:33:07,682 - INFO - {"user": "abonent", "user_id": 2, "action": "logout", "time": "2026-06-19T12:33:07.682766", "details": {}}
+2026-06-19 12:33:07,684 - INFO - 127.0.0.1 - - [19/Jun/2026 12:33:07] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-19 12:33:07,691 - INFO - 127.0.0.1 - - [19/Jun/2026 12:33:07] "GET /login HTTP/1.1" 200 -
+2026-06-19 12:33:14,761 - INFO - {"user": "admin", "user_id": 1, "action": "login", "time": "2026-06-19T12:33:14.761715", "details": {"success": true}}
+2026-06-19 12:33:14,763 - INFO - 127.0.0.1 - - [19/Jun/2026 12:33:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 12:33:14,773 - INFO - 127.0.0.1 - - [19/Jun/2026 12:33:14] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 12:33:14,841 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:33:14.841673", "details": {}}
+2026-06-19 12:33:14,855 - INFO - 127.0.0.1 - - [19/Jun/2026 12:33:14] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:33:20,672 - INFO - 127.0.0.1 - - [19/Jun/2026 12:33:20] "GET /admin/logs HTTP/1.1" 200 -
+2026-06-19 12:33:24,815 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:33:24.815628", "details": {}}
+2026-06-19 12:33:24,817 - INFO - 127.0.0.1 - - [19/Jun/2026 12:33:24] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:33:33,485 - INFO - 127.0.0.1 - - [19/Jun/2026 12:33:33] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 12:33:33,519 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:33:33.519097", "details": {}}
+2026-06-19 12:33:33,520 - INFO - 127.0.0.1 - - [19/Jun/2026 12:33:33] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:33:38,635 - INFO - 127.0.0.1 - - [19/Jun/2026 12:33:38] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 12:33:38,679 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:33:38.679078", "details": {}}
+2026-06-19 12:33:38,681 - INFO - 127.0.0.1 - - [19/Jun/2026 12:33:38] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:33:39,155 - INFO - 127.0.0.1 - - [19/Jun/2026 12:33:39] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 12:33:39,198 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:33:39.198215", "details": {}}
+2026-06-19 12:33:39,200 - INFO - 127.0.0.1 - - [19/Jun/2026 12:33:39] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:33:40,210 - INFO - {"user": "admin", "user_id": 1, "action": "logout", "time": "2026-06-19T12:33:40.210670", "details": {}}
+2026-06-19 12:33:40,212 - INFO - 127.0.0.1 - - [19/Jun/2026 12:33:40] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-19 12:33:40,218 - INFO - 127.0.0.1 - - [19/Jun/2026 12:33:40] "GET /login HTTP/1.1" 200 -
+2026-06-19 12:35:40,798 - INFO -  * Detected change in 'C:\\Users\\maksimovNI24\\Desktop\\utility_app\\app.py', reloading
+2026-06-19 12:35:40,951 - INFO -  * Restarting with stat
+2026-06-19 12:35:41,919 - WARNING -  * Debugger is active!
+2026-06-19 12:35:41,922 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 12:37:44,933 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 12:37:44,933 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 12:37:44,936 - INFO -  * Restarting with stat
+2026-06-19 12:37:45,632 - WARNING -  * Debugger is active!
+2026-06-19 12:37:45,635 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 12:37:46,532 - INFO - 127.0.0.1 - - [19/Jun/2026 12:37:46] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 12:37:46,564 - INFO - 127.0.0.1 - - [19/Jun/2026 12:37:46] "GET /login HTTP/1.1" 200 -
+2026-06-19 12:37:49,437 - INFO - {"user": "admin", "user_id": 1, "action": "login", "time": "2026-06-19T12:37:49.437627", "details": {"success": true}}
+2026-06-19 12:37:49,439 - INFO - 127.0.0.1 - - [19/Jun/2026 12:37:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 12:37:49,451 - INFO - 127.0.0.1 - - [19/Jun/2026 12:37:49] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 12:37:49,521 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:37:49.521291", "details": {}}
+2026-06-19 12:37:49,595 - INFO - 127.0.0.1 - - [19/Jun/2026 12:37:49] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:37:52,876 - INFO - 127.0.0.1 - - [19/Jun/2026 12:37:52] "GET /register HTTP/1.1" 200 -
+2026-06-19 12:38:40,429 - INFO - {"user": "admin", "user_id": 1, "action": "register_user", "time": "2026-06-19T12:38:40.429382", "details": {"new_user": "vasya", "role": "abonent", "account_number": "44444"}}
+2026-06-19 12:38:40,433 - INFO - 127.0.0.1 - - [19/Jun/2026 12:38:40] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-06-19 12:38:40,500 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:38:40.500209", "details": {}}
+2026-06-19 12:38:40,503 - INFO - 127.0.0.1 - - [19/Jun/2026 12:38:40] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:38:58,115 - INFO - 127.0.0.1 - - [19/Jun/2026 12:38:58] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 12:38:58,165 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:38:58.164990", "details": {}}
+2026-06-19 12:38:58,167 - INFO - 127.0.0.1 - - [19/Jun/2026 12:38:58] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:38:59,730 - INFO - 127.0.0.1 - - [19/Jun/2026 12:38:59] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 12:38:59,781 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:38:59.781394", "details": {}}
+2026-06-19 12:38:59,783 - INFO - 127.0.0.1 - - [19/Jun/2026 12:38:59] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:39:00,090 - INFO - 127.0.0.1 - - [19/Jun/2026 12:39:00] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 12:39:00,134 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:39:00.134542", "details": {}}
+2026-06-19 12:39:00,136 - INFO - 127.0.0.1 - - [19/Jun/2026 12:39:00] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:39:00,545 - INFO - {"user": "admin", "user_id": 1, "action": "logout", "time": "2026-06-19T12:39:00.545460", "details": {}}
+2026-06-19 12:39:00,547 - INFO - 127.0.0.1 - - [19/Jun/2026 12:39:00] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-19 12:39:00,553 - INFO - 127.0.0.1 - - [19/Jun/2026 12:39:00] "GET /login HTTP/1.1" 200 -
+2026-06-19 12:39:06,134 - INFO - {"user": "anonymous", "user_id": null, "action": "login_failed", "time": "2026-06-19T12:39:06.134318", "details": {"login": "vasya"}}
+2026-06-19 12:39:06,135 - INFO - 127.0.0.1 - - [19/Jun/2026 12:39:06] "POST /login HTTP/1.1" 200 -
+2026-06-19 12:39:11,371 - INFO - {"user": "vasya", "user_id": 4, "action": "login", "time": "2026-06-19T12:39:11.371171", "details": {"success": true}}
+2026-06-19 12:39:11,372 - INFO - 127.0.0.1 - - [19/Jun/2026 12:39:11] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 12:39:11,398 - INFO - 127.0.0.1 - - [19/Jun/2026 12:39:11] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:41:08,725 - INFO - 127.0.0.1 - - [19/Jun/2026 12:41:08] "GET /readings HTTP/1.1" 200 -
+2026-06-19 12:41:11,073 - INFO - 127.0.0.1 - - [19/Jun/2026 12:41:11] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:41:11,937 - INFO - 127.0.0.1 - - [19/Jun/2026 12:41:11] "GET /readings HTTP/1.1" 200 -
+2026-06-19 12:41:31,215 - INFO - {"user": "vasya", "user_id": 4, "action": "submit_reading_zoned", "time": "2026-06-19T12:41:31.214951", "details": {"meter_id": "6", "period": "2026-05", "consumption_day": 2000.0, "consumption_night": 2000.0}}
+2026-06-19 12:41:31,216 - INFO - 127.0.0.1 - - [19/Jun/2026 12:41:31] "[32mPOST /readings HTTP/1.1[0m" 302 -
+2026-06-19 12:41:31,235 - INFO - 127.0.0.1 - - [19/Jun/2026 12:41:31] "GET /readings HTTP/1.1" 200 -
+2026-06-19 12:41:32,373 - INFO - 127.0.0.1 - - [19/Jun/2026 12:41:32] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:41:32,953 - INFO - {"user": "vasya", "user_id": 4, "action": "view_receipt", "time": "2026-06-19T12:41:32.953190", "details": {"period": "2025-05", "total": 0.0}}
+2026-06-19 12:41:32,979 - INFO - 127.0.0.1 - - [19/Jun/2026 12:41:32] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:43:11,318 - INFO - 127.0.0.1 - - [19/Jun/2026 12:43:11] "GET /login HTTP/1.1" 200 -
+2026-06-19 12:43:17,260 - INFO - {"user": "admin", "user_id": 1, "action": "login", "time": "2026-06-19T12:43:17.260582", "details": {"success": true}}
+2026-06-19 12:43:17,262 - INFO - 127.0.0.1 - - [19/Jun/2026 12:43:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 12:43:17,270 - INFO - 127.0.0.1 - - [19/Jun/2026 12:43:17] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-06-19 12:43:17,312 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:43:17.312357", "details": {}}
+2026-06-19 12:43:17,313 - INFO - 127.0.0.1 - - [19/Jun/2026 12:43:17] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:43:18,218 - INFO - 127.0.0.1 - - [19/Jun/2026 12:43:18] "GET /register HTTP/1.1" 200 -
+2026-06-19 12:43:49,760 - INFO - {"user": "admin", "user_id": 1, "action": "register_user", "time": "2026-06-19T12:43:49.759243", "details": {"new_user": "timofei", "role": "abonent", "account_number": "77777"}}
+2026-06-19 12:43:49,763 - INFO - 127.0.0.1 - - [19/Jun/2026 12:43:49] "[32mPOST /register HTTP/1.1[0m" 302 -
+2026-06-19 12:43:49,805 - INFO - {"user": "admin", "user_id": 1, "action": "admin_panel", "time": "2026-06-19T12:43:49.805453", "details": {}}
+2026-06-19 12:43:49,807 - INFO - 127.0.0.1 - - [19/Jun/2026 12:43:49] "GET /admin HTTP/1.1" 200 -
+2026-06-19 12:43:52,897 - INFO - {"user": "admin", "user_id": 1, "action": "logout", "time": "2026-06-19T12:43:52.897639", "details": {}}
+2026-06-19 12:43:52,899 - INFO - 127.0.0.1 - - [19/Jun/2026 12:43:52] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-19 12:43:52,905 - INFO - 127.0.0.1 - - [19/Jun/2026 12:43:52] "GET /login HTTP/1.1" 200 -
+2026-06-19 12:44:00,959 - INFO - {"user": "timofei", "user_id": 5, "action": "login", "time": "2026-06-19T12:44:00.959476", "details": {"success": true}}
+2026-06-19 12:44:00,962 - INFO - 127.0.0.1 - - [19/Jun/2026 12:44:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 12:44:00,978 - INFO - 127.0.0.1 - - [19/Jun/2026 12:44:00] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:44:03,471 - INFO - {"user": "timofei", "user_id": 5, "action": "view_receipt", "time": "2026-06-19T12:44:03.471259", "details": {"period": "2025-05", "total": 0.0}}
+2026-06-19 12:44:03,472 - INFO - 127.0.0.1 - - [19/Jun/2026 12:44:03] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:44:06,187 - INFO - 127.0.0.1 - - [19/Jun/2026 12:44:06] "GET /readings HTTP/1.1" 200 -
+2026-06-19 12:44:08,826 - INFO - {"user": "timofei", "user_id": 5, "action": "logout", "time": "2026-06-19T12:44:08.826163", "details": {}}
+2026-06-19 12:44:08,828 - INFO - 127.0.0.1 - - [19/Jun/2026 12:44:08] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-19 12:44:08,834 - INFO - 127.0.0.1 - - [19/Jun/2026 12:44:08] "GET /login HTTP/1.1" 200 -
+2026-06-19 12:44:45,701 - INFO - {"user": "anonymous", "user_id": null, "action": "login_failed", "time": "2026-06-19T12:44:45.701890", "details": {"login": "petrov"}}
+2026-06-19 12:44:45,703 - INFO - 127.0.0.1 - - [19/Jun/2026 12:44:45] "POST /login HTTP/1.1" 200 -
+2026-06-19 12:44:54,197 - INFO - {"user": "petrov", "user_id": 3, "action": "login", "time": "2026-06-19T12:44:54.197536", "details": {"success": true}}
+2026-06-19 12:44:54,198 - INFO - 127.0.0.1 - - [19/Jun/2026 12:44:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 12:44:54,205 - INFO - 127.0.0.1 - - [19/Jun/2026 12:44:54] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:44:55,569 - INFO - {"user": "petrov", "user_id": 3, "action": "view_receipt", "time": "2026-06-19T12:44:55.569593", "details": {"period": "2025-05", "total": 0.0}}
+2026-06-19 12:44:55,571 - INFO - 127.0.0.1 - - [19/Jun/2026 12:44:55] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:44:59,869 - INFO - 127.0.0.1 - - [19/Jun/2026 12:44:59] "GET /readings HTTP/1.1" 200 -
+2026-06-19 12:45:08,409 - INFO - {"user": "petrov", "user_id": 3, "action": "submit_reading", "time": "2026-06-19T12:45:08.409882", "details": {"meter_id": "5", "period": "2026-05", "consumption": 100000.0}}
+2026-06-19 12:45:08,417 - INFO - 127.0.0.1 - - [19/Jun/2026 12:45:08] "[32mPOST /readings HTTP/1.1[0m" 302 -
+2026-06-19 12:45:08,435 - INFO - 127.0.0.1 - - [19/Jun/2026 12:45:08] "GET /readings HTTP/1.1" 200 -
+2026-06-19 12:45:09,880 - INFO - 127.0.0.1 - - [19/Jun/2026 12:45:09] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:45:10,506 - INFO - {"user": "petrov", "user_id": 3, "action": "view_receipt", "time": "2026-06-19T12:45:10.505994", "details": {"period": "2025-05", "total": 0.0}}
+2026-06-19 12:45:10,507 - INFO - 127.0.0.1 - - [19/Jun/2026 12:45:10] "GET /receipt/2025-05 HTTP/1.1" 200 -
+2026-06-19 12:46:56,245 - INFO -  * Detected change in 'C:\\Users\\maksimovNI24\\Desktop\\utility_app\\app.py', reloading
+2026-06-19 12:46:56,384 - INFO -  * Restarting with stat
+2026-06-19 12:46:57,411 - WARNING -  * Debugger is active!
+2026-06-19 12:46:57,415 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 12:47:29,818 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 12:47:29,819 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 12:47:29,821 - INFO -  * Restarting with stat
+2026-06-19 12:47:30,501 - WARNING -  * Debugger is active!
+2026-06-19 12:47:30,503 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 12:47:32,473 - INFO - 127.0.0.1 - - [19/Jun/2026 12:47:32] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 12:47:32,493 - INFO - 127.0.0.1 - - [19/Jun/2026 12:47:32] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:47:34,019 - INFO - 127.0.0.1 - - [19/Jun/2026 12:47:34] "[33mGET /receipt/2025-05 HTTP/1.1[0m" 404 -
+2026-06-19 12:47:35,279 - INFO - 127.0.0.1 - - [19/Jun/2026 12:47:35] "[33mGET /receipt/2025-05 HTTP/1.1[0m" 404 -
+2026-06-19 12:47:35,432 - INFO - 127.0.0.1 - - [19/Jun/2026 12:47:35] "[33mGET /receipt/2025-05 HTTP/1.1[0m" 404 -
+2026-06-19 12:48:18,357 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 12:48:18,357 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 12:48:18,360 - INFO -  * Restarting with stat
+2026-06-19 12:48:19,028 - WARNING -  * Debugger is active!
+2026-06-19 12:48:19,031 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 12:49:08,755 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 12:49:08,755 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 12:49:08,758 - INFO -  * Restarting with stat
+2026-06-19 12:49:09,562 - WARNING -  * Debugger is active!
+2026-06-19 12:49:09,565 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 12:49:10,726 - INFO - 127.0.0.1 - - [19/Jun/2026 12:49:10] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 12:49:10,764 - INFO - 127.0.0.1 - - [19/Jun/2026 12:49:10] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:49:12,119 - INFO - {"user": "petrov", "user_id": 3, "action": "view_history", "time": "2026-06-19T12:49:12.119201", "details": {"page": 1}}
+2026-06-19 12:49:12,146 - INFO - 127.0.0.1 - - [19/Jun/2026 12:49:12] "GET /readings/history HTTP/1.1" 200 -
+2026-06-19 12:49:14,598 - INFO - 127.0.0.1 - - [19/Jun/2026 12:49:14] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:49:15,274 - INFO - 127.0.0.1 - - [19/Jun/2026 12:49:15] "[33mGET /receipt/2025-05 HTTP/1.1[0m" 404 -
+2026-06-19 12:49:17,274 - INFO - 127.0.0.1 - - [19/Jun/2026 12:49:17] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:49:17,416 - INFO - 127.0.0.1 - - [19/Jun/2026 12:49:17] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:49:18,283 - INFO - 127.0.0.1 - - [19/Jun/2026 12:49:18] "[33mGET /receipt/2025-05 HTTP/1.1[0m" 404 -
+2026-06-19 12:49:23,713 - INFO - 127.0.0.1 - - [19/Jun/2026 12:49:23] "[33mGET /receipt/2025-05 HTTP/1.1[0m" 404 -
+2026-06-19 12:49:29,405 - INFO - 127.0.0.1 - - [19/Jun/2026 12:49:29] "GET /api/readings/history HTTP/1.1" 200 -
+2026-06-19 12:49:35,081 - INFO - 127.0.0.1 - - [19/Jun/2026 12:49:35] "[33mGET /receipt/2025-05 HTTP/1.1[0m" 404 -
+2026-06-19 12:49:36,889 - INFO - 127.0.0.1 - - [19/Jun/2026 12:49:36] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:49:37,034 - INFO - 127.0.0.1 - - [19/Jun/2026 12:49:37] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:53:39,589 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 12:53:39,590 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 12:53:39,592 - INFO -  * Restarting with stat
+2026-06-19 12:53:40,301 - WARNING -  * Debugger is active!
+2026-06-19 12:53:40,304 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 12:53:41,273 - INFO - 127.0.0.1 - - [19/Jun/2026 12:53:41] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 12:53:41,304 - INFO - 127.0.0.1 - - [19/Jun/2026 12:53:41] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:53:42,537 - INFO - 127.0.0.1 - - [19/Jun/2026 12:53:42] "[33mGET /receipt/2025-05 HTTP/1.1[0m" 404 -
+2026-06-19 12:53:43,794 - INFO - 127.0.0.1 - - [19/Jun/2026 12:53:43] "[33mGET /receipt/2025-05 HTTP/1.1[0m" 404 -
+2026-06-19 12:53:43,953 - INFO - 127.0.0.1 - - [19/Jun/2026 12:53:43] "[33mGET /receipt/2025-05 HTTP/1.1[0m" 404 -
+2026-06-19 12:53:44,129 - INFO - 127.0.0.1 - - [19/Jun/2026 12:53:44] "[33mGET /receipt/2025-05 HTTP/1.1[0m" 404 -
+2026-06-19 12:54:57,021 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 12:54:57,021 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 12:54:57,023 - INFO -  * Restarting with stat
+2026-06-19 12:54:57,757 - WARNING -  * Debugger is active!
+2026-06-19 12:54:57,761 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 12:54:58,550 - INFO - 127.0.0.1 - - [19/Jun/2026 12:54:58] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 12:54:58,577 - INFO - 127.0.0.1 - - [19/Jun/2026 12:54:58] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:54:59,505 - INFO - 127.0.0.1 - - [19/Jun/2026 12:54:59] "[32mGET /receipt/2025-05 HTTP/1.1[0m" 302 -
+2026-06-19 12:54:59,583 - INFO - 127.0.0.1 - - [19/Jun/2026 12:54:59] "GET /receipt?start_period=2025-05&end_period=2025-05 HTTP/1.1" 200 -
+2026-06-19 12:55:08,538 - INFO - 127.0.0.1 - - [19/Jun/2026 12:55:08] "GET /readings HTTP/1.1" 200 -
+2026-06-19 12:55:18,319 - INFO - {"user": "petrov", "user_id": 3, "action": "submit_reading_zoned", "time": "2026-06-19T12:55:18.319544", "details": {"meter_id": "4", "period": "2025-05", "consumption_day": 100000.0, "consumption_night": 100000.0}}
+2026-06-19 12:55:18,321 - INFO - 127.0.0.1 - - [19/Jun/2026 12:55:18] "[32mPOST /readings HTTP/1.1[0m" 302 -
+2026-06-19 12:55:18,341 - INFO - 127.0.0.1 - - [19/Jun/2026 12:55:18] "GET /readings HTTP/1.1" 200 -
+2026-06-19 12:55:19,459 - INFO - 127.0.0.1 - - [19/Jun/2026 12:55:19] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:55:19,992 - INFO - 127.0.0.1 - - [19/Jun/2026 12:55:19] "[32mGET /receipt/2025-05 HTTP/1.1[0m" 302 -
+2026-06-19 12:55:20,019 - INFO - 127.0.0.1 - - [19/Jun/2026 12:55:20] "GET /receipt?start_period=2025-05&end_period=2025-05 HTTP/1.1" 200 -
+2026-06-19 12:55:21,585 - INFO - 127.0.0.1 - - [19/Jun/2026 12:55:21] "GET /receipt?start_period=2025-05&end_period=2025-05 HTTP/1.1" 200 -
+2026-06-19 12:55:21,923 - INFO - 127.0.0.1 - - [19/Jun/2026 12:55:21] "GET /receipt?start_period=2025-05&end_period=2025-05 HTTP/1.1" 200 -
+2026-06-19 12:55:22,058 - INFO - 127.0.0.1 - - [19/Jun/2026 12:55:22] "GET /receipt?start_period=2025-05&end_period=2025-05 HTTP/1.1" 200 -
+2026-06-19 12:55:22,209 - INFO - 127.0.0.1 - - [19/Jun/2026 12:55:22] "GET /receipt?start_period=2025-05&end_period=2025-05 HTTP/1.1" 200 -
+2026-06-19 12:57:15,185 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 12:57:15,186 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 12:57:15,191 - INFO -  * Restarting with stat
+2026-06-19 12:57:15,993 - WARNING -  * Debugger is active!
+2026-06-19 12:57:15,996 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 12:57:16,976 - INFO - 127.0.0.1 - - [19/Jun/2026 12:57:16] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 12:57:16,995 - INFO - 127.0.0.1 - - [19/Jun/2026 12:57:16] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:57:17,988 - INFO - {"user": "petrov", "user_id": 3, "action": "view_history", "time": "2026-06-19T12:57:17.988443", "details": {"page": 1}}
+2026-06-19 12:57:18,002 - INFO - 127.0.0.1 - - [19/Jun/2026 12:57:18] "GET /readings/history HTTP/1.1" 200 -
+2026-06-19 12:57:19,268 - INFO - 127.0.0.1 - - [19/Jun/2026 12:57:19] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:57:19,762 - INFO - 127.0.0.1 - - [19/Jun/2026 12:57:19] "[32mGET /receipt/2025-05 HTTP/1.1[0m" 302 -
+2026-06-19 12:57:19,822 - INFO - 127.0.0.1 - - [19/Jun/2026 12:57:19] "GET /receipt?start_period=2025-05&end_period=2025-05 HTTP/1.1" 200 -
+2026-06-19 12:57:22,000 - INFO - 127.0.0.1 - - [19/Jun/2026 12:57:21] "GET /readings HTTP/1.1" 200 -
+2026-06-19 12:57:30,425 - INFO - 127.0.0.1 - - [19/Jun/2026 12:57:30] "[32mPOST /readings HTTP/1.1[0m" 302 -
+2026-06-19 12:57:30,445 - INFO - 127.0.0.1 - - [19/Jun/2026 12:57:30] "GET /readings HTTP/1.1" 200 -
+2026-06-19 12:57:45,630 - INFO - {"user": "petrov", "user_id": 3, "action": "submit_reading_zoned", "time": "2026-06-19T12:57:45.630115", "details": {"meter_id": "4", "period": "2026-05", "consumption_day": 0.0, "consumption_night": 0.0}}
+2026-06-19 12:57:45,634 - INFO - 127.0.0.1 - - [19/Jun/2026 12:57:45] "[32mPOST /readings HTTP/1.1[0m" 302 -
+2026-06-19 12:57:45,647 - INFO - 127.0.0.1 - - [19/Jun/2026 12:57:45] "GET /readings HTTP/1.1" 200 -
+2026-06-19 12:57:47,073 - INFO - 127.0.0.1 - - [19/Jun/2026 12:57:47] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 12:57:48,313 - INFO - 127.0.0.1 - - [19/Jun/2026 12:57:48] "[32mGET /receipt/2025-05 HTTP/1.1[0m" 302 -
+2026-06-19 12:57:48,357 - INFO - 127.0.0.1 - - [19/Jun/2026 12:57:48] "GET /receipt?start_period=2025-05&end_period=2025-05 HTTP/1.1" 200 -
+2026-06-19 13:03:39,501 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 13:03:39,502 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 13:03:39,504 - INFO -  * Restarting with stat
+2026-06-19 13:03:40,130 - WARNING -  * Debugger is active!
+2026-06-19 13:03:40,133 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 13:03:41,260 - INFO - 127.0.0.1 - - [19/Jun/2026 13:03:41] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 13:03:41,289 - INFO - 127.0.0.1 - - [19/Jun/2026 13:03:41] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 13:03:42,046 - INFO - 127.0.0.1 - - [19/Jun/2026 13:03:42] "[32mGET /receipt/2025-05 HTTP/1.1[0m" 302 -
+2026-06-19 13:03:42,141 - INFO - 127.0.0.1 - - [19/Jun/2026 13:03:42] "GET /receipt?start_period=2025-05&end_period=2025-05 HTTP/1.1" 200 -
+2026-06-19 13:03:47,426 - INFO - 127.0.0.1 - - [19/Jun/2026 13:03:47] "GET /readings HTTP/1.1" 200 -
+2026-06-19 13:03:54,637 - INFO - 127.0.0.1 - - [19/Jun/2026 13:03:54] "[32mPOST /readings HTTP/1.1[0m" 302 -
+2026-06-19 13:03:54,661 - INFO - 127.0.0.1 - - [19/Jun/2026 13:03:54] "GET /readings HTTP/1.1" 200 -
+2026-06-19 13:03:58,730 - INFO - 127.0.0.1 - - [19/Jun/2026 13:03:58] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 13:03:59,421 - INFO - 127.0.0.1 - - [19/Jun/2026 13:03:59] "[32mGET /receipt/2025-05 HTTP/1.1[0m" 302 -
+2026-06-19 13:03:59,443 - INFO - 127.0.0.1 - - [19/Jun/2026 13:03:59] "GET /receipt?start_period=2025-05&end_period=2025-05 HTTP/1.1" 200 -
+2026-06-19 13:06:37,053 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 13:06:37,054 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 13:06:37,055 - INFO -  * Restarting with stat
+2026-06-19 13:06:37,766 - WARNING -  * Debugger is active!
+2026-06-19 13:06:37,768 - INFO -  * Debugger PIN: 549-115-931
+2026-06-19 13:06:39,423 - INFO - 127.0.0.1 - - [19/Jun/2026 13:06:39] "[32mGET / HTTP/1.1[0m" 302 -
+2026-06-19 13:06:39,448 - INFO - 127.0.0.1 - - [19/Jun/2026 13:06:39] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 13:06:40,201 - INFO - 127.0.0.1 - - [19/Jun/2026 13:06:40] "[32mGET /receipt/2025-05 HTTP/1.1[0m" 302 -
+2026-06-19 13:06:40,260 - INFO - 127.0.0.1 - - [19/Jun/2026 13:06:40] "GET /receipt?start_period=2025-05&end_period=2025-05 HTTP/1.1" 200 -
+2026-06-19 13:06:43,228 - INFO - 127.0.0.1 - - [19/Jun/2026 13:06:43] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 13:06:47,898 - INFO - {"user": "petrov", "user_id": 3, "action": "logout", "time": "2026-06-19T13:06:47.898816", "details": {}}
+2026-06-19 13:06:47,900 - INFO - 127.0.0.1 - - [19/Jun/2026 13:06:47] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-19 13:06:47,914 - INFO - 127.0.0.1 - - [19/Jun/2026 13:06:47] "GET /login HTTP/1.1" 200 -
+2026-06-19 13:06:54,712 - INFO - {"user": "abonent", "user_id": 2, "action": "login", "time": "2026-06-19T13:06:54.712241", "details": {"success": true}}
+2026-06-19 13:06:54,714 - INFO - 127.0.0.1 - - [19/Jun/2026 13:06:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-06-19 13:06:54,722 - INFO - 127.0.0.1 - - [19/Jun/2026 13:06:54] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 13:06:56,156 - INFO - 127.0.0.1 - - [19/Jun/2026 13:06:56] "[32mGET /receipt/2025-05 HTTP/1.1[0m" 302 -
+2026-06-19 13:06:56,317 - INFO - 127.0.0.1 - - [19/Jun/2026 13:06:56] "GET /receipt?start_period=2025-05&end_period=2025-05 HTTP/1.1" 200 -
+2026-06-19 13:06:59,543 - INFO - 127.0.0.1 - - [19/Jun/2026 13:06:59] "GET /receipt?start_period=2025-05&end_period=2025-05 HTTP/1.1" 200 -
+2026-06-19 13:06:59,706 - INFO - 127.0.0.1 - - [19/Jun/2026 13:06:59] "GET /receipt?start_period=2025-05&end_period=2025-05 HTTP/1.1" 200 -
+2026-06-19 13:07:09,606 - INFO - 127.0.0.1 - - [19/Jun/2026 13:07:09] "GET /receipt HTTP/1.1" 200 -
+2026-06-19 13:07:11,878 - INFO - 127.0.0.1 - - [19/Jun/2026 13:07:11] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 13:07:12,499 - INFO - 127.0.0.1 - - [19/Jun/2026 13:07:12] "GET /readings HTTP/1.1" 200 -
+2026-06-19 13:07:20,031 - INFO - 127.0.0.1 - - [19/Jun/2026 13:07:20] "[32mPOST /readings HTTP/1.1[0m" 302 -
+2026-06-19 13:07:20,055 - INFO - 127.0.0.1 - - [19/Jun/2026 13:07:20] "GET /readings HTTP/1.1" 200 -
+2026-06-19 13:07:34,183 - INFO - {"user": "abonent", "user_id": 2, "action": "submit_reading_zoned", "time": "2026-06-19T13:07:34.182544", "details": {"meter_id": "1", "period": "2026-05", "consumption_day": 9800000.0, "consumption_night": 9800000.0}}
+2026-06-19 13:07:34,185 - INFO - 127.0.0.1 - - [19/Jun/2026 13:07:34] "[32mPOST /readings HTTP/1.1[0m" 302 -
+2026-06-19 13:07:34,205 - INFO - 127.0.0.1 - - [19/Jun/2026 13:07:34] "GET /readings HTTP/1.1" 200 -
+2026-06-19 13:07:35,414 - INFO - 127.0.0.1 - - [19/Jun/2026 13:07:35] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 13:07:36,031 - INFO - 127.0.0.1 - - [19/Jun/2026 13:07:36] "[32mGET /receipt/2025-05 HTTP/1.1[0m" 302 -
+2026-06-19 13:07:36,074 - INFO - 127.0.0.1 - - [19/Jun/2026 13:07:36] "GET /receipt?start_period=2025-05&end_period=2025-05 HTTP/1.1" 200 -
+2026-06-19 13:07:42,439 - INFO - {"user": "abonent", "user_id": 2, "action": "register_payment", "time": "2026-06-19T13:07:42.439445", "details": {"account_id": 1, "period": "2025-05", "amount": 121520000.0, "comment": "Оплата по квитанции"}}
+2026-06-19 13:07:42,443 - INFO - 127.0.0.1 - - [19/Jun/2026 13:07:42] "POST /api/payment/register HTTP/1.1" 200 -
+2026-06-19 13:07:45,687 - INFO - 127.0.0.1 - - [19/Jun/2026 13:07:45] "GET /receipt HTTP/1.1" 200 -
+2026-06-19 13:07:47,630 - INFO - 127.0.0.1 - - [19/Jun/2026 13:07:47] "GET /dashboard HTTP/1.1" 200 -
+2026-06-19 13:07:49,381 - INFO - 127.0.0.1 - - [19/Jun/2026 13:07:49] "GET /api/readings/history HTTP/1.1" 200 -
